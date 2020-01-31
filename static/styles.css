@@ -1,0 +1,8 @@
+/* decorations go here */
+h1 {
+    font-size: larger;
+}
+#box {
+    display: block;
+    color: red;
+}
