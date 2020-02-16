@@ -1,0 +1,41 @@
+body{
+    background-image: url('static/landscape.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(19, 5, 5);
+}
+#box{
+    display: block;
+    background-color: black;
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 50px;
+}
+body :hover{
+    animation-name: spin;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+}
+@keyframes spin {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+h1{
+    text-align: center;
+    padding-top: 120px;
+}
+h1 :any-link{
+    color:whitesmoke;
+}
+h1 :hover{
+    color:purple;
+}
+p{
+    color: blue;
+    text-align: center;
+}
