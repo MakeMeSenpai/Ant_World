@@ -12,6 +12,7 @@ body{
     margin: auto;
     margin-top: 50px;
 }
+
 body :hover{
     animation-name: spin;
     animation-duration: 7s;
