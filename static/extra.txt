@@ -1,0 +1,42 @@
+<!-- Use elsewhere -->
+<!-- <div class="container">
+    <div id="j"> stuff </div>
+    <div id="k"> stuff </div>
+    <div id="l"> stuff </div>
+    <div id="m"> stuff </div>
+</div> -->
+
+/* Use this elsewhere */
+/* .container {
+    display: grid;
+    background-color: rgba(255,255, 0, 0.5);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em; /*this code is obsolete, avoid using grid-gap
+    grid-template-areas: "j j j k"
+                         "l l . k"
+                         "m m m m";
+}
+
+#j {
+    display: block;
+    background-color: red;
+    grid-area: j;
+}
+
+#k {
+    display: block;
+    background-color: red;
+    grid-area: k;
+}
+
+#l {
+    display: block;
+    background-color: red;
+    grid-area: l;
+}
+
+#m {
+    display: block;
+    background-color: red;
+    grid-area: m;
+} */
