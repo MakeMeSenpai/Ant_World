@@ -2,7 +2,6 @@
 .self-figure {
     position: fixed;
     margin-top: -150px;
-    margin-left: 1000px;
 }
 
 .selfie{
@@ -44,4 +43,173 @@
     display: block;
     background-color: red;
     grid-area: m;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/04/free-paper-texture-14.jpg");
+    background-color: whitesmoke;
+    background-repeat: no-repeat;/* repeat-y; */
+    background-size: cover;
+}
+
+#welcome-section {
+    min-height: 100vh;
+}
+
+#portfollio {
+    position: relative;
+    margin-top: -1em;
+    transform: scale(0.95);
+    z-index: 1;
+}
+
+#name {
+    position: relative;
+    font-size: 85px;
+    margin-top: -5.59em;
+    margin-left: 8.25em;
+    z-index: 1;
+}
+
+#bio {
+    position: relative;
+    margin-left: 44em;
+    margin-top: -12em;
+    z-index: 1;
+}
+/* 
+#dec1 {
+    position: relative;
+    margin-left: 59em;
+    margin-bottom: 10em;
+    margin-top: -12.5em;
+    transform: scale(0.5);
+    z-index: 0;
+}
+
+#dec2 {
+    position: relative;
+    z-index: 2;
+    margin-left: 0em;
+    margin-top: -10em;
+    margin-bottom: 5.05em;
+    max-height: 75px;
+}
+
+#dec3 {
+    position: relative;
+    z-index: 2;
+    margin-left: 25em;
+    margin-top: -5em;
+    margin-bottom: 5em;
+    transform: scale(0.75);
+}
+
+#dec4 {
+    position: relative;
+    z-index: 2;
+    margin-left: 10em;
+    margin-top: -15em;
+    margin-bottom: 5em;
+    transform: scale(0.75);
+}
+
+#dec5 {
+    position: relative;
+    z-index: 2;
+    margin-left: 25em;
+    margin-top: -5em;
+    margin-bottom: 5em;
+    transform: scale(0.75);
+}
+
+#dec6 {
+    position: relative;
+    z-index: 2;
+    margin-left: 10em;
+    margin-top: -15em;
+    margin-bottom: 5em;
+    transform: scale(0.75);
+}
+
+#dec7 {
+    position: relative;
+    z-index: 2;
+    margin-left: 25em;
+    margin-top: -5em;
+    margin-bottom: 5em;
+    transform: scale(0.75);
+} */
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0em;
+}
+
+#navbar {
+    margin-top: -3vh;
+    position: fixed;
+    z-index: 5;
+}
+
+.project-title {
+    max-width: 425px;
+}
+
+#right {
+    margin-left: 57em;
+}
+
+.summary1 {
+    margin-top: -1.5em;
+    margin-left: 27em;
+}
+
+.summary2 {
+    margin-top: -1.5em;
+}    
+        
+.cardContent {
+    padding: 10px;
+}
+
+#place {
+    font-size: 25px;
+    background: red;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 4px;
+    color:black;
+    line-height: 12px;
+}
+
+#place2 {
+    font-size: 25px;
+    background: yellow;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 4px;
+    color:black;
+    line-height: 12px;
+}
+
+#place3{
+    font-size: 25px;
+    background: blue;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 4px;
+    color:black;
+    line-height: 12px;
 }
