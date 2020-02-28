@@ -1,0 +1,89 @@
+This document is unreadable threw user side.
+{% comment %} <!-- use index -->
+<!-- <image id="portfollio" src="https://tinyurl.com/y2hdky8c"> --> 
+<!-- <image id="dec1" src="https://tinyurl.com/y36mjdxa"> -->
+<!-- <image id="dec2" src="https://tinyurl.com/y56wo2zz"> -->
+<!-- <image id="dec3" src="https://tinyurl.com/yy6sbu9k"> -->
+<!-- <img id="dec4" src="https://tinyurl.com/y6yllhsb"> -->
+<!-- <img id="dec5" src="https://tinyurl.com/yyowdayo"> -->
+<!-- <img id="dec6" src="https://tinyurl.com/y2xlty2z"> -->
+<!-- <img id="dec7" src="https://tinyurl.com/yybs4wwt"> -->
+
+<!-- project stuff -->
+<li>Clean My City</li>
+<li>Magic Mirror</li>
+<li>Reptile Harmony</li>
+<li>Dave's Taxi Tahoe</li>
+<li>Real Democrate</li>
+<li>Flouse of the Island</li>
+<li>Twitch Extention [unnamed]</li>
+<li>Ant Bot</li>
+
+<!-- find another place, make profile images that links to their accounts -->
+<!-- <quote>
+    <blockquote>"Anthony is a problem solver. Even if he doesn't know how to do something or
+        have the answer now. He will start playing with it and wrapping his head around how to
+        fix it. He undersells himself, and I'm proud of my boy."
+        <cite>
+            ~Sean Protho
+        </cite>
+    </blockquote>
+
+    <blockquote>"He wasn't the greatest student, being too social during class. However he is 
+        a smart, determined, and inspirational kid. And I am glad to call him my friend" 
+        <cite>
+            ~Aaron Whitefield 
+        </cite>
+    </blockquote>
+
+    <blockquote>"Anthony was always a hasty worker. Always bringing a positive attitude to 
+        work. We support him in his choice to focus on academics, and getting his BA. But if
+        he ever needs it, I wouuld recommend him a spot back into In N Out." 
+        <cite>
+            ~Manwella at 145
+        </cite>
+    </blockquote>
+</quote> -->
+
+<!-- Use elsewhere -->
+<!-- <div class="container">
+    <div id="j"> stuff </div>
+    <div id="k"> stuff </div>
+    <div id="l"> stuff </div>
+    <div id="m"> stuff </div>
+</div> -->
+
+/* Use this elsewhere */
+/* .container {
+    display: grid;
+    background-color: rgba(255,255, 0, 0.5);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em; /*this code is obsolete, avoid using grid-gap
+    grid-template-areas: "j j j k"
+                         "l l . k"
+                         "m m m m";
+}
+
+#j {
+    display: block;
+    background-color: red;
+    grid-area: j;
+}
+
+#k {
+    display: block;
+    background-color: red;
+    grid-area: k;
+}
+
+#l {
+    display: block;
+    background-color: red;
+    grid-area: l;
+}
+
+#m {
+    display: block;
+    background-color: red;
+    grid-area: m;
+} */ {% endcomment %}
