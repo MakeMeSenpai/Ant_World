@@ -28,16 +28,25 @@ and ambitions can simpky become tasks that can be done.
 ## ToDo
 SkateBoard: Based on wireframes, create the home page using only html and css. This should be 
 clear as to what the intentions are and how the website should look. This must include landscape 
-art, and a place holding block in the center of the screen for our cube. √
+art, and a place holding block in the center of the screen for our cube. [√]
 
 Bike: using javascript, set up a local server, and make a base for all the other pages. These pages
 will include scoller sections, and links to main sections, or back home. Other pages that need work
-or you feel are unfitting still must be made, but do not require a link on our cube. 
+or you feel are unfitting still must be made, but do not require a link on our cube.  []
 
 Car: Make the cube work, and give all unready sections an unclickable "comming soon" icon. Fix 
-most if not all problems with website and make your website live.
+most if not all problems with website and make your website live. []
 
-Stretch Limo: Create Ant Attack, and Season Decorations
+Stretch Limo: Create Ant Attack, and Season Decorations []
 
 Crazy Chopper: Create Maze game. Update website once a year. Place the link to your MVP 
-portfolio on all pages that you haev worked on under contract or small personal projects.
+portfolio on all pages that you have worked on under contract or small personal projects. []
+
+### FEW Final Requirements
+- HTML sematic [√]
+- Typography styling []
+- CSS Flex Box []
+- CSS Grid []
+- Vars & Functs []
+- JS & DOM []
+- Eventlistener []
