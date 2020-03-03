@@ -1,9 +1,9 @@
-/* Fix your styles dude, past you was ignorant */
 html {
     overflow-x: hidden;
+    font-family: fantasy;
 }
 
-body{
+body {
     background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/04/free-paper-texture-14.jpg");
     background-color: whitesmoke;
     background-repeat: no-repeat;
@@ -14,30 +14,34 @@ body{
     min-height: 100vh;
 }
 
-/* portfillio and selfie should be the same things */
-#portfollio {
-    position: relative;
-    margin-top: -1em;
-    transform: scale(0.95);
-    z-index: 1;
+.tape {
+    position: absolute;
+    transform: scale(0.5);
+    margin-top: -132px;
+    margin-left: -145px;
+    z-index: 2;
 }
+/* cool idea: what f users can click on the tape, ripping it off, and making our pictures fall off screen? */
 
-.selfie{
+.selfie {
     width: 175px;
     height: 175px;
+    transform: rotate(15deg);
+    z-index: 1;
 }
 
 .self-figure {
     position: fixed;
-    margin-top: -150px;
+    margin-top: -1em;
 }
 
-#name {
+.name-content {
     position: relative;
-    font-size: 85px;
-    /* margin-top: -5.59em; */
     margin-left: 8.25em;
-    z-index: 1;
+}
+
+.name {
+    font-size: 85px;
 }
 
 /* These are drawn decoration. We should use defaults for now, later add seasonal change */
@@ -106,13 +110,13 @@ body{
 } */
 
 /* this controls our zigzag items*/
-#projects {
+.projects {
     display: flex;
     flex-direction: column;
     margin-top: 0em;
 }
 
-#navbar {
+.navbar {
     margin-top: -3vh;
     position: fixed;
     z-index: 5;
@@ -122,7 +126,7 @@ body{
     max-width: 425px;
 }
 
-#right {
+.right {
     margin-left: 57em;
 }
 
@@ -133,14 +137,14 @@ body{
 
 .summary2 {
     margin-top: -1.5em;
-}    
-        
+}
+
 .cardContent {
     padding: 10px;
 }
 
 /* links in footer */
-#place {
+.place {
     font-size: 25px;
     background: red;
     width: 250px;
@@ -148,30 +152,14 @@ body{
     border-radius: 5px;
     margin: 15px;
     padding: 4px;
-    color:black;
+    color: black;
     line-height: 12px;
 }
 
-#place2 {
-    font-size: 25px;
-    background: yellow;
-    width: 250px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 15px;
-    padding: 4px;
-    color:black;
-    line-height: 12px;
-}
-
-#place3{
-    font-size: 25px;
-    background: blue;
-    width: 250px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 15px;
-    padding: 4px;
-    color:black;
-    line-height: 12px;
+.soon {
+    position: fixed;
+    transform: scale(1.5) rotate(-15deg);
+    margin-top: 250px;
+    margin-left: 450px;
+    z-index: 7;
 }

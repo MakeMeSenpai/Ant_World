@@ -1,42 +1,50 @@
-body{
+body {
     background-image: url('./imgs/landscape.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(19, 5, 5);
 }
-#box{
+
+#box {
     display: block;
     background-color: black;
     width: 320px;
     height: 320px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
-body :hover{
+body :hover {
     animation-name: spin;
     animation-duration: 7s;
     animation-iteration-count: 1;
 }
+
 @keyframes spin {
-0% {
-    transform: rotate(0deg);
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
-100% {
-    transform: rotate(360deg);
-}
-}
-h1{
+
+h1 {
     text-align: center;
-    padding-top: 120px;
+    padding-top: 40px;
+    margin-top: -60px;
 }
-h1 :any-link{
-    color:whitesmoke;
+
+h1 :any-link {
+    color: whitesmoke;
 }
-h1 :hover{
-    color:purple;
+
+h1 :hover {
+    color: purple;
 }
-p{
+
+p {
     color: blue;
     text-align: center;
 }

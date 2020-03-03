@@ -44,9 +44,9 @@ portfolio on all pages that you have worked on under contract or small personal 
 
 ### FEW Final Requirements
 - HTML sematic [√]
-- Typography styling []
-- CSS Flex Box []
-- CSS Grid []
+- Typography styling [√]
+- CSS Flex Box [√]
+- CSS Grid [√]
 - Vars & Functs []
 - JS & DOM []
 - Eventlistener []
