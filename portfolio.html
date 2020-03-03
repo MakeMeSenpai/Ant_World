@@ -279,12 +279,22 @@
             explore, or contact me with the form below.</p>
     </footer>
 
+
+
     <form>
-        <input type="email" placeholder="email"></input>
-        <input type="email" placeholder="verify email"></input>
-        <input type="" placeholder="summary of message"></input>
-        <input type="color" placeholder="choose a color!"></input>
-        <button type="submit">Submit</button>
+        <input id="email" type="email" placeholder="email"></input>
+        <input id="verify" type="email" placeholder="verify email"></input>
+        <input id="text" type="text" placeholder="summary of message"></input>
+        <input id="color" type="color" placeholder="choose a color!"></input>
+        <button type="button" onclick="submit()">Submit</button>
     </form>
+
+    <script>
+    function submit() {
+        document.body.style.backgroundColor = "red";
+        alert(document.body.style.backgroundColor);
+      }
+    </script>
+    <!-- <script src="scripts/script.js" type="text/css"></script> -->
 </body>
 </html>
