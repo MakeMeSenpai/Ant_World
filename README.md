@@ -48,5 +48,5 @@ portfolio on all pages that you have worked on under contract or small personal 
 - CSS Flex Box [√]
 - CSS Grid [√]
 - Vars & Functs [√]
-- JS & DOM []
+- JS & DOM [√]
 - Eventlistener [√]

@@ -16,7 +16,7 @@ body {
 
 body :hover {
     animation-name: spin;
-    animation-duration: 7s;
+    animation-duration: 0.25s;
     animation-iteration-count: 1;
 }
 

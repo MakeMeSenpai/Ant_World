@@ -13,9 +13,9 @@
 
 
 <body>
-    <!-- comming soon tag -->
-    <img class="soon" src="https://clipartmag.com/images/coming-soon-png-26.png">
-    
+    <!-- comming soon tag
+    <img class="soon" src="https://clipartmag.com/images/coming-soon-png-26.png"> -->
+
     <header id="welcome-section">
         <nav class="navbar">
             <h4> links <a href="#place"> here </a> </h4>
@@ -29,8 +29,7 @@
         </hgroup>
 
         <figure class="selfie-figure">
-            <img class="tape" alt="tape"
-                src="https://i.dlpng.com/static/png/6664771_thumb.png">
+            <img class="tape" alt="tape" src="https://i.dlpng.com/static/png/6664771_thumb.png">
             <img class="selfie" alt="Selfie of Ant"
                 src="https://miro.medium.com/max/3150/2*wko1z9B-mHXlBQfB2C2LQw.jpeg">
             <figcaption>The Ant-Mane Himself</figcaption>
@@ -285,16 +284,12 @@
         <input id="email" type="email" placeholder="email"></input>
         <input id="verify" type="email" placeholder="verify email"></input>
         <input id="text" type="text" placeholder="summary of message"></input>
-        <input id="color" type="color" placeholder="choose a color!"></input>
-        <button type="button" onclick="submit()">Submit</button>
+        <input id="color" type="color" placeholder="choose a color!" value="#DDDDDD"></input>
+        <button type="button" onclick="send()">Submit</button>
     </form>
 
-    <script>
-    function submit() {
-        document.body.style.backgroundColor = "red";
-        alert(document.body.style.backgroundColor);
-      }
-    </script>
-    <!-- <script src="scripts/script.js" type="text/css"></script> -->
+    <script src="scripts/iife.js"></script>
+    <script src="scripts/portfolio.js"></script>
 </body>
+
 </html>
