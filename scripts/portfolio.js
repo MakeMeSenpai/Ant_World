@@ -1,4 +1,8 @@
-// form 
-const email = document.getElementById("email")
-const verify = document.getElementById("verify")
-const text = document.getElementById("text")
+// progress bar
+window.onscroll = function() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.height = scrolled + "%";
+}
+

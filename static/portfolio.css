@@ -1,6 +1,13 @@
 html {
     overflow-x: hidden;
     font-family: fantasy;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    display: none;
 }
 
 body {
@@ -8,6 +15,38 @@ body {
     background-color: whitesmoke;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.progress-container {
+    top: 100px;
+    left: 28px;
+    height: 100%;
+    width: 7.5px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 2px;
+    position: fixed;
+    background: rgb(0, 174, 255);
+    box-shadow: 0 0 5px black;
+}
+
+.progress-bar {
+    height: 0%;
+    width: 7.5;
+    background: blue;
+    justify-content: center;
+}
+
+.progress-ball {
+    left: -10px;
+    top: 25px;
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 2px;
+    background: rgb(0, 174, 255);
 }
 
 #welcome-section {
@@ -22,7 +61,7 @@ body {
 }
 
 .nav-left {
-    left: 0px;
+    left: -21px;
     width: 45%;
     display: flex;
     justify-content: space-evenly;
@@ -55,6 +94,7 @@ body {
     font-size: larger;
     font-style: oblique;
     background-color: aqua;
+    box-shadow: insert 0 0 5px black;
 }
 
 .tape {
