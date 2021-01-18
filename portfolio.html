@@ -1,5 +1,39 @@
 <!DOCTYPE html>
 <!-- This is our Portfolio Page! :3 -->
+<!-- 
+About You
+Mission Statement
+Your Projects
+Your Skills
+Ways to Get in Touch
+Your Resume / CV
+Part of your personal brand
+Don't have to be super fancy or use crazy technologies
+Goal should be a static site anyone can access quickly
+
+Before High School
+Moved a lot! This may not seem like much of a skill but learning to adapt to new environments consistently was a large trial for me and has also helped me learn how to communicate better with strangers having to meet so many new ones. I also kept good grades in school despite being bullied, lacking information, and having to deal with family turmoil (2001-2009)
+Pool boy helping neighbors clean their pool was a small-time thing, and the neighbor has moved since (2013).
+Worked in the fields as a harvester picking grapes (2015).
+Worked in the OilField helping out with whatever was asked of me, including breaking pipes and running wells (still going whenever needed).
+High School
+Art Club: during lunch and outside of school, we would join to create artworks. And won 3rd place in the mini-league for Via Arte (2015).
+Sports:  Was in Track and Football -with our team winning 10-0, and being the top 12 sprinters at my school (2015-2016).
+Honor Athletes Award:  Awarded to students who were in sports and maintained a GPA of 3.5 or higher (2016).
+PPAACC: I was the 2nd chair in my regular band playing clarinet, however, while also joining the pit, I became the lead piano player, as well as being in charge of all the electronics when it came to setting up and tearing down the operation. In charge of playing piano, and sound effects for the show. We were to act out scenes and learn our parts before bringing them together for one beautiful piece.  We got __ out of ___ in our last competition.
+HackerEarth top 10%: recognized as top 10% of programmers on their site for C (2017).
+ROC: Went into 3D animation at ROC which is a career center in Bakersfield meant to get people jobs under those classes. I worked with Maya, Photoshop, and Adobe Pro. 
+FreeCodeCamp Web Design Certificate: 300+ hours and 5 projects based on learning html5, css3, and bootstrap (2018).
+Robotics: An executive programmer from the PLTW Engineering class, teaching others how to code, and brought my team (Z) to state. We won 5th out of 35 schools (2018-2019)
+PLTW Honor Engineer: recognized for having higher than a 3.5 grade for at least 3 years (2019).
+Associate Lvl 2: Working at In-N-Out Burger was a learning experience. I gained a bunch of soft skills from my first ever real job.  It was a fast-paced environment, where they worked mostly on cashier and customer service. Heavily based on communication and teamwork skills (Nov. 2018  - Aug. 2019).
+Make School
+Got accepted: to a 10% acceptance rate (2019). I spent all summer working my hardest to prove that I was able to attend this school. 
+Music Club: Founder of Make School’s Music Club (2020).
+TA: Was hired as a front end Web teacher assistant, Helping a class of 150 students debug, and develop their projects. Growing them into better Software Engineers. Using technologies such as HTML, CSS, SASS, node.js, Python, jinja, and flask. (Aug. 2020- Jan. 2021)
+Graduating: Learning how to become a better Software developer, as well as industry skills in this accelerated 2-year program (Aug. 2019-Dec. 2021)
+
+-->
 <html lang="en">
 
 <head>
@@ -13,26 +47,36 @@
 
 
 <body>
-    <!-- comming soon tag
-    <img class="soon" src="static/img/soon.png"> -->
 
     <header id="welcome-section">
-        <nav class="navbar">
-            <h4> links <a href="#place"> here </a> </h4>
+        <!-- Nav Left -->
+        <nav class="navbar nav-left">
+            <a class="left-items" href="./home.html"> <img class="left-items" src="./static/imgs/corner_icon.png"></a>
+            <h1 class="name left-items">Anthony S Protho</h1>
+        </nav>
+        <!-- Right Nav -->
+        <nav class="navbar nav-right">
+            <a href="https://www.linkedin.com/in/ant-protho/" target="_blank">
+                <img class="right-items" src="./static/imgs/linkin_icon.png">
+            </a>
+            <a href="https://github.com/MakeMeSenpai/" target="_blank">
+                <img class="right-items" src="./static/imgs/github_icon.png">
+            </a>
+            <form action="mailto:AnthonySeanProtho@gmail.com">
+                <button id="nav-btn" class="right-items" type="submit">Contact</button>
+            </form>
         </nav>
 
         <hgroup class="name-content">
-            <h1 class="name">Anthony Sean Protho</h1>
+            
             <h2>Artist and Software Engineer</h2>
-            <h3>Senior at Make School ● <address>San Francisco, CA</address>
-            </h3>
+            <h3>Senior at Make School ● Bakersfield, CA</h3>
         </hgroup>
 
         <figure class="selfie-figure">
             <img class="tape" alt="tape" src="static/imgs/tape.png">
-            <img class="selfie" alt="Selfie of Ant"
-                src="static/imgs/selfie.jpeg">
-            <figcaption>The Ant-Mane Himself</figcaption>
+            <img class="selfie" alt="Selfie of Ant" src="static/imgs/selfie.jpeg">
+            <figcaption>The Ant-Man Himself</figcaption>
         </figure>
     </header>
 
@@ -84,7 +128,8 @@
             <h3>Technical Skills</h3>
             <ul>
                 <li>Web Design</li>
-                <li><abbr title="Hypertext Markup Language -v.5">HTML5</abbr>/<abbr title="Cascading Style Sheets -v.3">CSS3</abbr></li>
+                <li><abbr title="Hypertext Markup Language -v.5">HTML5</abbr>/<abbr
+                        title="Cascading Style Sheets -v.3">CSS3</abbr></li>
                 <li>Node/Express.<abbr title="JavaScript">js</abbr></li>
                 <li>Flask & Django</li>
                 <li>Mongo<abbr title="database">DB</abbr></li>
@@ -160,8 +205,7 @@
             <projects class="projects">
                 <section class="projectName">
                     <h3><abbr title="Reptile Harmony">RH</abbr> (Django, API - Fullstack Engineer)</h3>
-                    <img src="static/imgs/lizard.jpeg"
-                        class="project-title">
+                    <img src="static/imgs/lizard.jpeg" class="project-title">
                     <p class="summary1">This contracted Eshop, is a live website to buy, and trade, all your Bearded
                         Dragon needs! This was my first sorta freelance job. In</p>
                     <p>I used all my recently learned knowledge about backend Django, to make a live website for a
@@ -173,8 +217,7 @@
 
                 <section class="projectName">
                     <h3 class="right">Don’t Mix That! (Flask, MongoDB, Git - Backend and Git Master)</h3>
-                    <img src="static/imgs/kemist.jpg" class="right"
-                        class="project-title">
+                    <img src="static/imgs/kemist.jpg" class="right" class="project-title">
                     <p class="summary2">The virtual trading card game, was a project in which 4 people, including
                         myself, worked in a female empowered group. The amount of </p>
                     <p>stress that went into this project, involving teamwork affairs, and making everything come
@@ -188,8 +231,7 @@
 
                 <section class="projectName">
                     <h3>Trouble Maker (VEX, C++ - Executive Programmer)</h3>
-                    <img src="static/imgs/trouble-maker.jpeg"
-                        class="project-title">
+                    <img src="static/imgs/trouble-maker.jpeg" class="project-title">
                     <p class="summary1">After many months of endless coding, I was in charge of getting our vex brain to
                         interpret remote controls, autonomous driving,</p>
                     <p>and ensuring that the machine could surpass the obstacles collecting as many points as possible.
@@ -252,7 +294,7 @@
        Add metrics to quantify your contributions
        </pre>
             <pre>
-       Valencio Farms                                      Bakersfield, CA
+       Valencia Farms                                      Bakersfield, CA
        Harvester                                           Nov 2018 - Aug 2019
        A resume bullet should have 3 things: a verb, what you did, the result
        Accomplished X, as measured by Y, by doing Z (article about this)
@@ -273,20 +315,9 @@
             <li><a href="https://www.linkedin.com/in/anthony-protho-07a0b418a/">LinkedIn</a></li>
             <li><a href="https://github.com/MakeMeSenpai">GitHub</a></li>
             <li><a href="https://codepen.io/makemesenpai">CodePen</a></li>
-        </ul>
-        <p>For more information you can either go back to the <a href="home.html">Home Page</a> and
-            explore, or contact me with the form below.</p>
+        </ul>            <!-- Nav Left -->
+        <!-- <a class="nav-left" href="./home.html"> Home </a> -->
     </footer>
-
-
-
-    <form>
-        <input id="email" type="email" placeholder="email"></input>
-        <input id="verify" type="email" placeholder="verify email"></input>
-        <input id="text" type="text" placeholder="summary of message"></input>
-        <input id="color" type="color" placeholder="choose a color!" value="#DDDDDD"></input>
-        <button type="button" onclick="send()">Submit</button>
-    </form>
 
     <script src="scripts/iife.js"></script>
     <script src="scripts/portfolio.js"></script>

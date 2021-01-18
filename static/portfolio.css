@@ -14,6 +14,49 @@ body {
     min-height: 100vh;
 }
 
+.navbar {
+    margin-top: -3vh;
+    position: fixed;
+    z-index: 5;
+    top: 25px;
+}
+
+.nav-left {
+    left: 0px;
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-items {
+    height: 75px;
+    margin-left: 2.25;
+}
+
+.name {
+    font-size: 65px;
+    margin-top: 0px;
+}
+
+.nav-right {
+    right: 0px;
+    width: 19%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right-items {
+    height: 75px;
+    margin-left: 2.25;
+}
+
+#nav-btn {
+    width: 100px;
+    font-size: larger;
+    font-style: oblique;
+    background-color: aqua;
+}
+
 .tape {
     position: absolute;
     transform: scale(0.5);
@@ -21,7 +64,7 @@ body {
     margin-left: -145px;
     z-index: 2;
 }
-/* cool idea: what f users can click on the tape, ripping it off, and making our pictures fall off screen? */
+/* cool idea: what if users can click on the tape, ripping it off, and making our pictures fall off screen? */
 
 .selfie {
     width: 175px;
@@ -40,9 +83,7 @@ body {
     margin-left: 8.25em;
 }
 
-.name {
-    font-size: 85px;
-}
+
 
 /* These are drawn decoration. We should use defaults for now, later add seasonal change */
 /* 
@@ -116,12 +157,6 @@ body {
     margin-top: 0em;
 }
 
-.navbar {
-    margin-top: -3vh;
-    position: fixed;
-    z-index: 5;
-}
-
 .project-title {
     max-width: 425px;
 }
@@ -154,12 +189,4 @@ body {
     padding: 4px;
     color: black;
     line-height: 12px;
-}
-
-.soon {
-    position: fixed;
-    transform: scale(1.5) rotate(-15deg);
-    margin-top: 250px;
-    margin-left: 450px;
-    z-index: 7;
 }
