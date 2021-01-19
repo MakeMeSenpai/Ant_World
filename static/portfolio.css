@@ -14,7 +14,7 @@ html {
 
 body {
     background-image: url("./imgs/crumpled-paper.jpg");
-    background-color: whitesmoke;
+    background-color: rgb(238, 237, 242);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -97,6 +97,7 @@ body {
 
 #nav-btn {
     width: 100px;
+    cursor: pointer;
     font-size: larger;
     font-style: oblique;
     background-color: aqua;
@@ -109,34 +110,83 @@ body {
     width: 95%;
 }
 
+#me {
+    top: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#me article {
+    top: 50px;
+    height: 65%;
+    width: 65%;
+    position: relative;
+    text-align: center;
+    font-size: larger;
+}
+
 .name-content {
     position: relative;
     /* margin-left: 45em; */
 }
 
-.tape {
+#me figure {
+    width: 35%;
+}
+
+/* cool idea: what if users can click on the tape, ripping it off, and making our pictures fall off screen? */
+
+/* .tape {
     position: absolute;
     transform: scale(0.5);
     margin-top: -132px;
     margin-left: -145px;
     z-index: 2;
-}
-
-/* cool idea: what if users can click on the tape, ripping it off, and making our pictures fall off screen? */
+} */
 
 .selfie {
     width: 175px;
     height: 175px;
-    transform: rotate(15deg);
+    margin-left: 150px;
+    transform: rotate(25deg);
     z-index: 1;
 }
 
-.self-figure {
-    position: fixed;
-    margin-top: -1em;
+.selfie img {
+    height: inherit;
+    width: inherit;
 }
 
+.ant {
+    width: 175px;
+    height: 175px;
+    overflow: hidden;
+    margin-top: -25px;
+    margin-left: 200px;
+    transform: rotate(-15deg);
+    z-index: 1;
+}
 
+.ant img {
+    width: inherit;
+
+}
+
+.poof {
+    width: 175px;
+    height: 175px;
+    overflow: hidden;
+    margin-top: -25px;
+    margin-left: 150px;
+    transform: rotate(12deg);
+    z-index: 1;
+}
+
+.poof img{
+    margin-top: -35px;
+    width: inherit;
+}
 
 /* These are drawn decoration. We should use defaults for now, later add seasonal change */
 /* 
