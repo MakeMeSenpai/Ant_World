@@ -1,6 +1,7 @@
 html {
     overflow-x: hidden;
     font-family: fantasy;
+    font-size: larger;
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;
@@ -40,20 +41,20 @@ body {
 }
 
 .progress-ball {
-    left: -10px;
-    top: 5px;
+    left: -8px;
+    top: 4.5px;
     position: relative;
-    height: 25px;
-    width: 25px;
+    height: 21px;
+    width: 21px;
     border-style: solid;
     border-radius: 50px;
     border-width: 2px;
     background: #00aeff;
 }
 
-/* #pb1 {
-    top: 75px;
-} */
+#pb1 {
+    top: 32px;
+}
 
 #welcome-section {
     min-height: 100vh;
@@ -123,7 +124,6 @@ body {
     width: 65%;
     position: relative;
     text-align: center;
-    font-size: larger;
 }
 
 .name-content {
@@ -252,6 +252,11 @@ body {
     margin-bottom: 5em;
     transform: scale(0.75);
 } */
+
+#tech ul {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 /* this controls our zigzag items*/
 .projects {
