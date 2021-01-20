@@ -2,6 +2,11 @@
 const pb0 = document.getElementById("pb0");
 const pb1 = document.getElementById("pb1");
 const pb2 = document.getElementById("pb2");
+const pb3 = document.getElementById("pb3");
+const pb4 = document.getElementById("pb4");
+const pb5 = document.getElementById("pb5");
+const pb6 = document.getElementById("pb6");
+const pb7 = document.getElementById("pb7");
 
 // progress bar
 window.onscroll = function () {
@@ -25,9 +30,40 @@ window.onscroll = function () {
         pb1.style.backgroundColor = "#00aeff";
     }
 
-    if (scrolled > 15.8) {
+    if (scrolled > 18.8) {
         pb2.style.backgroundColor = "blue";
     } else {
         pb2.style.backgroundColor = "#00aeff";
     }
+
+    if (scrolled > 39) {
+        pb3.style.backgroundColor = "blue";
+    } else {
+        pb3.style.backgroundColor = "#00aeff";
+    }
+
+    if (scrolled > 47) {
+        pb4.style.backgroundColor = "blue";
+    } else {
+        pb4.style.backgroundColor = "#00aeff";
+    }
+
+    if (scrolled > 73) {
+        pb5.style.backgroundColor = "blue";
+    } else {
+        pb5.style.backgroundColor = "#00aeff";
+    }
+
+    if (scrolled > 89) {
+        pb6.style.backgroundColor = "blue";
+    } else {
+        pb6.style.backgroundColor = "#00aeff";
+    }
+
+    if (scrolled > 95) {
+        pb7.style.backgroundColor = "blue";
+    } else {
+        pb7.style.backgroundColor = "#00aeff";
+    }
+
 }

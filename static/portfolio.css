@@ -53,12 +53,37 @@ body {
     background: #00aeff;
 }
 
+/* I have a theory that the scroll of a websites value is based on
+percentages.. meaning if we were to use another js algorithm and scss
+we should be able to lock these points exactly where they need to be 
+no matter screen size. But that's for another time becuase it's 12:32am
+for me, so good luck future Ant. ~Past Ant*/
 #pb1 {
     top: 32px;
 }
 
 #pb2 {
-    top: 52px;
+    top: 60px;
+}
+
+#pb3 {
+    top: 175px;
+}
+
+#pb4 {
+    top: 200px;
+}
+
+#pb5 {
+    top: 375px;
+}
+
+#pb6 {
+    top: 450px;
+}
+
+#pb7 {
+    top: 465px;
 }
 
 #welcome-section {
