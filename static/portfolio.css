@@ -192,8 +192,8 @@ body {
     margin-top: -35px;
     width: inherit;
 }
-
-#tech ul {
+/* effects tech and footer ul */
+.flex-space {
     display: flex;
     justify-content: space-evenly;
 }
@@ -289,11 +289,25 @@ body {
     transform: rotate(2.5deg);
 }
 
-/* links in footer */
-#place {
+/* concerning experience */
+.xp {
+    margin: auto;
+    width: 95%;
+}
+
+.xp p{
+    margin: 5px;
+    padding: 0px;
+}
+
+.xp .hr {
+    margin-top: -35px;
+}
+
+/* links in footer  - maybe make them sticky pads in future?*/
+#footer {
     font-size: 25px;
-    background: red;
-    width: 250px;
+    width: 95%;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 15px;
