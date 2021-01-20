@@ -1,6 +1,7 @@
 // progress balls
 const pb0 = document.getElementById("pb0");
 const pb1 = document.getElementById("pb1");
+const pb2 = document.getElementById("pb2");
 
 // progress bar
 window.onscroll = function () {
@@ -22,5 +23,11 @@ window.onscroll = function () {
         pb1.style.backgroundColor = "blue";
     } else {
         pb1.style.backgroundColor = "#00aeff";
+    }
+
+    if (scrolled > 15.8) {
+        pb2.style.backgroundColor = "blue";
+    } else {
+        pb2.style.backgroundColor = "#00aeff";
     }
 }

@@ -20,6 +20,7 @@ body {
     background-size: cover;
 }
 
+/* Progression */
 .progress-container {
     top: 100px;
     left: 28px;
@@ -54,6 +55,10 @@ body {
 
 #pb1 {
     top: 32px;
+}
+
+#pb2 {
+    top: 52px;
 }
 
 #welcome-section {
@@ -188,6 +193,11 @@ body {
     width: inherit;
 }
 
+#tech ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* These are drawn decoration. We should use defaults for now, later add seasonal change */
 /* 
 #dec1 {
@@ -253,37 +263,30 @@ body {
     transform: scale(0.75);
 } */
 
-#tech ul {
-    display: flex;
-    justify-content: space-evenly;
+.project-name {
+    height: 400px;
+}
+
+/* controls right headers*/
+.hr {
+    text-align: right;
 }
 
 /* this controls our zigzag items*/
-.projects {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0em;
+.project-img {
+    height: 325px;
+    width: 400px;
+    padding: 5px;
 }
 
-.project-title {
-    max-width: 425px;
+.l {
+    float: left;
+    transform: rotate(-2.5deg);
 }
 
-.right {
-    margin-left: 57em;
-}
-
-.summary1 {
-    margin-top: -1.5em;
-    margin-left: 27em;
-}
-
-.summary2 {
-    margin-top: -1.5em;
-}
-
-.cardContent {
-    padding: 10px;
+.r {
+    float: right;
+    transform: rotate(2.5deg);
 }
 
 /* links in footer */

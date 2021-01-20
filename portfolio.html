@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <!-- This is our Portfolio Page! :3 -->
 <!--
-Your Projects 
-Your Resume/Experience 
 Goal should be a static site anyone can access quickly
-
-ENGINEERING PROJECTS
-Project Name (Go, JavaScript - frontend)							
-Highlight your role, unpack the problem you solved in very technical terms, what was the result
-Emphasize how you moved the needle (made an impact) 
-Projects you did for fun > projects for a grade aka Passion project > hackathon project > class project 
-Project Name (Node.Js, Swift - backend)
-If you don’t have any work experience yet, this technical projects section is how to stand out
-Articulate hard problems you tackled & above and beyond effort (i.e. learned a new language 2 weeks just for this project). Recruiters like candidates that work on really hard things
-Write in as much technical detail (languages, technologies, etc) as possible - the more detail the better
 
 WORK EXPERIENCE
 Company Name									San Francisco, CA
@@ -32,16 +20,6 @@ Each bullet should start with a verb (don’t use weak verbs = helped, assisted)
 Keep the resume to 1 page and save as PDF before you apply to a job (scroll to p.2 for more tips)
 Swap these bonus sections in as you see fit - resume should fit on 1-page 
 
-TECHNICAL EXPERIENCE
-Company Name									San Francisco, CA
-Job Title									Jan 2017 - present
-Add this section if you have had a paid or unpaid experience that was technical (i.e. software engineer intern, math tutor, etc)
-If you’ve done an Industry Collaboration Project in SPD: “A capstone project focused on X occurring in a software product development course at Make School”
-
-HOBBY PROJECTS
-Project Name
-Call out when you’ve done a personal project. Recruiters love seeing “hobby projects”
-
 ADDITIONAL EXPERIENCE
 Company Name									San Francisco, CA
 Job Title									Oct 2017 - March 2018
@@ -52,12 +30,6 @@ LEADERSHIP EXPERIENCE
 Company Name									San Francisco, CA
 Job Title									March 2017 - Oct 2018
 Recruiters like seeing leadership experiences on the resume (i.e. Hackathon Organizer, VP of Finance of SWE, Summer Camp Counselor, Eagle Scout, etc)
-
-INDUSTRY COLLABORATION EXPERIENCE
-Company Name									San Francisco, CA
-Job Title									Sept 2010 - Dec 2019
-Another way to showcase your SPD Industry Collaboration Project 
-If the company you’re working with wants to stay private, list the company as “STEALTH”
 -->
 <html lang="en">
 
@@ -80,13 +52,10 @@ If the company you’re working with wants to stay private, list the company as 
             <a href="#skills">
                 <div id="pb1" class="progress-ball"></div>
             </a>
-            <!-- <a href="#highlights"><div class="progress-ball"></div></a>
-            <a href="#leader"><div class="progress-ball"></div></a>
-            <a href="#tech"><div class="progress-ball"></div></a>
-            <a href="#hobby"><div class="progress-ball"></div></a>
-            <a href="#engineer"><div class="progress-ball"></div></a>
-            <a href="#bonus-xp"><div class="progress-ball"></div></a>
-            <a href="#place"><div class="progress-ball"></div></a>  -->
+            <a href="#engineer">
+                <div id="pb2" class="progress-ball"></div>
+            </a>
+            <!-- <a href="#"><div id="pb" class="progress-ball"></div></a> -->
         </div>
     </div>
 
@@ -204,24 +173,28 @@ If the company you’re working with wants to stay private, list the company as 
         <section id="engineer">
             <h2>Engineering Projects</h2>
             <projects class="projects">
-                <section class="projectName">
-                    <h3><abbr title="Reptile Harmony">RH</abbr> (Django, API - Fullstack Engineer)</h3>
-                    <img src="static/imgs/lizard.jpeg" class="project-title">
-                    <p class="summary1">This contracted Eshop, is a live website to buy, and trade, all your Bearded
-                        Dragon needs! This was my first sorta freelance job. In</p>
-                    <p>I used all my recently learned knowledge about backend Django, to make a live website for a
-                        friend. Having to refactor this project from flask into Django, was only one of many long
-                        hardships I had to go threw in order to make this thing a reality.
-                        And I had kept my promise to a friend. If I say it, I do it. See more<a
-                            href="https://github.com/MakeMeSenpai/Reptile_Harmony" target="_blank"> here</a>.</p>
+                <section class="project-name">
+                    <h3>Toeta (Javascript, API - ​Fullstack Engineer​)</h3>
+                    <a href="https://toeta.herokuapp.com/" target="_blank">
+                        <img class="project-img l" src="./static/imgs/toeta.png">
+                    </a>
+                    <p>For all the chefs new and old who are finding it hard to decide what to eat for dinner today,
+                        Toeta is the solution for you. The goal of this project was to solve the ever lasting question
+                        "What do I want to eat today?". With many plans for the future as what this project should be,
+                        it currently just gives a random recipe using spoonacular API. It took a lot of time to get
+                        this thing to go server side, given that static websites aren't meant to be on clouds, so I made
+                        a php backend to solve this problem, and hope for this to become much more in the future. See
+                        more<a href="https://toeta.herokuapp.com/" target="_blank"> here</a>.</p>
                 </section>
 
-                <section class="projectName">
-                    <h3 class="right">Don’t Mix That! (Flask, MongoDB, Git - Backend and Git Master)</h3>
-                    <img src="static/imgs/kemist.jpg" class="right" class="project-title">
-                    <p class="summary2">The virtual trading card game, was a project in which 4 people, including
-                        myself, worked in a female empowered group. The amount of </p>
-                    <p>stress that went into this project, involving teamwork affairs, and making everything come
+                <section class="project-name">
+                    <h3 class="hr">Don’t Mix That! (Flask, MongoDB, Git - Backend and Git Master)</h3>
+                    <a href="https://dontmixthat.herokuapp.com" target="_blank">
+                        <img class="project-img r" src="./static/imgs/dmt.png">
+                    </a>
+                    <p>The virtual trading card game, was a project in which 4 people, including
+                        myself, worked in a female empowered group. The amount of
+                        stress that went into this project, involving teamwork affairs, and making everything come
                         together was insane. However the idea was great, and the journey was greater. I was in charge of
                         ensuring that all pushes, merges, and pulls were cleanly done
                         in git, as well as making sure that the server could run on a live server, and making sure that
@@ -230,99 +203,30 @@ If the company you’re working with wants to stay private, list the company as 
                         <a href="https://dontmixthat.herokuapp.com" target="_blank"> here</a>.</p>
                 </section>
 
-                <section class="projectName">
+                <section class="project-name">
                     <h3>Trouble Maker (VEX, C++ - Executive Programmer)</h3>
-                    <img src="static/imgs/trouble-maker.jpeg" class="project-title">
-                    <p class="summary1">After many months of endless coding, I was in charge of getting our vex brain to
-                        interpret remote controls, autonomous driving,</p>
-                    <p>and ensuring that the machine could surpass the obstacles collecting as many points as possible.
+                    <a href="https://www.bakersfield.com/entertainment/rollin-the-streets-of-bakersfield-for-annual-robotics-competition/article_4bc1fc94-137c-11e9-9ba8-7b04e8b58ba4.html"
+                        target="_blank">
+                        <img class="project-img l" src="./static/imgs/trouble-maker.jpg">
+                    </a>
+                    <p>After many months of endless coding, I was in charge of getting our vex brain to
+                        interpret remote controls, autonomous driving,
+                        and ensuring that the machine could surpass the obstacles collecting as many points as possible.
                         I pushed the members of our team to do their parts and stayed on top of mine to ensure that our
                         team made it to state. In my first year there I got the
-                        struggling Team Z to the Google Complex, in San Jose, to compete for world. See more <a
-                            href="https://www.bakersfield.com/entertainment/rollin-the-streets-of-bakersfield-for-annual-robotics-competition/article_4bc1fc94-137c-11e9-9ba8-7b04e8b58ba4.html"
+                        struggling Team Z to the Google Complex, in San Jose, to compete for world. See more
+                        <a href="https://www.bakersfield.com/entertainment/rollin-the-streets-of-bakersfield-for-annual-robotics-competition/article_4bc1fc94-137c-11e9-9ba8-7b04e8b58ba4.html"
                             target="_blank">
                             here</a>.</p>
                 </section>
             </projects>
-            <footer class="right">;and this very Website!</footer>
+            <footer class="hr">;and this very Website!</footer>
         </section>
 
-        <section id="hobby">
-            <h2>Hobby Projects</h2>
-            <!-- projects is a container for zigzags, find better way -->
-            <projects class="projects">
-                <section class="projectName">
-                    <h3><abbr title="Christmas Hack Decorations">C.H.D.</abbr> (C++, Arduino - Hardware Engineer)</h3>
-                    <img src="static/imgs/chd.jpeg" class="project-title">
-                    <p class="summary1"> CHD (pronounce Chad), short for Christmas hack decorations, was a personal
-                        project I did in my freetime. My goal was to </p>
-                    <p>learn more about hardware, by hacking christmas lights and making them flash to music. I still
-                        use these lights til this day, and they make great party lights.
-                        After burning 7 fuses, and desperately looking for information from friends and the internet. I
-                        was finally able to put everything together, and figure it all out in under 2 weeks. Learning
-                        how Audrino, currents, and microphone information. I also
-                        wrote an article so that others could learn from my mistakes. See more <a
-                            href="https://medium.com/@MakeMeSenpai/c-h-d-59be534c9209" target="_blank">here!</a></p>
-                </section>
+        <section id="work">
+            <h2>Work Experience</h2>
 
-                <section class="projectName">
-                    <h3 class="right">Technical Document (HTML5/CSS3 - Web Designer)</h3>
-                    <img src="static/imgs/technical-document.png" class="right" class="project-title">
-                    <p class="summary2">This is the 'scientific document' of the internet, designed towards helping
-                        people learn things in a clear and concise </p>
-                    <p>manner. The project was aimed towards teaching others how to code using this format. I displayed
-                        my abilities in my knowledge in other codes than just css and html, as well as showed a well
-                        designed website with helpful information which has already
-                        helped robotic kids get a great first time understanding of what programming in v5 is like, and
-                        how alike it is to the native languege of c++. See more<a
-                            href="https://codepen.io/makemesenpai/full/gKBgeM?editors=1100" target="_blank">
-                            here</a>.</p>
-                </section>
-
-                <section class="projectName">
-                    <h3>Small Survey (HTML5/CSS3 - Web Designer)</h3>
-                    <img src="static/imgs/small-survey.png" class="project-title">
-                    <p class="summary1">This is a small survey project, and another step towards my Web Designer
-                        Certificate. I can make custom ones just for you, and you can </p>
-                    <p>send it to all of your friends. This site is very small and simple, but it shows potential uses
-                        in more organized online applications which are used almost completely over paper applications.
-                        Whether if it's for a job, college, or just a simple quiz
-                        about you. This website displays that I can make it for you! See more<a
-                            href="https://codepen.io/makemesenpai/full/VdEKvj" target="_blank">
-                            here</a>.</p>
-                </section>
-
-                <section class="projectName">
-                    <h3 class="right">Pet Shop (HTML5/CSS3 - Web Designer)</h3>
-                    <img src="static/imgs/petshop.png" class="right" class="project-title">
-                    <p class="summary2">My first real practice website I ever made when learning HTML5 and CSS3. I
-                        started after my first hackathon and was taking</p>
-                    <p> online courses from FreeCodeCamp. This website displays most of my capabilities, and the coding
-                        is designed to help with both my memory, and others who read it. I have learned a lot more sense
-                        than, but it's still one of my favorite worked on
-                        projects. See more<a href="https://codepen.io/makemesenpai/full/XQyapO" target="_blank">
-                            here</a>.</p>
-                </section>
-            </projects>
         </section>
-
-
-
-        <section id="xp">
-            <article>
-                <h2>Technical Experience</h2>
-                <p>Though I do not have much experience in the field. I actively participate in Technical
-                    and business events, such as YCommidator. As well as study to learn all I can about
-                    coding. As a Junior at Make School, I take the extra step to selfteach myself more
-                    and sit in on extra classes. I intend to do as much as I can. While also having fun
-                    making use out of the projects I make on the little free time I have.</p>
-
-                <aside>My main objective is to learn all that I can, grow as a person, and
-                    just overall having a good time.</aside>
-            </article>
-        </section>
-
-        <!-- <section id="collab"></section> -->
 
         <section id="volunteer">
             <h2>Volunteer Experience</h2>
@@ -343,6 +247,67 @@ If the company you’re working with wants to stay private, list the company as 
        Keep the resume to 1 page and save as PDF before you apply to a job (scroll to p.2 for more tips)
        Swap these bonus sections in as you see fit - resume should fit on 1-page
        </pre>
+        </section>
+
+        <section id="hobby">
+            <h2>Hobby Projects</h2>
+            <projects class="projects">
+                <section class="project-name">
+                    <h3>Knuckles (Python/PyGame - Data Scientist)</h3>
+                    <a href="https://github.com/Rasenku/Knuckles" target="_blank">
+                        <img class="project-img l" src="static/imgs/knuckles.png">
+                    </a>
+                    <p>This was an experiment a peer and I made. Our goal was to create a path finder. Despite it being
+                        a very slow program, users are able to draw on the canvas and create mazes, a start and end
+                        point, and see all the paths our little knuckles took in order to find the way. See more<a
+                            href="https://github.com/Rasenku/Knuckles" target="_blank">
+                            here</a>.</p>
+                </section>
+
+                <section class="project-name">
+                    <h3 class="hr"><abbr title="Christmas Hack Decorations">C.H.D.</abbr> (C++, Arduino - Hardware
+                        Engineer)</h3>
+                    <a href="https://medium.com/@MakeMeSenpai/c-h-d-59be534c9209" target="_blank">
+                        <img class="project-img r" src="static/imgs/chd.jpeg">
+                    </a>
+                    <p> CHD (pronounce Chad), short for Christmas hack decorations, was a personal
+                        project I did in my freetime. My goal was to
+                        learn more about hardware, by hacking christmas lights and making them flash to music. I still
+                        use these lights til this day, and they make great party lights.
+                        After burning 7 fuses, and desperately looking for information from friends and the internet. I
+                        was finally able to put everything together, and figure it all out in under 2 weeks. Learning
+                        how Audrino, currents, and microphone information. I also
+                        wrote an article so that others could learn from my mistakes. See more <a
+                            href="https://medium.com/@MakeMeSenpai/c-h-d-59be534c9209" target="_blank">here!</a></p>
+                </section>
+
+                <section class="project-name">
+                    <h3>Snow Globe (HTML5/CSS3 - Web Designer)</h3>
+                    <a href="https://codepen.io/makemesenpai/full/XQyapO" target="_blank">
+                        <img class="project-img l" src="static/imgs/snow_globe.png">
+                    </a>
+                    <p>It had been a while since I was able to use css, so I decided to make a fun animation with my
+                        free time. This focuses on the concept of animations, and I used some of the things I learned in
+                        working in maya to help establish ideas and what I wanted to do. See more<a
+                            href="https://codepen.io/makemesenpai/full/XQyapO" target="_blank">
+                            here</a>.</p>
+                </section>
+
+                <section class="project-name">
+                    <h3 class="hr">Small Survey (HTML5/CSS3 - Web Designer)</h3>
+                    <a href="https://codepen.io/makemesenpai/full/VdEKvj" target="_blank">
+                        <img class="project-img r" src="static/imgs/small-survey.png">
+                    </a>
+                    <p>This is a small survey project, and another step towards my Web Designer
+                        Certificate. I can make custom ones just for you, and you can
+                        send it to all of your friends. This site is very small and simple, but it shows potential uses
+                        in more organized online applications which are used almost completely over paper applications.
+                        Whether if it's for a job, college, or just a simple quiz
+                        about you. This website displays that I can make it for you! See more<a
+                            href="https://codepen.io/makemesenpai/full/VdEKvj" target="_blank">
+                            here</a>.</p>
+                </section>
+            </projects>
         </section>
 
         <section id="bonus-xp">
@@ -369,6 +334,27 @@ If the company you’re working with wants to stay private, list the company as 
             <h2>Leadership Experience</h2>
             <p> I was a Link Crew member, the Executive Programmer of Highland Robotics Team Z,
                 as well as the President and Founder of the Music Club at Make School</p>
+        </section>
+
+        <section id="collab">
+            <h2>Industry Collaboration Experience</h2>
+            <projects class="projects">
+                <section class="project-name">
+                    <h3>Trilliant.ai (React.js - Design Lead/Git Master)</h3>
+                    <a href="https://trilliant-5ed97.firebaseapp.com/" target="_blank">
+                        <img class="project-img l" src="static/imgs/trilliant.png">
+                    </a>
+                    <p>Collaborated with a team of 3 to design a website to match the client's needs. Contributed to the
+                        website's search algorithm using tags and filters to help users search the website’s
+                        catalog. Managing all commits to the repository. After about 4 months of work, our team was able
+                        to meet the clients needs and spend more time on design, and other features. Going threw the
+                        trials of having an incomplete google sheet as our database and the struggles of hosting a
+                        website live on firebase. We also had creative freedom over the <a
+                            href="https://www.shoptrilliant.com/">original website</a>. See more<a
+                            href="https://trilliant-5ed97.firebaseapp.com/" target="_blank">
+                            here</a>.</p>
+                </section>
+            </projects>
         </section>
     </main>
 
@@ -441,6 +427,7 @@ If the company you’re working with wants to stay private, list the company as 
             <li><a href="https://www.linkedin.com/in/anthony-protho-07a0b418a/">LinkedIn</a></li>
             <li><a href="https://github.com/MakeMeSenpai">GitHub</a></li>
             <li><a href="https://codepen.io/makemesenpai">CodePen</a></li>
+            <li><a href="./docs/Anthony_Protho_Resume__2021.pdf" download="Anthony_Protho_Resume__2021">Resume</a></li>
         </ul> <!-- Nav Left -->
         <!-- <a class="nav-left" href="./home.html"> Home </a> -->
     </footer>
