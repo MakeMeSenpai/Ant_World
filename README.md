@@ -59,3 +59,10 @@ Like I said, overall, the content itself is
 good.
 
 P.S. Hey, more on the portfolio... Have you looked at it on a phone? The page doesn't show up well at all in terms of formatting. You should definitely fix that! ~D
+
+Friendly fonts and size
+Improve accessibility
+Improve functionality
+Offline capabilities. - Become familiar with service worker api
+Mobil first, a website that fits all screen sizes.
+Take a look at parallax effect, maybe something you’d like to add? ~J
