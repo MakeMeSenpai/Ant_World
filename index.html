@@ -1,26 +1,524 @@
 <!DOCTYPE html>
-<!-- This is our Home Page! :3 -->
+<!-- This is our Portfolio Page! :3 -->
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="static/home.css" rel="stylesheet" type="text/css">
-    <title>Ant's Home</title>
+    <link href="static/dist/portfolio.css" rel="stylesheet" type="text/css">
+    <title>Ant's Portfolio</title>
 </head>
 
 
 
 <body>
-    <div id="box">
-        <h1><a href="./portfolio.html">Portfolio</a></h1>
-        <!-- <h1><a href="./book.html">The Book</a></h1>
-        <h1><a href="./music.html">Music</a></h1>
-        <h1><a href="./art.html">Art Stuff</a></h1>
-        <h1><a href="./corner.html">The Corner</a></h1> -->
-        <p>~ THIS SITE IS IN DRAFT PHASE</p>
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar">
+            <a href="#me">
+                <div id="pb0" class="progress-ball"></div>
+            </a>
+            <a href="#skills">
+                <div id="pb1" class="progress-ball"></div>
+            </a>
+            <a href="#engineer">
+                <div id="pb2" class="progress-ball"></div>
+            </a>
+            <a href="#work">
+                <div id="pb3" class="progress-ball"></div>
+            </a>
+            <a href="#hobby">
+                <div id="pb4" class="progress-ball"></div>
+            </a>
+            <a href="#bonus-xp">
+                <div id="pb5" class="progress-ball"></div>
+            </a>
+            <a href="#deep">
+                <div id="pb6" class="progress-ball"></div>
+            </a>
+            <a href="#footer">
+                <div id="pb7" class="progress-ball"></div>
+            </a>
+        </div>
     </div>
+
+    <header>
+        <!-- Nav Left -->
+        <nav class="navbar nav-left">
+            <a class="left-items" href="./index.html"> <img class="left-items" src="./static/imgs/corner_icon.png"></a>
+            <h1 class="name left-items">Anthony S Protho</h1>
+        </nav>
+        <!-- Right Nav -->
+        <nav class="navbar nav-right">
+            <a href="https://www.linkedin.com/in/ant-protho/" target="_blank">
+                <img class="right-items" src="./static/imgs/linkin_icon.png">
+            </a>
+            <a href="https://github.com/MakeMeSenpai/" target="_blank">
+                <img class="right-items" src="./static/imgs/github_icon.png">
+            </a>
+            <form action="mailto:AnthonySeanProtho@gmail.com">
+                <button id="nav-btn" class="right-items" type="submit">Contact</button>
+            </form>
+        </nav>
+    </header>
+
+
+
+    <main class="world-content">
+        <div id="me">
+            <article>
+                <hgroup class="name-content">
+                    <h2>I code to create. I code to be challenged. I code for Fun</h2>
+                    <h3>Senior at Make School ● Bakersfield, CA</h3>
+                </hgroup>
+
+                <p>&emsp; Artist, Software Developer, Hardware Engineer, Go-Getter, Friend, I am this and much more. But
+                    most of all I am a
+                    student
+                    who wants to learn. I have created an abundance of projects (some of which you will see below), and
+                    hope to build a lot more that help
+                    produce a better future for everyone. I hope to grow as a leader, creator, and overall
+                    person.
+                    My main goals include finish all my personal projects, helping all I can, and overall just having a
+                    good time. Life is too short not to love it.</p>
+            </article>
+
+            <figure class="selfie-figure" alt="pictures of Ant">
+                <div id="m0" class="magnet">
+                    <div></div>
+                </div>
+                <div class="selfie">
+                    <img src="static/imgs/selfie.jpeg">
+                </div>
+                <div id="m1" class="magnet green">
+                    <div></div>
+                </div>
+                <div class="ant">
+                    <img src="static/imgs/ant.jpeg">
+                </div>
+                <div id="m2" class="magnet blue">
+                    <div></div>
+                </div>
+                <div class="poof">
+                    <img src="static/imgs/poof.jpeg">
+                </div>
+            </figure>
+        </div>
+
+        <div id="skills">
+            <br>
+            <section id="educate">
+                <h2>Education</h2>
+                <p>Make School, San Francisco, CA (Remote)<br>
+                    <abbr Title="Bachelors STEM Track">B.S.</abbr> Applied Computer Science (expected Aug. 2021)</p>
+            </section>
+            <br>
+
+            <section id="highlights">
+                <h2>Highlights</h2>
+                <!-- <h3>Main:</h3>
+                <ul>
+                    <li>Made my first Eshop for a friend, which is currently live, called Reptile Harmony</li>
+                    <li>Top 5 in Mental Health Hackathon, held here in SF </li>
+                    <li>Taught myself a C++ VEX language in 2 months during high school, and was recognized as
+                        the Executive programmer at my school. Making a tiny website on codepen that helped
+                        other students learn the language.</li>
+                </ul>
+
+                <h3>Extra:</h3> -->
+                <dl>
+                    <dt>Industrious Student</dt>
+                    <dd>At Highland High School was a <abbr title="Project Lead the Way - Engineering track">PLTW</abbr>
+                        Honors, Scholar Athlete, Honor Role, Art club member, percussion pit synth
+                        1, and active volunteer at CALM Zoos. Now at Make School as a Senior, ran the Music Club, helped
+                        at hackathons, and was a <abbr title="Front End Web">FEW</abbr>
+                        <abbr title="Teacher Assistant">TA</abbr> (2019-2020).
+                    </dd>
+                    <br>
+                    <dt>Autodidactic</dt>
+                    <dd>HackerEarth top 10% of programmers (2017), Web Developer Certificate (2018) from
+                        FreeCodeCamp, self taught C/C++, self taught Piano (and other instruments),
+                        self taught Hardware Engineer.</dd>
+                    <br>
+                    <dt>Geared Up</dt>
+                    <dd>Pool boy (2012), Grape Harvester (2015), Oil Field assistant, Associate level 2 at
+                        In N Out Burger (2018-2019).
+                    </dd>
+                </dl>
+            </section>
+            <br>
+
+            <section id="tech">
+                <h2>Technical Skills</h2>
+                <ul class="flex-space">
+                    <li>Python Flask</li>
+                    <li><abbr title="Hypertext Markup Language -v.5">HTML5</abbr>/<abbr
+                            title="Sassy Cascading Style Sheets -v.3">SCSS3</abbr></li>
+                    <li>REACT.<abbr title="JavaScript">js</abbr>/node.<abbr title="JavaScript">js</abbr></li>
+                    <li>Mongo<abbr title="database">DB</abbr></li>
+                    <li><abbr title="Application Programming Interfaces">APIs</abbr></li>
+                    <li>C++</li>
+                    <li>Adobe XD</li>
+                    <li>Inventor</li>
+                    <li>Maya</li>
+                    <li>Swift</li>
+                </ul>
+            </section>
+            <br>
+        </div>
+
+        <section id="engineer">
+            <h2>Engineering Projects</h2>
+            <projects class="projects">
+                <section class="project-name">
+                    <div class="magnet ml1">
+                        <div></div>
+                    </div>
+                    <div class="magnet ml2">
+                        <div></div>
+                    </div>
+                    <h3>Toeta (Javascript, API - ​Fullstack Engineer​)</h3>
+                    <a href="https://toeta.herokuapp.com/" target="_blank">
+                        <img class="project-img l" src="./static/imgs/toeta.png">
+                    </a>
+                    <p>For all the chefs new and old who are finding it hard to decide what to eat for dinner today,
+                        Toeta is the solution for you. The goal of this project was to solve the ever lasting question
+                        "What do I want to eat today?". With many plans for the future as what this project should be,
+                        it currently just gives a random recipe using spoonacular API. It took a lot of time to get
+                        this thing to go server side, given that static websites aren't meant to be on clouds, so I made
+                        a php backend to solve this problem, and hope for this to become much more in the future. See
+                        more<a href="https://toeta.herokuapp.com/" target="_blank"> here</a>.</p>
+                </section>
+                <br>
+                <section class="project-name">
+                    <div class="magnet blue mr1">
+                        <div></div>
+                    </div>
+                    <div class="magnet green mr2">
+                        <div></div>
+                    </div>
+                    <h3 class="hr">Don’t Mix That! (Flask, MongoDB, Git - Backend and Git Master)</h3>
+                    <a href="https://dontmixthat.herokuapp.com" target="_blank">
+                        <img class="project-img r" src="./static/imgs/dmt.png">
+                    </a>
+                    <p>The virtual trading card game, was a project in which 4 people, including
+                        myself, worked in a female empowered group. The amount of
+                        stress that went into this project, involving teamwork affairs, and making everything come
+                        together was insane. However the idea was great, and the journey was greater. I was in charge of
+                        ensuring that all pushes, merges, and pulls were cleanly done
+                        in git, as well as making sure that the server could run on a live server, and making sure that
+                        the database information could be interpreted by our website. I learned a lot about team
+                        oriented programing, git, and backend programing. See more
+                        <a href="https://dontmixthat.herokuapp.com" target="_blank"> here</a>.</p>
+                </section>
+                <br>
+                <section class="project-name">
+                    <div class="magnet yellow ml1">
+                        <div></div>
+                    </div>
+                    <div class="magnet ml2">
+                        <div></div>
+                    </div>
+                    <h3>Trouble Maker (VEX, C++ - Executive Programmer)</h3>
+                    <a href="https://www.bakersfield.com/entertainment/rollin-the-streets-of-bakersfield-for-annual-robotics-competition/article_4bc1fc94-137c-11e9-9ba8-7b04e8b58ba4.html"
+                        target="_blank">
+                        <img class="project-img l" src="./static/imgs/trouble-maker.jpg">
+                    </a>
+                    <p>After many months of endless coding, I was in charge of getting our vex brain to
+                        interpret remote controls, autonomous driving,
+                        and ensuring that the machine could surpass the obstacles collecting as many points as possible.
+                        I pushed the members of our team to do their parts and stayed on top of mine to ensure that our
+                        team made it to state. In my first year there I got the
+                        struggling Team Z to the Google Complex, in San Jose, to compete for world. See more
+                        <a href="https://www.bakersfield.com/entertainment/rollin-the-streets-of-bakersfield-for-annual-robotics-competition/article_4bc1fc94-137c-11e9-9ba8-7b04e8b58ba4.html"
+                            target="_blank">
+                            here</a>.</p>
+                </section>
+                <br>
+            </projects>
+            <footer class="hr">;and this very Website!</footer>
+        </section>
+        <br>
+
+        <section id="work">
+            <h2>Work Experience</h2>
+            <div class="xp">
+                <p>Avina Campus</p>
+                <p class="hr">Philadelphia, PA (Remote)</p>
+                <p>Front End Web - Early Employee</p>
+                <p class="hr">March 2021 - Current</p>
+                <p>Implemented bug fixes that manipulated the repository which was adopted by the team by utilizing Git
+                    and using React.Js and SCSS.
+                    Organized Technical front-end plan implemented by the team by searching for bugs and creating an
+                    easy way for everyone to manage tasks in international time zones.
+                </p>
+            </div>
+            <br>
+            <div class="xp">
+                <p>Make School</p>
+                <p class="hr">(Remote) San Francisco, CA</p>
+                <p>Teaching Assistant</p>
+                <p class="hr">Aug. 2020 - Jan. 2021</p>
+                <p>Promoted a class of 240 students’ growth by helping them develop and debug their engineering projects
+                    - which were in an abundance of different technologies such HTML, CSS, SASS, Node.js, Python, and
+                    Flask.
+                    Improved comprehension of concepts preventing 5 students from failing their courses by reviewing,
+                    and teaching computer science concepts.
+                </p>
+            </div>
+        </section>
+        <br>
+
+        <section id="volunteer">
+            <h2>Volunteer Experience</h2>
+            <div class="xp">
+                <p>CALM Zoos</p>
+                <p class="hr">Bakersfield, CA</p>
+                <p>Volunteer</p>
+                <p class="hr">Nov. 2017 - Feb. 2018</p>
+                <p>Did basic cleaning of pins, and feed some of the animals. I wanted to give those zoo animals the best
+                    lives possible given that they had been domesticated and taken from their homes. But as much as I
+                    like animals I won't be going vegan for them. This was just a nice experience and was me trying to
+                    help out in my community.</p>
+            </div>
+        </section>
+        <br>
+
+        <section id="hobby">
+            <h2>Hobby Projects</h2>
+            <projects class="projects">
+                <section class="project-name">
+                    <div class="magnet yellow ml1">
+                        <div></div>
+                    </div>
+                    <div class="magnet green ml2">
+                        <div></div>
+                    </div>
+                    <h3>Knuckles (Python/PyGame - Data Scientist)</h3>
+                    <a href="https://github.com/Rasenku/Knuckles" target="_blank">
+                        <img class="project-img l" src="static/imgs/knuckles.png">
+                    </a>
+                    <p>This was an experiment a peer and I made. Our goal was to create a path finder. Despite it being
+                        a very slow program, users are able to draw on the canvas and create mazes, a start and end
+                        point, and see all the paths our little knuckles took in order to find the way. See more<a
+                            href="https://github.com/Rasenku/Knuckles" target="_blank">
+                            here</a>.</p>
+                </section>
+                <br>
+
+                <section class="project-name">
+                    <div class="magnet yellow mr1">
+                        <div></div>
+                    </div>
+                    <div class="magnet yellow mr2">
+                        <div></div>
+                    </div>
+                    <h3 class="hr"><abbr title="Christmas Hack Decorations">C.H.D.</abbr> (C++, Arduino - Hardware
+                        Engineer)</h3>
+                    <a href="https://medium.com/@MakeMeSenpai/c-h-d-59be534c9209" target="_blank">
+                        <img class="project-img r" src="static/imgs/chd.jpeg">
+                    </a>
+                    <p> CHD (pronounce Chad), short for Christmas hack decorations, was a personal
+                        project I did in my free time. My goal was to
+                        learn more about hardware, by hacking christmas lights and making them flash to music. I still
+                        use these lights til this day, and they make great party lights.
+                        After burning 7 fuses, and desperately looking for information from friends and the internet. I
+                        was finally able to put everything together, and figure it all out in under 2 weeks. Learning
+                        how Audrino, currents, and microphone information. I also
+                        wrote an article so that others could learn from my mistakes. See more <a
+                            href="https://medium.com/@MakeMeSenpai/c-h-d-59be534c9209" target="_blank">here!</a></p>
+                </section>
+                <br>
+
+                <section class="project-name">
+                    <div class="magnet ml1">
+                        <div></div>
+                    </div>
+                    <div class="magnet ml2">
+                        <div></div>
+                    </div>
+                    <h3>Snow Globe (HTML5/CSS3 - Web Designer)</h3>
+                    <a href="https://codepen.io/makemesenpai/full/XQyapO" target="_blank">
+                        <img class="project-img l" src="static/imgs/snow_globe.png">
+                    </a>
+                    <p>It had been a while since I was able to use css, so I decided to make a fun animation with my
+                        free time. This focuses on the concept of animations, and I used some of the things I learned in
+                        working in maya to help establish ideas and what I wanted to do. See more<a
+                            href="https://codepen.io/makemesenpai/full/XQyapO" target="_blank">
+                            here</a>.</p>
+                </section>
+                <br>
+
+                <section class="project-name">
+                    <div class="magnet blue mr1">
+                        <div></div>
+                    </div>
+                    <div class="magnet green mr2">
+                        <div></div>
+                    </div>
+                    <h3 class="hr">Small Survey (HTML5/CSS3 - Web Designer)</h3>
+                    <a href="https://codepen.io/makemesenpai/full/VdEKvj" target="_blank">
+                        <img class="project-img r" src="static/imgs/small-survey.png">
+                    </a>
+                    <p>This is a small survey project, and another step towards my Web Designer
+                        Certificate. I can make custom ones just for you, and you can
+                        send it to all of your friends. This site is very small and simple, but it shows potential uses
+                        in more organized online applications which are used almost completely over paper applications.
+                        Whether if it's for a job, college, or just a simple quiz
+                        about you. This website displays that I can make it for you! See more<a
+                            href="https://codepen.io/makemesenpai/full/VdEKvj" target="_blank">
+                            here</a>.</p>
+                </section>
+            </projects>
+        </section>
+        <br>
+
+        <section id="bonus-xp">
+            <h2>Additional Experience</h2>
+            <div class="xp">
+                <p>In-N-Out Burger</p>
+                <p class="hr">Bakersfield, CA</p>
+                <p>Lvl 2 Associate</p>
+                <p class="hr">Nov. 2018 - Aug. 2019</p>
+                <p>Gained a bunch of soft skills from my first ever real job. It was a fast-paced environment, where I
+                    worked mostly as a bilingual cashier and on customer services. Heavily based on communication and
+                    teamwork skills I was responsible for taking orders, Cleaning, Making French Fries and drinks, and
+                    serving customers with a smile. This job had a very bright and hardworking environment that I really
+                    came to enjoy, and taught me the importance of customer's happiness, sales, and safety.
+                </p>
+            </div>
+            <br>
+            <div class="xp">
+                <p>Valencia Farms</p>
+                <p class="hr">Bakersfield, CA</p>
+                <p>Harvester</p>
+                <p class="hr">Oct. 2015</p>
+                <p>This was really a job of diligence, with freezing mornings to hot afternoons bending over to pick
+                    ready grapes. The largest barrier being language, and having to communicate best I could knowing a
+                    lot less spanish than I do now. This job taught me about humbleness, gratitude, and working smarter
+                    over working harder.</p>
+            </div>
+        </section>
+        <br>
+
+        <section id="leader">
+            <h2>Leadership Experience</h2>
+            <p> I was a Link Crew member, the Executive Programmer of Highland Robotics Team Z,
+                as well as the President and Founder of the Music Club at Make School</p>
+        </section>
+        <br>
+
+        <section id="collab">
+            <h2>Industry Collaboration Experience</h2>
+            <projects class="projects">
+                <section class="project-name">
+                    <div class="magnet yellow ml1">
+                        <div></div>
+                    </div>
+                    <div class="magnet red ml2">
+                        <div></div>
+                    </div>
+                    <h3>Trilliant.ai (React.js - Design Lead/Git Master)</h3>
+                    <a href="https://trilliant-5ed97.firebaseapp.com/" target="_blank">
+                        <img class="project-img l" src="static/imgs/trilliant.png">
+                    </a>
+                    <p>Collaborated with a team of 3 to design a website to match the client's needs. Contributed to the
+                        website's search algorithm using tags and filters to help users search the website’s
+                        catalog. Managing all commits to the repository. After about 4 months of work, our team was able
+                        to meet the clients needs and spend more time on design, and other features. Going threw the
+                        trials of having an incomplete google sheet as our database and the struggles of hosting a
+                        website live on firebase. We also had creative freedom over the <a
+                            href="https://www.shoptrilliant.com/">original website</a>. See more<a
+                            href="https://trilliant-5ed97.firebaseapp.com/" target="_blank">
+                            here</a>.</p>
+                </section>
+            </projects>
+        </section>
+        <br>
+
+        <section id="deep">
+            <h2>A Deeper Dive</h2>
+            <h3>Make School</h3>
+            <ul class="reverse">
+                <li>Got accepted: to a 10% acceptance rate, I spent all summer working my hardest to prove that I was
+                    able to attend this school (Apr. 2019).</li>
+                <li>Music Club: Founder of Make School’s Music Club (Nov. 2019).</li>
+                <li>TA: Was hired as a Front-End Web Teacher Assistant, Helping a class of 150 students debug, and
+                    develop their projects. Growing them into better Software Engineers. Using technologies such as
+                    HTML, CSS, SASS, node.js, Python, jinja, and flask (Aug. 2020- Jan. 2021).</li>
+                <li>Mentorship: mentored students in the San Francisco School district to help them learn more about
+                    tech, and what to expect outside of high school (Jan. 2021 - Currently).</li>
+                <li>Graduating: Learning how to become a better Software developer, as well as industry skills in this
+                    accelerated 2-year program (Aug. 2019-Dec. 2021).</li>
+                <li>Avina Campus: Early Employee at Avina Campus startup as a front-end Software Engineer. I used
+                    technologies such as SASS, REACT, Flutter, and Django (Mar. 2021- Currently).</li>
+            </ul>
+            <br>
+            <h3>High School</h3>
+            <ul class="reverse">
+                <li>Art Club: during lunch and outside of school, we would join to create artworks. And won 3rd
+                    place in the mini-league for Via Arte (2015).</li>
+                <li>Sports: Was in Track and Football -with our team winning 10-0, and being the top 12 sprinters at
+                    my school (2015-2016).</li>
+                <li>Honor Athletes Award: Awarded to students who were in sports and maintained a GPA of 3.5 or
+                    higher (2016).
+                <li><abbr title="Pep & Pageantry Arts Association of Central California">PPAACC</abbr>: I was the
+                    2nd chair in my regular band playing clarinet, however, while also joining the pit, I became the
+                    lead pianist, as well as being in charge of all the electronics when it came to setting up and
+                    tearing down the operation. In charge of playing piano, and sound effects for the show. We were
+                    to act out scenes and learn our parts before bringing them together for one beautiful piece. We
+                    got 1st out of 18 Schools in my last competition (2017-2018).</li>
+                <li>HackerEarth top 10%: recognized as top 10% of programmers on their site for C (2017).</li>
+                <li>ROC: Went into 3D animation at ROC which is a career center in Bakersfield meant to get people
+                    jobs under those classes. I worked with Maya, Photoshop, and Adobe Pro (2018).</li>
+                <li>Link Crew: Was responsible for helping 12 new students and their parents learn about and feel
+                    more comfortable for their first time being at Highland (2018).</li>
+                <li>FreeCodeCamp Web Design Certificate: 300+ hours and 5 projects based on learning html5, css3,
+                    and bootstrap (2018).</li>
+                <li>Robotics: An executive programmer from the <abbr
+                        title="Project Lead the Way - Engineering track">PLTW</abbr> Engineering class, teaching
+                    others how to code, and brought my team (Z) to state. We won 5th out of 35 schools (2018-2019).
+                </li>
+                <li><abbr title="Project Lead the Way - Engineering track">PLTW</abbr> Honor Engineer: recognized
+                    for having higher than a 3.5 grade for at least 3 years (2019).</li>
+                <li>Associate Lvl 2: Working at In-N-Out Burger was a learning experience. I gained a bunch of soft
+                    skills from my first ever real job. It was a fast-paced environment, where they worked mostly on
+                    cashier and customer service. Heavily based on communication and teamwork skills (Nov. 2018 -
+                    Aug. 2019).</li>
+            </ul>
+            <br>
+            <h3>Before High School</h3>
+            <ul class="reverse">
+                <li>Trustworthiness Award - May seem silly but I'm still proud of it (2007).</li>
+                <li>Moved a lot! This may not seem like much of a skill but learning to adapt to new environments
+                    consistently was a large trial for me and has also helped me learn how to communicate better
+                    with strangers having to meet so many new ones. I also kept good grades in school despite being
+                    bullied, lacking information, and having to deal with family turmoil (2001-2009)</li>
+                <li>Pool boy helping neighbors clean their pool was a small-time thing, and the neighbor has moved
+                    since (2013).</li>
+                <li>Worked in the fields as a harvester picking grapes (2015).</li>
+                <li>Worked in the OilField helping out with whatever was asked of me, including breaking pipes and
+                    running wells (still going whenever needed).</li>
+            </ul>
+        </section>
+        <br>
+    </main>
+
+    <footer id="footer">
+        <p>My verified certificate <a
+                href="https://www.freecodecamp.org/certification/makemesenpai/responsive-web-design"
+                target="_blank">here</a></p>
+        <ul class="flex-space">
+            <li><a href="https://www.linkedin.com/in/ant-protho/">LinkedIn</a></li>
+            <li><a href="https://github.com/MakeMeSenpai">GitHub</a></li>
+            <li><a href="https://codepen.io/makemesenpai">CodePen</a></li>
+            <li><a href="https://www.makeschool.com/portfolio/ant-protho">Make School</a></li>
+            <li><a href="./docs/Anthony_Protho_Resume_2021.pdf" download="Anthony_Protho_Resume_2021">Resume</a></li>
+        </ul> <!-- Nav Left -->
+        <!-- <a class="nav-left" href="./home.html"> Home </a> -->
+    </footer>
+
+    <script src="scripts/portfolio.js"></script>
 </body>
 
 </html>

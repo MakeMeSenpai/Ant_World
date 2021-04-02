@@ -1,0 +1,55 @@
+body {
+  background-image: url("./imgs/library.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  filter: brightness(0.75);
+}
+
+a :hover {
+  background-color: rgba(175, 175, 175, 0.75);
+}
+
+.page {
+  position: absolute;
+  transform: scale(0.25) rotate(25deg);
+}
+
+.one {
+  margin-top: -200px;
+}
+
+.two {
+  margin-top: -50px;
+}
+
+.three {
+  margin-top: 100px;
+}
+
+.four {
+  margin-top: 250px;
+}
+
+.left {
+  margin-left: -200px;
+}
+
+.right {
+  margin-left: 975px;
+}
+
+.book {
+  transform: rotate(25deg) scale(0.85);
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 450px;
+}
+
+.soon {
+  position: fixed;
+  transform: scale(1.5) rotate(-15deg);
+  margin-top: 250px;
+  margin-left: 450px;
+  z-index: 7;
+}

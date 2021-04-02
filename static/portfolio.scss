@@ -1,7 +1,7 @@
 html {
     overflow-x: hidden;
-    font-family: Marker Felt;
     /* Bradley Hand | Comic Sans MS | OCR A Std | fantasy */
+    font-family: Marker Felt;
     font-size: x-large;
     letter-spacing: 0.5px;
     line-height: 1.25;
@@ -61,31 +61,35 @@ percentages.. meaning if we were to use another js algorithm and scss
 we should be able to lock these points exactly where they need to be 
 no matter screen size. But that's for another time because it's 12:32am
 for me, so good luck future Ant. ~Past Ant*/
-#pb1 {
+
+// @for $i from 0 to 6 {
+
+// }
+#pb0 {
     top: 32px;
 }
 
-#pb2 {
+#pb1 {
     top: 60px;
 }
 
-#pb3 {
+#pb2 {
     top: 175px;
 }
 
-#pb4 {
+#pb3 {
     top: 200px;
 }
 
-#pb5 {
+#pb4 {
     top: 375px;
 }
 
-#pb6 {
+#pb5 {
     top: 450px;
 }
 
-#pb7 {
+#pb6 {
     top: 465px;
 }
 
@@ -210,17 +214,17 @@ can draw! */
             rgba(255, 255, 255, 0.45) 100%);
 }
 
-#m1 {
+#m0 {
     margin-top: -21px;
     margin-left: 182px;
 }
 
-#m2 {
+#m1 {
     margin-left: 305px;
     margin-top: -32px;
 }
 
-#m3 {
+#m2 {
     margin-left: 175px;
     margin-top: -32px;
 }
@@ -235,12 +239,12 @@ can draw! */
     margin-left: 345px;
 }
 
-.mr1{
+.mr1 {
     margin-top: 60px;
     margin-left: 950px;
 }
 
-.mr2{
+.mr2 {
     margin-top: 80px;
     margin-left: 1300px;
 }

@@ -1,0 +1,72 @@
+.soon {
+  position: fixed;
+  transform: scale(1.5) rotate(-15deg);
+  margin-top: 200px;
+  margin-left: 450px;
+  z-index: 7;
+}
+
+body {
+  background-image: url("./imgs/tile.jpeg");
+  background-repeat: repeat;
+  background-color: lightgrey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  position: absolute;
+  text-align: center;
+  margin-top: -50px;
+  margin-left: 300px;
+  color: lightblue;
+  background-color: lightslategray;
+}
+
+.container {
+  max-width: 800px;
+  margin-top: 150px;
+  margin-left: 300px;
+  background-color: khaki;
+  border-style: solid;
+  border-color: lightcoral;
+  border-radius: 25px;
+  border-width: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+  /*this code is obsolete, avoid using grid-gap */
+  grid-template-areas: "j j . k" "j j . k" "l l l m";
+}
+
+#j {
+  display: block;
+  grid-area: j;
+  height: 375px;
+  width: 375px;
+}
+
+#k {
+  display: block;
+  grid-area: k;
+  height: 375px;
+  width: 187.5px;
+}
+
+#l {
+  display: block;
+  grid-area: l;
+  height: 187.5px;
+  width: 550px;
+}
+
+#m {
+  display: block;
+  grid-area: m;
+  height: 187.5px;
+  width: 187.5px;
+}
+
+img {
+  height: inherit;
+  width: inherit;
+}

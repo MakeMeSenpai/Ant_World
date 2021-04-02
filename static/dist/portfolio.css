@@ -1,0 +1,417 @@
+html {
+  overflow-x: hidden;
+  /* Bradley Hand | Comic Sans MS | OCR A Std | fantasy */
+  font-family: Marker Felt;
+  font-size: x-large;
+  letter-spacing: 0.5px;
+  line-height: 1.25;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  /* background-image: url("./imgs/crumpled-paper.jpg"); */
+  background-color: #eeedf2;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Progression */
+.progress-container {
+  top: 100px;
+  left: 28px;
+  height: 85%;
+  width: 7.5px;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 2px;
+  position: fixed;
+  background: #00aeff;
+  box-shadow: 0 0 5px black;
+}
+
+.progress-bar {
+  height: 0%;
+  width: 7.5;
+  background: blue;
+  justify-content: center;
+}
+
+.progress-ball {
+  left: -8px;
+  top: 4.5px;
+  position: relative;
+  height: 21px;
+  width: 21px;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 2px;
+  background: #00aeff;
+}
+
+/* I have a theory that the scroll of a websites value is based on
+percentages.. meaning if we were to use another js algorithm and scss
+we should be able to lock these points exactly where they need to be 
+no matter screen size. But that's for another time because it's 12:32am
+for me, so good luck future Ant. ~Past Ant*/
+#pb0 {
+  top: 32px;
+}
+
+#pb1 {
+  top: 60px;
+}
+
+#pb2 {
+  top: 175px;
+}
+
+#pb3 {
+  top: 200px;
+}
+
+#pb4 {
+  top: 375px;
+}
+
+#pb5 {
+  top: 450px;
+}
+
+#pb6 {
+  top: 465px;
+}
+
+#welcome-section {
+  min-height: 100vh;
+}
+
+.navbar {
+  margin-top: -3vh;
+  position: fixed;
+  z-index: 5;
+  top: 25px;
+}
+
+.nav-left {
+  left: -21px;
+  width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left-items {
+  height: 75px;
+  margin-left: 2.25;
+}
+
+.name {
+  font-size: 65px;
+  margin-top: 0px;
+}
+
+.nav-right {
+  right: 0px;
+  width: 19%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right-items {
+  height: 75px;
+  margin-left: 2.25;
+}
+
+#nav-btn {
+  width: 100px;
+  cursor: pointer;
+  font-size: larger;
+  font-style: oblique;
+  background-color: aqua;
+  box-shadow: insert 0 0 5px black;
+}
+
+.world-content {
+  margin-left: 60px;
+  margin-top: 100px;
+  width: 95%;
+}
+
+#me {
+  top: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#me article {
+  top: 50px;
+  height: 65%;
+  width: 65%;
+  position: relative;
+  text-align: center;
+}
+
+.name-content {
+  position: relative;
+  /* margin-left: 45em; */
+}
+
+#me figure {
+  width: 35%;
+}
+
+/* controls our magnets  */
+/* cool idea: what if users can click on the tape, ripping it off, and making our pictures fall off screen? */
+/* better idea, fantasy font was unreadable so while exchanging it for market font, we also removed the paper
+background. This gives the website a much cleaner look, and we can in turn hold up our img's with 
+magnets and let users play with the magnets. Oh Oh! and maybe there can be a few markers at the bottom so users
+can draw! */
+.magnet {
+  display: block;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  box-shadow: 1.5px 1.5px 5px black;
+  background-color: red;
+  position: absolute;
+  z-index: 2;
+}
+
+.green {
+  background-color: #4fb90a;
+}
+
+.yellow {
+  background-color: #ebc70a;
+}
+
+.blue {
+  background-color: #1180bd;
+}
+
+.magnet div {
+  display: block;
+  height: 45px;
+  width: 45px;
+  position: relative;
+  margin: auto;
+  border-radius: 50%;
+  background: linear-gradient(150deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.75) 12%, rgba(148, 148, 148, 0.05) 75%, rgba(255, 255, 255, 0.45) 100%);
+}
+
+#m0 {
+  margin-top: -21px;
+  margin-left: 182px;
+}
+
+#m1 {
+  margin-left: 305px;
+  margin-top: -32px;
+}
+
+#m2 {
+  margin-left: 175px;
+  margin-top: -32px;
+}
+
+/* markers for project photos*/
+.ml1 {
+  margin-top: 75px;
+}
+
+.ml2 {
+  margin-top: 60px;
+  margin-left: 345px;
+}
+
+.mr1 {
+  margin-top: 60px;
+  margin-left: 950px;
+}
+
+.mr2 {
+  margin-top: 80px;
+  margin-left: 1300px;
+}
+
+.selfie {
+  width: 175px;
+  height: 175px;
+  margin-left: 150px;
+  transform: rotate(25deg);
+  z-index: 1;
+}
+
+.selfie img {
+  height: inherit;
+  width: inherit;
+}
+
+.ant {
+  width: 175px;
+  height: 175px;
+  overflow: hidden;
+  margin-top: -25px;
+  margin-left: 200px;
+  transform: rotate(-15deg);
+  z-index: 1;
+}
+
+.ant img {
+  width: inherit;
+}
+
+.poof {
+  width: 175px;
+  height: 175px;
+  overflow: hidden;
+  margin-top: -25px;
+  margin-left: 150px;
+  transform: rotate(12deg);
+  z-index: 1;
+}
+
+.poof img {
+  margin-top: -35px;
+  width: inherit;
+}
+
+/* effects tech and footer ul */
+.flex-space {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* These are drawn decoration. We should use defaults for now, later add seasonal change */
+/* 
+#dec1 {
+    position: relative;
+    margin-left: 59em;
+    margin-bottom: 10em;
+    margin-top: -12.5em;
+    transform: scale(0.5);
+    z-index: 0;
+}
+
+#dec2 {
+    position: relative;
+    z-index: 2;
+    margin-left: 0em;
+    margin-top: -10em;
+    margin-bottom: 5.05em;
+    max-height: 75px;
+}
+
+#dec3 {
+    position: relative;
+    z-index: 2;
+    margin-left: 25em;
+    margin-top: -5em;
+    margin-bottom: 5em;
+    transform: scale(0.75);
+}
+
+#dec4 {
+    position: relative;
+    z-index: 2;
+    margin-left: 10em;
+    margin-top: -15em;
+    margin-bottom: 5em;
+    transform: scale(0.75);
+}
+
+#dec5 {
+    position: relative;
+    z-index: 2;
+    margin-left: 25em;
+    margin-top: -5em;
+    margin-bottom: 5em;
+    transform: scale(0.75);
+}
+
+#dec6 {
+    position: relative;
+    z-index: 2;
+    margin-left: 10em;
+    margin-top: -15em;
+    margin-bottom: 5em;
+    transform: scale(0.75);
+}
+
+#dec7 {
+    position: relative;
+    z-index: 2;
+    margin-left: 25em;
+    margin-top: -5em;
+    margin-bottom: 5em;
+    transform: scale(0.75);
+} */
+.project-name {
+  height: 400px;
+}
+
+/* controls right headers*/
+.hr {
+  text-align: right;
+}
+
+/* this controls our zigzag items*/
+.project-img {
+  height: 325px;
+  width: 400px;
+  padding: 5px;
+}
+
+.l {
+  float: left;
+  transform: rotate(-2.5deg);
+}
+
+.r {
+  float: right;
+  transform: rotate(2.5deg);
+}
+
+/* concerning experience */
+.xp {
+  margin: auto;
+  width: 95%;
+}
+
+.xp p {
+  margin: 5px;
+  padding: 0px;
+}
+
+.xp .hr {
+  margin-top: -35px;
+}
+
+/* links in footer  - maybe make them sticky pads in future?*/
+#footer {
+  font-size: 25px;
+  width: 95%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 15px;
+  margin-left: 50px;
+  padding: 4px;
+  color: black;
+  line-height: 12px;
+}
+
+.reverse {
+  transform: rotate(180deg);
+}
+
+ul.reverse > li {
+  transform: rotate(-180deg);
+}
