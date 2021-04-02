@@ -7,7 +7,7 @@ This  read me needs a real update...
 * The box, inspired by Anoukia Perry - In Pink https://www.pink.anoukiaperrey.com
 (The Corner Corp. Box displaying all our different sections. These sections include: Software 
 Engineering Portfolio, Literature, Music, Photography & Art, The Corner Corp., Biography and 
-more[such as acting career and such])
+more[such as acting career and such]) https://3dtransforms.desandro.com/cube 
 * Scrolling Sections, inspired by irui.is https://iuri.is
 (When a user zooms into one of the sections, it will take them to another page that talks about 
 that sections specifics, and when you scroll down, it should be clean and tell more about each 
@@ -45,11 +45,14 @@ portfolio on all pages that you have worked on under contract or small personal 
 
 ### Feedback
 love the scroll indicator on the left but the font is tough for me to read :cry: so i don't know all the awesome things you've done ~D
+- solved by changing font
 
 Maybe space out the sections a little more
 ex: experiences, projects, skills, etc ~P
+- added br tags
 
 I like that the top bar scrolls with the page but since there’s no background, you end up with text on text. You could make the background “appear” when you start to scroll if that’s something you want to fix. Also, personally I’m not sure what the difference between Engineering Projects and Hobby Projects is and it might give the impression that you’re done talking about projects when you finish the Engineering Projects section. Also I just realized the scroll indicator is clickable, super cool ~M
+- text is separated so that there isn't large boring text to read. Hopefully by adding projects it will be more interesting. Also removed background
 
 1. Change the font.  I can't read it without effort.  That probably means others will be similarly turned off by it.
 2. Not a big deal, but each of the nodes down the left are clickable except for the top one.  Why isn't the top one clickable?

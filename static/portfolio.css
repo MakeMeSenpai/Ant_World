@@ -1,7 +1,10 @@
 html {
     overflow-x: hidden;
-    font-family: fantasy;
-    font-size: larger;
+    font-family: Marker Felt;
+    /* Bradley Hand | Comic Sans MS | OCR A Std | fantasy */
+    font-size: x-large;
+    letter-spacing: 0.5px;
+    line-height: 1.25;
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;
@@ -14,7 +17,7 @@ html {
 }
 
 body {
-    background-image: url("./imgs/crumpled-paper.jpg");
+    /* background-image: url("./imgs/crumpled-paper.jpg"); */
     background-color: rgb(238, 237, 242);
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,7 +59,7 @@ body {
 /* I have a theory that the scroll of a websites value is based on
 percentages.. meaning if we were to use another js algorithm and scss
 we should be able to lock these points exactly where they need to be 
-no matter screen size. But that's for another time becuase it's 12:32am
+no matter screen size. But that's for another time because it's 12:32am
 for me, so good luck future Ant. ~Past Ant*/
 #pb1 {
     top: 32px;
@@ -165,15 +168,82 @@ for me, so good luck future Ant. ~Past Ant*/
     width: 35%;
 }
 
+/* controls our magnets  */
 /* cool idea: what if users can click on the tape, ripping it off, and making our pictures fall off screen? */
+/* better idea, fantasy font was unreadable so while exchanging it for market font, we also removed the paper
+background. This gives the website a much cleaner look, and we can in turn hold up our img's with 
+magnets and let users play with the magnets. Oh Oh! and maybe there can be a few markers at the bottom so users
+can draw! */
 
-/* .tape {
+.magnet {
+    display: block;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    box-shadow: 1.5px 1.5px 5px black;
+    background-color: red;
     position: absolute;
-    transform: scale(0.5);
-    margin-top: -132px;
-    margin-left: -145px;
     z-index: 2;
-} */
+}
+
+.green {
+    background-color: rgb(79, 185, 10);
+}
+
+.yellow {
+    background-color: rgb(235, 199, 10);
+}
+
+.blue {
+    background-color: rgb(17, 128, 189);
+}
+
+.magnet div {
+    display: block;
+    height: 45px;
+    width: 45px;
+    position: relative;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(150deg, rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.75) 12%, rgba(148, 148, 148, 0.05) 75%,
+            rgba(255, 255, 255, 0.45) 100%);
+}
+
+#m1 {
+    margin-top: -21px;
+    margin-left: 182px;
+}
+
+#m2 {
+    margin-left: 305px;
+    margin-top: -32px;
+}
+
+#m3 {
+    margin-left: 175px;
+    margin-top: -32px;
+}
+
+/* markers for project photos*/
+.ml1 {
+    margin-top: 75px;
+}
+
+.ml2 {
+    margin-top: 60px;
+    margin-left: 345px;
+}
+
+.mr1{
+    margin-top: 60px;
+    margin-left: 950px;
+}
+
+.mr2{
+    margin-top: 80px;
+    margin-left: 1300px;
+}
 
 .selfie {
     width: 175px;
@@ -213,10 +283,11 @@ for me, so good luck future Ant. ~Past Ant*/
     z-index: 1;
 }
 
-.poof img{
+.poof img {
     margin-top: -35px;
     width: inherit;
 }
+
 /* effects tech and footer ul */
 .flex-space {
     display: flex;
@@ -320,7 +391,7 @@ for me, so good luck future Ant. ~Past Ant*/
     width: 95%;
 }
 
-.xp p{
+.xp p {
     margin: 5px;
     padding: 0px;
 }
@@ -340,4 +411,12 @@ for me, so good luck future Ant. ~Past Ant*/
     padding: 4px;
     color: black;
     line-height: 12px;
+}
+
+.reverse {
+    transform: rotate(180deg);
+}
+
+ul.reverse>li {
+    transform: rotate(-180deg);
 }
