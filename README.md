@@ -69,3 +69,16 @@ Improve functionality
 Offline capabilities. - Become familiar with service worker api
 Mobil first, a website that fits all screen sizes.
 Take a look at parallax effect, maybe something you’d like to add? ~J
+
+# additional feedback 
+change font! something that's easy to read
+font makes it hard to tell the difference between bold and regular text. -note that some fonts might use bold, and you can remove it using font-weight normal. At the very least big blocks of code should be easy to read.
+avoid center align 
+
+0. fix fonts and make it easier to read
+1. make your website work and look perfect on your screen size 
+2. work on responsive design. You can do this by A. using position:absolute values only on child elements and position:relative and B. use media queries to edit them to match  other screen sizes
+ 
+ https://ziteboard.com/white-label-online-whiteboard-api/ be the whiteboard.
+
+"But don't just take my word for it. See what others had to say about Anthony."
