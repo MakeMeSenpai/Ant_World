@@ -18,20 +18,10 @@ body {
   max-height: 102.5%;
 }
 
-#box {
-  display: block;
-  background-color: black;
-  width: 320px;
-  height: 320px;
-  margin: auto;
-  margin-top: 100px;
-}
-
 .scene {
   position: relative;
   width: 200px;
   height: 200px;
-  border: 1px solid #CCC;
   margin: auto;
   margin-top: 7%;
   perspective: 400px;
@@ -137,7 +127,7 @@ body {
 }
 
 label {
-  margin: 10px;
+  margin: 12px;
   color: white;
 }
 
@@ -149,4 +139,10 @@ a {
 
 a :hover {
   color: purple;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
