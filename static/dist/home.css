@@ -141,38 +141,54 @@ a :hover {
   color: purple;
 }
 
+span {
+  margin: 43.5%;
+  transform: translateZ(100px);
+}
+
+span img:first-child {
+  transform: rotate(32deg) scaleX(-1);
+}
+
+span img:last-child {
+  transform: translateX(50px) rotate(-32deg);
+}
+
 #ant {
   height: 100px;
-  transform: translateX(-525px) translateX(650px) translateY(-155px) translateZ(100px) scaleX(-1) scale(0.75);
-  animation-duration: 50s;
+  transform: translateX(650px) translateZ(100px) scaleX(-1) scale(0.75);
+  animation-duration: 25s;
   animation-name: moving-ant;
   animation-iteration-count: infinite;
 }
 
 @keyframes moving-ant {
   0% {
-    transform: translateX(-525px) translateX(650px) translateY(-155px) translateZ(100px) scaleX(-1) scale(0.75);
+    transform: translateX(275px) translateZ(100px) scaleX(-1) scale(0.75);
   }
-  20% {
-    transform: translateX(525px) translateX(650px) translateY(-155px) translateZ(100px) scaleX(-1) scale(0.75);
+  23% {
+    transform: translateX(1200px) translateZ(100px) scaleX(-1) scale(0.75);
   }
-  22% {
-    transform: translateX(525px) translateX(650px) translateY(-155px) translateZ(100px) scale(0.75);
+  25% {
+    transform: translateX(1200px) translateZ(100px) scale(0.75);
   }
-  40% {
-    transform: translateX(-525px) translateX(650px) translateY(-155px) translateZ(100px) scale(0.75);
+  45% {
+    transform: translateX(275px) translateZ(100px) scale(0.75);
   }
-  42% {
-    transform: translateX(-525px) translateX(650px) translateY(-155px) translateZ(100px) scaleX(-1) scale(0.75);
+  47% {
+    transform: translateX(275px) translateZ(100px) scaleX(-1) scale(0.75);
   }
-  60% {
-    transform: translateX(525px) translateX(650px) translateY(-155px) translateZ(100px) scaleX(-1) scale(0.75);
+  69% {
+    transform: translateX(1200px) translateZ(100px) scaleX(-1) scale(0.75);
   }
-  62% {
-    transform: translateX(525px) translateX(650px) translateY(-155px) translateZ(100px) scale(0.75);
+  71% {
+    transform: translateX(1200px) translateZ(100px) scale(0.75);
   }
-  80% {
-    transform: translateX(-525px) translateX(650px) translateY(-155px) translateZ(100px) scale(0.75);
+  98% {
+    transform: translateX(275px) translateZ(100px) scale(0.75);
+  }
+  100% {
+    transform: translateX(275px) translateZ(100px) scaleX(-1) scale(0.75);
   }
 }
 @media only screen and (max-width: 600px) {

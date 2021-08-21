@@ -16,7 +16,7 @@
     </video>
 
     <div class="scene">
-        <div class="cube">
+        <div class="cube" onclick="changeSide()">
             <div class="cube__face cube__face--front"><a href="./portfolio.html">Portfolio</a></div>
             <div class="cube__face cube__face--back"><a href="./book.html">The Book</a></div>
             <div class="cube__face cube__face--right"><a href="./art.html">Art Stuff</a></div>
@@ -25,26 +25,10 @@
             <div class="cube__face cube__face--bottom"><a href="./bio.html">Bio</a></div>
         </div>
     </div>
-    <p class="radio-group">
-        <label>
-            <input type="radio" name="rotate-cube-side" value="front" checked /> front
-        </label>
-        <label>
-            <input type="radio" name="rotate-cube-side" value="right" /> right
-        </label>
-        <label>
-            <input type="radio" name="rotate-cube-side" value="back" /> back
-        </label>
-        <label>
-            <input type="radio" name="rotate-cube-side" value="left" /> left
-        </label>
-        <label>
-            <input type="radio" name="rotate-cube-side" value="top" /> top
-        </label>
-        <label>
-            <input type="radio" name="rotate-cube-side" value="bottom" /> bottom
-        </label>
-    </p>
+    <span>
+        <img src="./static/imgs/next_arrow.png" alt="back" width="65px" onclick="bwdClicked()">
+        <img src="./static/imgs/next_arrow.png" alt="next" width="65px" onclick="fwdClicked()">
+    </span>
     <video autoplay muted loop id="ant" onclick="squashed()">
         <source src="./static/imgs/walk.webm" type="video/mp4" id='animate'>
     </video>

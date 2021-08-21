@@ -1,11 +1,26 @@
 // CUBE__________
 const cube = document.querySelector('.cube');
-const radioGroup = document.querySelector('.radio-group');
+let value = ["front", "right", "back", "left", "top", "bottom"];
 let currentClass = '';
+let direction= 'fwd'
+let i = -1;
 
 function changeSide() {
-  const checkedRadio = radioGroup.querySelector(':checked');
-  const showClass = 'show-' + checkedRadio.value;
+    // which direction to move the cube
+    if (direction === 'fwd') {
+      i += 1
+    } else {
+      i -= 1
+    }
+  // resets i if out of index
+  if (i > 5) {
+    i = 0
+  }
+  if (i < 0) {
+    i = 5
+  }
+  // sets side
+  const showClass = 'show-' + value[i];
   if (currentClass) {
     cube.classList.remove(currentClass);
   }
@@ -15,7 +30,15 @@ function changeSide() {
 // set initial side
 changeSide();
 
-radioGroup.addEventListener('change', changeSide);
+function fwdClicked() {
+  direction = "fwd"
+  changeSide();
+}
+
+function bwdClicked(){
+  direction = "bwd"
+  changeSide();
+}
 
 // ANT___________
 let counter = 0;
@@ -24,7 +47,7 @@ const animation = document.querySelector('#animate');
 
 function count() {
   counter += 1
-  if (counter >= 3) {
+  if (counter >= 5) {
     window.location.href = "./friIo+vp81JM012F68axF5HCPdDxTKgZLkCVCAKzwKg=.html";
   }
 };
