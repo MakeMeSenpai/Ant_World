@@ -118,17 +118,6 @@ body {
     transform: rotateX(-90deg) translateZ(100px);
 }
 
-.radio-group {
-    margin: 32%;
-    margin-top: 2%;
-    transform: translateZ(100px);
-}
-
-label {
-    margin: 12px;
-    color: white;
-}
-
 a {
     color: whitesmoke;
     text-align: center;
@@ -215,6 +204,10 @@ span img:last-child {
 
 // phone sizes
 @media (max-width: 414px) {
+    .scene {
+        margin-top: 15%;
+    }
+
     span {
         display: none;
     }
