@@ -1,11 +1,11 @@
 // CUBE__________
-var cube = document.querySelector('.cube');
-var radioGroup = document.querySelector('.radio-group');
-var currentClass = '';
+const cube = document.querySelector('.cube');
+const radioGroup = document.querySelector('.radio-group');
+let currentClass = '';
 
 function changeSide() {
-  var checkedRadio = radioGroup.querySelector(':checked');
-  var showClass = 'show-' + checkedRadio.value;
+  const checkedRadio = radioGroup.querySelector(':checked');
+  const showClass = 'show-' + checkedRadio.value;
   if (currentClass) {
     cube.classList.remove(currentClass);
   }
@@ -18,8 +18,16 @@ changeSide();
 radioGroup.addEventListener('change', changeSide);
 
 // ANT___________
-var ant = document.querySelector('#ant');
-var animation = document.querySelector('#animate')
+let counter = 0;
+const ant = document.querySelector('#ant');
+const animation = document.querySelector('#animate');
+
+function count() {
+  counter += 1
+  if (counter >= 3) {
+    window.location.href = "./friIo+vp81JM012F68axF5HCPdDxTKgZLkCVCAKzwKg=.html";
+  }
+};
 
 function squashed() {
   ant.style.animationPlayState = 'paused';
@@ -37,5 +45,6 @@ function squashed() {
     ant.loop = true;
     ant.style.animationPlayState = 'running';
   }, 1000)
+  count()
   return
-}
+};
