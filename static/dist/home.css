@@ -141,21 +141,40 @@ a :hover {
   color: purple;
 }
 
-span {
-  width: 85%;
+#ant {
   height: 100px;
-  display: block;
-  overflow: hidden;
-  margin-left: 15%;
-  margin-top: -12.5%;
-  transform: translateZ(100px);
+  transform: translateX(-525px) translateX(650px) translateY(-155px) translateZ(100px) scaleX(-1) scale(0.75);
+  animation-duration: 50s;
+  animation-name: moving-ant;
+  animation-iteration-count: infinite;
 }
 
-img {
-  margin-top: -200px;
-  transform: translateX(600px) scale(0.1);
+@keyframes moving-ant {
+  0% {
+    transform: translateX(-525px) translateX(650px) translateY(-155px) translateZ(100px) scaleX(-1) scale(0.75);
+  }
+  20% {
+    transform: translateX(525px) translateX(650px) translateY(-155px) translateZ(100px) scaleX(-1) scale(0.75);
+  }
+  22% {
+    transform: translateX(525px) translateX(650px) translateY(-155px) translateZ(100px) scale(0.75);
+  }
+  40% {
+    transform: translateX(-525px) translateX(650px) translateY(-155px) translateZ(100px) scale(0.75);
+  }
+  42% {
+    transform: translateX(-525px) translateX(650px) translateY(-155px) translateZ(100px) scaleX(-1) scale(0.75);
+  }
+  60% {
+    transform: translateX(525px) translateX(650px) translateY(-155px) translateZ(100px) scaleX(-1) scale(0.75);
+  }
+  62% {
+    transform: translateX(525px) translateX(650px) translateY(-155px) translateZ(100px) scale(0.75);
+  }
+  80% {
+    transform: translateX(-525px) translateX(650px) translateY(-155px) translateZ(100px) scale(0.75);
+  }
 }
-
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;

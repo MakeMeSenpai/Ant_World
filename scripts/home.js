@@ -1,3 +1,4 @@
+// CUBE__________
 var cube = document.querySelector('.cube');
 var radioGroup = document.querySelector('.radio-group');
 var currentClass = '';
@@ -15,3 +16,6 @@ function changeSide() {
 changeSide();
 
 radioGroup.addEventListener('change', changeSide);
+
+// ANT___________
+var ant = document.querySelector('#ant');
