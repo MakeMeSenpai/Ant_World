@@ -131,6 +131,7 @@ a :hover {
 span {
     display: block;
     margin: 43.5%; // auto didn't work
+    margin-top: 0%;
     transform: translateZ(100px);
 }
 
@@ -145,7 +146,7 @@ span img:last-child {
 #ant {
     height: 100px;
     display: block;
-    margin-top: 18%;
+    margin-top: -23%;
     transform: translateX(650px) translateZ(100px) scaleX(-1) scale(0.75);
     animation-duration: 25s;
     animation-name: moving-ant;
@@ -203,7 +204,7 @@ span img:last-child {
 }
 
 // phone sizes
-@media (max-width: 414px) {
+@media (max-width: 540px) {
     .scene {
         margin-top: 25%;
     }
@@ -223,10 +224,18 @@ span img:last-child {
         max-width: 100vw;
         max-height: unset;
     }
+
+    span {
+        display: none;
+    }
+
+    #ant {
+        display: none;
+    }
 }
 
 // tablet sizes
-@media (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
+@media (orientation: portrait) and (min-width: 717px) and (max-width: 1024px) {
     #landscape {
         min-width: 240vw;
     }
@@ -248,7 +257,7 @@ span img:last-child {
     }
 }
 
-@media (orientation: landscape) and (min-width: 768px) and (max-width: 1366px) {
+@media (orientation: landscape) and (min-width: 717px) and (max-width: 1366px) {
     #landscape {
         min-width: unset;
     }
@@ -269,8 +278,3 @@ span img:last-child {
         margin-top: 38.5%;
     }
 }
-
-
-// computer sizes
-
-// extra large sizes
