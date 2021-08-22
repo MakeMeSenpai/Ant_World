@@ -1,4 +1,4 @@
-# Ant World V.0.6.0 Alpha
+# Ant World V.0.6.2 Alpha
 This is a scss made framework for easier and faster styling use. Code and decorate faster with this easy to use style
 sheet. As more progress is made, so will more documentation! This was the first implementation of my usually readme, so it's not the most organized. as well as my first framework!
 
@@ -60,7 +60,7 @@ ___
     - [] ELSE: redesign portfolio
 
 ### Previous Updates:
-- 0.6.0
+- 0.6.2
     - removed radio buttons for better UI/UX for Cube
     - Home page is now accessible via any screen size/device completing the home page (for now)
     - completed this readme! along with reorganization of files
