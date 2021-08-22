@@ -201,3 +201,45 @@ span img:last-child {
     max-height: unset;
   }
 }
+@media (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
+  #landscape {
+    min-width: 240vw;
+  }
+
+  .scene {
+    transform: translateY(75px) scale(1.5);
+  }
+
+  .cube {
+    transform: scale(1.5);
+  }
+
+  span {
+    display: none;
+  }
+
+  #ant {
+    display: none;
+  }
+}
+@media (orientation: landscape) and (min-width: 768px) and (max-width: 1366px) {
+  #landscape {
+    min-width: unset;
+  }
+
+  .scene {
+    transform: translateY(75px) scale(1.5);
+  }
+
+  .cube {
+    transform: scale(1.5);
+  }
+
+  span {
+    display: none;
+  }
+
+  #ant {
+    margin-top: 38.5%;
+  }
+}
