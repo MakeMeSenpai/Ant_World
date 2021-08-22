@@ -1,7 +1,93 @@
-# MVP Portfolio
-This  read me needs a real update...
+# Ant World V.0.6.0 Alpha
+This is a scss made framework for easier and faster styling use. Code and decorate faster with this easy to use style
+sheet. As more progress is made, so will more documentation! This was the first implementation of my usually readme, so it's not the most organized. as well as my first framework!
 
-## The ideas
+## A Look into the World of Anthony
+https://makemesenpai.github.io/Ant_World/
+![snapshot](./static/imgs/snapshot.png)
+
+## Index:
+1. [Checklist](#checklist)
+    1. [Todo:](#todo)
+    2. [Potential Features:](#potential-features)
+    3. [Previous Updates:](#previous-updates)
+2. [More Info](#more-info)
+    1. [Idea](#idea)
+    2. [Inspirations](#inspirations)
+3. [Conclusion](#conclusion)
+
+___
+## Checklist
+
+### TODO:
+- Setup
+    - [x] Based on wire-frames, create the home page using only html and css.
+    - [x] Create landscape background using Maya
+    - [x] Should have a placeholder square for the cube that will later replace it
+- The Cube
+    - [x] create a way for users to scroll, change, and easily navigate your pages on placeholder Cube.
+    - [x] Create a 3d cube that users can navigate pages through
+    - [x] pages should contain "coming soon" indicator, with basic content
+- MVP (Home/Portfolio)
+    - [x] create a portfolio page with all contents organized
+    - [x] create custom scrollbar
+    - [x] style portfolio displaying projects
+    - [-] ensure that website is responsive via mobile first creation
+    - [] ensure that website is functional on all browsers
+- Ant Attack! *stretch*
+    - [x] create animations in maya
+    - [x] find a way to create a video with transparent background
+    - [x] create basic animation using css
+    - [x] create mini-game! 
+    - [-] create secrete
+- Seasonal Decorations *stretch*
+    - [] create skins/assets for every special occasion (outside of project)
+    - [] display decorations throughout the website, in none-distracting areas
+    - [] create an automated function that updates whether or not to show the user decorations or not.
+- The Book
+    - [] Complete the Book
+    - [] make available for users to get a copy
+    - [] automate updating paper to top posted/ most recently posted publications
+- reorganize pages
+    - [] reevaluate the value of certain pages, can they be mixed? should they no longer exist?
+    - [] create todo plan for all pages under "coming soon" in order to finish this website one page at a time.
+    - [] protect your work, and optimize the website via lighthouse and research.
+
+### Potential Features:
+- Whiteboard playground
+    - [] TRY: play with white board applications to see how they work and how to implement a simple whiteboard
+    - [] IF: you can successfully create items on the whiteboard, and elements. recreate portfolio from scratch using this format
+    - [] ELSE: redesign portfolio
+
+### Previous Updates:
+- 0.6.0
+    - removed radio buttons for better UI/UX for Cube
+    - Home page is now accessible via any screen size/device completing the home page (for now)
+    - completed this readme! along with reorganization of files
+
+
+- 0.5.2
+    - Generated transparent background videos using ffmpeg.
+    - Finished animations for Ants movements
+    - Ant Attack is completed (for now)
+
+- 0.4.7
+    - Working Cube is finally added
+    - Fixed maya render of landscape (fixes bug where hills in background had a visible outline through trees).
+    - Ant assets created and ready for animating
+___
+## More Info
+
+### Idea
+I wanted to incorporate all my experience, publications, and projects in one place that I could be really proud of. I hoped to show the best representation of myself here. As Well as a complete representation of everything and anything I am. I worry that I am too ambitious, and not enough. So I hope to continuously work hard until I am more than enough, and all my dreams and ambitions can simply become tasks that can be done.
+
+Here are the first wire-frames I made when planning this website. The planning took... more hours than I'd like to admit, but I'm glad to see where things have started and where they are headed for.
+
+![home_wire-frame](./static/imgs/home_wireframe.jpeg)
+![animation_wire-frame](./static/imgs/animation_wireframe.jpeg)
+![portfolio_wire-frame](./static/imgs/portfolio_wireframe.jpeg)
+
+### Inspirations
 * Ant hill, inspired by Ant world https://discordapp.com/invite/C9CvQjt
 (The landscape [which will have blowing wind, and moving clouds] and later added maze game to the Ant World Link.) 
 * The box, inspired by Anoukia Perry - In Pink https://www.pink.anoukiaperrey.com
@@ -19,66 +105,6 @@ This will be an endless game, just for esthetics)
 (Each CSS decorations will be held on each page, which will be on a timer or switch so that when 
 the seasons change, we can change with them.)
 
-## The Plan
-To incorporate all my ideas into a clean, professional, and immersive website. Using dynamic 
-styling and art, I hope to show the best representation of myself here. As Well as a nearly 
-complete representation of everything and anything I am. I worry that I am too ambitious, and 
-not enough. So I hope to continuously work hard until I am more than enough, and all my dreams 
-and ambitions can simply become tasks that can be done.
-
-## ToDo
-SkateBoard: Based on wire-frames, create the home page using only html and css. This should be 
-clear as to what the intentions are and how the website should look. This must include landscape 
-art, and a place holding block in the center of the screen for our cube. [√]
-
-Bike: using javascript, set up a local server, and make a base for all the other pages. These pages
-will include scroll sections, and links to main sections, or back home. Other pages that need work
-or you feel are unfitting still must be made, but do not require a link on our cube. [√]
-
-Car: Make the cube work, and give all unready sections an un-clickable "coming soon" icon. Fix 
-most if not all problems with website and make your website live. []
-
-Stretch Limo: Create Ant Attack, and Season Decorations []
-
-Crazy Chopper: Create Maze game. Update website once a year. Place the link to your MVP 
-portfolio on all pages that you have worked on under contract or small personal projects. []
-
-### Feedback
-love the scroll indicator on the left but the font is tough for me to read :cry: so i don't know all the awesome things you've done ~D
-- solved by changing font
-
-Maybe space out the sections a little more
-ex: experiences, projects, skills, etc ~P
-- added br tags
-
-I like that the top bar scrolls with the page but since there’s no background, you end up with text on text. You could make the background “appear” when you start to scroll if that’s something you want to fix. Also, personally I’m not sure what the difference between Engineering Projects and Hobby Projects is and it might give the impression that you’re done talking about projects when you finish the Engineering Projects section. Also I just realized the scroll indicator is clickable, super cool ~M
-- text is separated so that there isn't large boring text to read. Hopefully by adding projects it will be more interesting. Also removed background
-
-1. Change the font.  I can't read it without effort.  That probably means others will be similarly turned off by it.
-2. Not a big deal, but each of the nodes down the left are clickable except for the top one.  Why isn't the top one clickable?
-3. Overall the content is good, however on my screen, there is too much white-space with each project. Perhaps set on page margins that condense the page to the middle and have the white space on the left and right?  Totally up to you if you do this or disregard.
-
-Like I said, overall, the content itself is
-good.
-
-P.S. Hey, more on the portfolio... Have you looked at it on a phone? The page doesn't show up well at all in terms of formatting. You should definitely fix that! ~D
-
-Friendly fonts and size
-Improve accessibility
-Improve functionality
-Offline capabilities. - Become familiar with service worker api
-Mobil first, a website that fits all screen sizes.
-Take a look at parallax effect, maybe something you’d like to add? ~J
-
-# additional feedback 
-change font! something that's easy to read
-font makes it hard to tell the difference between bold and regular text. -note that some fonts might use bold, and you can remove it using font-weight normal. At the very least big blocks of code should be easy to read.
-avoid center align 
-
-0. fix fonts and make it easier to read
-1. make your website work and look perfect on your screen size 
-2. work on responsive design. You can do this by A. using position:absolute values only on child elements and position:relative and B. use media queries to edit them to match  other screen sizes
- 
- https://ziteboard.com/white-label-online-whiteboard-api/ be the whiteboard.
-
-"But don't just take my word for it. See what others had to say about Anthony."
+___
+## Conclusion
+Thanks for checking this out. Feel free to leave feedback, and share!
