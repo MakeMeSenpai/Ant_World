@@ -1,4 +1,4 @@
-# Ant World V.0.6.2 Alpha
+# Ant World V.0.6.3 Alpha
 This is a scss made framework for easier and faster styling use. Code and decorate faster with this easy to use style
 sheet. As more progress is made, so will more documentation! This was the first implementation of my usually readme, so it's not the most organized. as well as my first framework!
 
@@ -55,16 +55,15 @@ ___
 
 ### Potential Features:
 - Whiteboard playground
-    - [] TRY: play with white board applications to see how they work and how to implement a simple whiteboard
-    - [] IF: you can successfully create items on the whiteboard, and elements. recreate portfolio from scratch using this format
-    - [] ELSE: redesign portfolio
+    - [x] TRY: play with white board applications to see how they work and how to implement a simple whiteboard
+    - [] ~~IF: you can successfully create items on the whiteboard, and elements. recreate portfolio from scratch using this format~~
+    - [x] ELSE: redesign portfolio
 
 ### Previous Updates:
 - 0.6.2
     - removed radio buttons for better UI/UX for Cube
     - Home page is now accessible via any screen size/device completing the home page (for now)
     - completed this readme! along with reorganization of files
-
 
 - 0.5.2
     - Generated transparent background videos using ffmpeg.
