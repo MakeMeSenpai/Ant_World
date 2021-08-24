@@ -5,10 +5,10 @@ html, body {
     height: 100vh;
     overflow-x: hidden;
     /* Bradley Hand | Comic Sans MS | OCR A Std | fantasy */
-    font-family: Marker Felt;
-    font-size: x-large;
-    letter-spacing: 0.5px;
-    line-height: 1.5px;
+    // font-family: Marker Felt;
+    // font-size: x-large;
+    // letter-spacing: 0.5px;
+    // line-height: 1.5px;
 }
 
 .navbar {
@@ -69,55 +69,55 @@ background. This gives the website a much cleaner look, and we can in turn hold 
 magnets and let users play with the magnets. Oh Oh! and maybe there can be a few markers at the bottom so users
 can draw! */
 
-.magnet {
-    display: block;
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-    box-shadow: 1.5px 1.5px 5px black;
-    background-color: red;
-    position: absolute;
-    z-index: 2;
-}
+// .magnet {
+//     display: block;
+//     height: 45px;
+//     width: 45px;
+//     border-radius: 50%;
+//     box-shadow: 1.5px 1.5px 5px black;
+//     background-color: red;
+//     position: absolute;
+//     z-index: 2;
+// }
 
-.green {
-    background-color: rgb(79, 185, 10);
-}
+// .green {
+//     background-color: rgb(79, 185, 10);
+// }
 
-.yellow {
-    background-color: rgb(235, 199, 10);
-}
+// .yellow {
+//     background-color: rgb(235, 199, 10);
+// }
 
-.blue {
-    background-color: rgb(17, 128, 189);
-}
+// .blue {
+//     background-color: rgb(17, 128, 189);
+// }
 
-.magnet div {
-    display: block;
-    height: 45px;
-    width: 45px;
-    position: relative;
-    margin: auto;
-    border-radius: 50%;
-    background: linear-gradient(150deg, rgba(255, 255, 255, 0) 0%,
-            rgba(255, 255, 255, 0.75) 12%, rgba(148, 148, 148, 0.05) 75%,
-            rgba(255, 255, 255, 0.45) 100%);
-}
+// .magnet div {
+//     display: block;
+//     height: 45px;
+//     width: 45px;
+//     position: relative;
+//     margin: auto;
+//     border-radius: 50%;
+//     background: linear-gradient(150deg, rgba(255, 255, 255, 0) 0%,
+//             rgba(255, 255, 255, 0.75) 12%, rgba(148, 148, 148, 0.05) 75%,
+//             rgba(255, 255, 255, 0.45) 100%);
+// }
 
-#m0 {
-    margin-top: -21px;
-    margin-left: 182px;
-}
+// #m0 {
+//     margin-top: -21px;
+//     margin-left: 182px;
+// }
 
-#m1 {
-    margin-left: 305px;
-    margin-top: -32px;
-}
+// #m1 {
+//     margin-left: 305px;
+//     margin-top: -32px;
+// }
 
-#m2 {
-    margin-left: 175px;
-    margin-top: -32px;
-}
+// #m2 {
+//     margin-left: 175px;
+//     margin-top: -32px;
+// }
 
 .selfie {
     width: 175px;
@@ -174,12 +174,15 @@ can draw! */
 
 
 .projects {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .project-name {
-    height: 400px;
+    width: 32%;
+    margin-bottom: 15px;
 }
 
 /* controls project headers*/
