@@ -1,0 +1,69 @@
+/* Progression */
+.progress-container {
+  top: 100px;
+  left: 28px;
+  height: 85%;
+  width: 7.5px;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 2px;
+  position: fixed;
+  background: #00aeff;
+  box-shadow: 0 0 5px black;
+}
+
+.progress-bar {
+  height: 0%;
+  width: 7.5;
+  background: blue;
+  justify-content: center;
+}
+
+.progress-ball {
+  left: -8px;
+  top: 4.5px;
+  position: relative;
+  height: 21px;
+  width: 21px;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 2px;
+  background: #00aeff;
+}
+
+/* I have a theory that the scroll of a websites value is based on
+percentages.. meaning if we were to use another js algorithm and scss
+we should be able to lock these points exactly where they need to be 
+no matter screen size. But that's for another time because it's 12:32am
+for me, so good luck future Ant. ~Past Ant*/
+#pb0 {
+  top: 32px;
+}
+
+#pb1 {
+  top: 60px;
+}
+
+#pb2 {
+  top: 175px;
+}
+
+#pb3 {
+  top: 200px;
+}
+
+#pb4 {
+  top: 375px;
+}
+
+#pb5 {
+  top: 450px;
+}
+
+#pb6 {
+  top: 465px;
+}
+
+#welcome-section {
+  min-height: 100vh;
+}
