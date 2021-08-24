@@ -168,10 +168,9 @@ can draw! */
   margin-left: 345px;
 }
 
-/* effects tech and footer ul */
-.flex-space {
+.projects {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .project-name {

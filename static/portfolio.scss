@@ -172,10 +172,10 @@ can draw! */
     margin-left: 345px;
 }
 
-/* effects tech and footer ul */
-.flex-space {
+
+.projects {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .project-name {
@@ -208,6 +208,11 @@ can draw! */
 .xp .hr {
     margin-top: -35px;
 }
+
+// .flex-space {
+//     display: flex;
+//     justify-content: space-evenly;
+// }
 
 /* links in footer  - maybe make them sticky pads in future?*/
 #footer {
