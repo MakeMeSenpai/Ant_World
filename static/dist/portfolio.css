@@ -1,96 +1,14 @@
-html {
+html, body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
   overflow-x: hidden;
   /* Bradley Hand | Comic Sans MS | OCR A Std | fantasy */
   font-family: Marker Felt;
   font-size: x-large;
   letter-spacing: 0.5px;
-  line-height: 1.25;
-  -ms-overflow-style: none;
-  /* IE and Edge */
-  scrollbar-width: none;
-  /* Firefox */
-}
-
-/* custom scrollbar */
-::-webkit-scrollbar {
-  display: none;
-}
-
-body {
-  /* background-image: url("./imgs/crumpled-paper.jpg"); */
-  background-color: #eeedf2;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* Progression */
-.progress-container {
-  top: 100px;
-  left: 28px;
-  height: 85%;
-  width: 7.5px;
-  border-style: solid;
-  border-radius: 50px;
-  border-width: 2px;
-  position: fixed;
-  background: #00aeff;
-  box-shadow: 0 0 5px black;
-}
-
-.progress-bar {
-  height: 0%;
-  width: 7.5;
-  background: blue;
-  justify-content: center;
-}
-
-.progress-ball {
-  left: -8px;
-  top: 4.5px;
-  position: relative;
-  height: 21px;
-  width: 21px;
-  border-style: solid;
-  border-radius: 50px;
-  border-width: 2px;
-  background: #00aeff;
-}
-
-/* I have a theory that the scroll of a websites value is based on
-percentages.. meaning if we were to use another js algorithm and scss
-we should be able to lock these points exactly where they need to be 
-no matter screen size. But that's for another time because it's 12:32am
-for me, so good luck future Ant. ~Past Ant*/
-#pb0 {
-  top: 32px;
-}
-
-#pb1 {
-  top: 60px;
-}
-
-#pb2 {
-  top: 175px;
-}
-
-#pb3 {
-  top: 200px;
-}
-
-#pb4 {
-  top: 375px;
-}
-
-#pb5 {
-  top: 450px;
-}
-
-#pb6 {
-  top: 465px;
-}
-
-#welcome-section {
-  min-height: 100vh;
+  line-height: 1.5px;
 }
 
 .navbar {
@@ -117,33 +35,6 @@ for me, so good luck future Ant. ~Past Ant*/
   margin-top: 0px;
 }
 
-.nav-right {
-  right: 0px;
-  width: 19%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.right-items {
-  height: 75px;
-  margin-left: 2.25;
-}
-
-#nav-btn {
-  width: 100px;
-  cursor: pointer;
-  font-size: 21px;
-  font-style: oblique;
-  background-color: aqua;
-  box-shadow: insert 0 0 5px black;
-}
-
-.world-content {
-  margin-left: 60px;
-  margin-top: 100px;
-  width: 95%;
-}
-
 #me {
   top: 5px;
   position: relative;
@@ -161,7 +52,6 @@ for me, so good luck future Ant. ~Past Ant*/
 
 .name-content {
   position: relative;
-  /* margin-left: 45em; */
 }
 
 .name-content h2 {
@@ -226,26 +116,6 @@ can draw! */
   margin-top: -32px;
 }
 
-/* markers for project photos*/
-.ml1 {
-  margin-top: 75px;
-}
-
-.ml2 {
-  margin-top: 60px;
-  margin-left: 345px;
-}
-
-.mr1 {
-  margin-top: 60px;
-  margin-left: 950px;
-}
-
-.mr2 {
-  margin-top: 80px;
-  margin-left: 1300px;
-}
-
 .selfie {
   width: 175px;
   height: 175px;
@@ -288,82 +158,28 @@ can draw! */
   width: inherit;
 }
 
+/* magnets for project photos*/
+.mp1 {
+  margin-top: 75px;
+}
+
+.mp2 {
+  margin-top: 60px;
+  margin-left: 345px;
+}
+
 /* effects tech and footer ul */
 .flex-space {
   display: flex;
   justify-content: space-evenly;
 }
 
-/* These are drawn decoration. We should use defaults for now, later add seasonal change */
-/* 
-#dec1 {
-    position: relative;
-    margin-left: 59em;
-    margin-bottom: 10em;
-    margin-top: -12.5em;
-    transform: scale(0.5);
-    z-index: 0;
-}
-
-#dec2 {
-    position: relative;
-    z-index: 2;
-    margin-left: 0em;
-    margin-top: -10em;
-    margin-bottom: 5.05em;
-    max-height: 75px;
-}
-
-#dec3 {
-    position: relative;
-    z-index: 2;
-    margin-left: 25em;
-    margin-top: -5em;
-    margin-bottom: 5em;
-    transform: scale(0.75);
-}
-
-#dec4 {
-    position: relative;
-    z-index: 2;
-    margin-left: 10em;
-    margin-top: -15em;
-    margin-bottom: 5em;
-    transform: scale(0.75);
-}
-
-#dec5 {
-    position: relative;
-    z-index: 2;
-    margin-left: 25em;
-    margin-top: -5em;
-    margin-bottom: 5em;
-    transform: scale(0.75);
-}
-
-#dec6 {
-    position: relative;
-    z-index: 2;
-    margin-left: 10em;
-    margin-top: -15em;
-    margin-bottom: 5em;
-    transform: scale(0.75);
-}
-
-#dec7 {
-    position: relative;
-    z-index: 2;
-    margin-left: 25em;
-    margin-top: -5em;
-    margin-bottom: 5em;
-    transform: scale(0.75);
-} */
 .project-name {
   height: 400px;
 }
 
-/* controls right headers*/
-.hr {
+/* controls project headers*/
+.ph {
   text-align: right;
 }
 
@@ -372,16 +188,6 @@ can draw! */
   height: 325px;
   width: 400px;
   padding: 5px;
-}
-
-.l {
-  float: left;
-  transform: rotate(-2.5deg);
-}
-
-.r {
-  float: right;
-  transform: rotate(2.5deg);
 }
 
 /* concerning experience */
