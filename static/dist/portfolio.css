@@ -158,19 +158,12 @@ button {
   background-color: #3a8af9;
 }
 
-/* concerning experience */
-.xp {
-  margin: auto;
-  width: 95%;
+.flex-space {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.xp p {
-  margin: 5px;
-  padding: 0px;
+.foot-text {
+  display: block;
 }
-
-.xp .hr {
-  margin-top: -35px;
-}
-
-/* links in footer  - maybe make them sticky pads in future?*/

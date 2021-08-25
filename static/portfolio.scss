@@ -212,38 +212,12 @@ button {
     background-color: rgb(58, 138, 249);
 }
 
-/* concerning experience */
-.xp {
-    margin: auto;
-    width: 95%;
+.flex-space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.xp p {
-    margin: 5px;
-    padding: 0px;
+.foot-text {
+    display: block;
 }
-
-.xp .hr {
-    margin-top: -35px;
-}
-
-/* links in footer  - maybe make them sticky pads in future?*/
-// #footer {
-//     font-size: 25px;
-//     width: 95%;
-//     border: 1px solid #ccc;
-//     border-radius: 5px;
-//     margin: 15px;
-//     margin-left: 50px;
-//     padding: 4px;
-//     color: black;
-//     line-height: 12px;
-// }
-
-// .reverse {
-//     transform: rotate(180deg);
-// }
-
-// ul.reverse>li {
-//     transform: rotate(-180deg);
-// }
