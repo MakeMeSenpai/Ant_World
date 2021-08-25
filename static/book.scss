@@ -46,10 +46,22 @@ a :hover {
     margin-left: 450px;
 }
 
-.soon {
-    position: fixed;
-    transform: scale(1.5) rotate(-15deg);
-    margin-top: 250px;
-    margin-left: 450px;
-    z-index: 7;
+#exit {
+    display: block;
+    width: 75px;
+    height: 150px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    transform: translate(927px, 550px);
+}
+
+h6 {
+    color: red;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 12%;
+    font-size: large;
+    text-align: center;
 }
