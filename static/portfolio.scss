@@ -5,8 +5,66 @@ html, body {
     height: 100vh;
 }
 
+.hamburger {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 93vw;
+    margin-right: 0%;
+    margin-bottom: -12vh;
+}
+
+.line {
+    height: 10px;
+    width: 60px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: black;
+    transition: 400ms;
+}
+
+.line:first-child {
+    margin-top: 25px;
+}
+
+.absolutlyNot:hover {
+    background-color: black;
+}
+
+.absolutlyNot:hover > :first-child {
+    background-color: white;
+    transform-origin: left;
+    transform: translate(10px, 0) rotate(45deg);
+}
+
+.absolutlyNot:hover > :nth-child(2) {
+    background-color: transparent;
+}
+
+.absolutlyNot:hover > :nth-child(3) {
+    background-color: white;
+    transform-origin: left;
+    transform: translate(10px, 2.5px) rotate(-45deg);
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: transparent;
+    transform: translate(0, -70px);
+    transition: 400ms;
+}
+
+.absolutlyNot:hover > :last-child {
+    border: 10px solid white;
+}
+
 h1 {
     font-size: 65px;
+    margin-bottom: 0%;
 }
 
 .contain {
