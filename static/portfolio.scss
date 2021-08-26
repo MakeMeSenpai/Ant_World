@@ -3,15 +3,17 @@ html, body {
     padding: 0%;
     width: 100vw;
     height: 100vh;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hamburger {
+    position: fixed;
     height: 100px;
     width: 100px;
     border-style: solid;
     border-width: 1px;
     margin-left: 93vw;
-    margin-right: 0%;
     margin-bottom: -12vh;
 }
 
@@ -28,26 +30,6 @@ html, body {
     margin-top: 25px;
 }
 
-.absolutlyNot:hover {
-    background-color: black;
-}
-
-.absolutlyNot:hover > :first-child {
-    background-color: white;
-    transform-origin: left;
-    transform: translate(10px, 0) rotate(45deg);
-}
-
-.absolutlyNot:hover > :nth-child(2) {
-    background-color: transparent;
-}
-
-.absolutlyNot:hover > :nth-child(3) {
-    background-color: white;
-    transform-origin: left;
-    transform: translate(10px, 2.5px) rotate(-45deg);
-}
-
 .circle {
     height: 70px;
     width: 70px;
@@ -58,8 +40,52 @@ html, body {
     transition: 400ms;
 }
 
-.absolutlyNot:hover > :last-child {
-    border: 10px solid white;
+// .absolutlyNot:hover {
+//     background-color: black;
+// }
+
+// .absolutlyNot:hover > :first-child {
+//     background-color: white;
+//     transform-origin: left;
+//     transform: translate(10px, 0) rotate(45deg);
+// }
+
+// .absolutlyNot:hover > :nth-child(2) {
+//     background-color: transparent;
+// }
+
+// .absolutlyNot:hover > :nth-child(3) {
+//     background-color: white;
+//     transform-origin: left;
+//     transform: translate(10px, 2.5px) rotate(-45deg);
+// }
+
+// .absolutlyNot:hover > :last-child {
+//     border: 10px solid white;
+// }
+
+nav {
+    width: 7vw;
+    display: block;
+    position: fixed;
+    font-size: 24px;
+    margin-top: 12vh;
+    margin-left: 100vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+}
+
+nav a {
+    width: 7vw;
+    color: white;
+}
+
+nav a:hover {
+    color: turquoise;
 }
 
 h1 {
@@ -205,10 +231,6 @@ h1 {
 }
 
 /* controls project headers*/
-.ph {
-    text-align: right;
-}
-
 .project-img {
     height: 325px;
     width: 400px;
@@ -216,9 +238,10 @@ h1 {
 }
 
 // contact
-form {
+#contact-form {
     width: 50vw;
     margin: auto;
+    margin-top: 5vh;
 }
 
 input {
@@ -295,5 +318,5 @@ button {
 
 #copywrite {
     margin-top: -4.5vh;
-    margin-left: 80vw;
+    margin-left: 77vw;
 }
