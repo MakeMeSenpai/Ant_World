@@ -1,16 +1,8 @@
 html, body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0%;
+  padding: 0%;
   width: 100vw;
   height: 100vh;
-  overflow-x: hidden;
-}
-
-.navbar {
-  margin-top: -3vh;
-  position: fixed;
-  z-index: 5;
-  top: 25px;
 }
 
 h1 {
@@ -49,12 +41,6 @@ h1 {
   width: 35%;
 }
 
-/* controls our magnets  */
-/* cool idea: what if users can click on the tape, ripping it off, and making our pictures fall off screen? */
-/* better idea, fantasy font was unreadable so while exchanging it for market font, we also removed the paper
-background. This gives the website a much cleaner look, and we can in turn hold up our img's with 
-magnets and let users play with the magnets. Oh Oh! and maybe there can be a few markers at the bottom so users
-can draw! */
 .selfie {
   width: 175px;
   height: 175px;
@@ -98,16 +84,6 @@ can draw! */
   width: inherit;
 }
 
-/* magnets for project photos*/
-.mp1 {
-  margin-top: 75px;
-}
-
-.mp2 {
-  margin-top: 60px;
-  margin-left: 345px;
-}
-
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -124,7 +100,6 @@ can draw! */
   text-align: right;
 }
 
-/* this controls our zigzag items*/
 .project-img {
   height: 325px;
   width: 400px;
@@ -153,8 +128,8 @@ button {
   width: 7vw;
   font-size: 21px;
   color: white;
-  margin-top: 5%;
-  margin-left: 45%;
+  margin-top: 2.5vh;
+  margin-left: 21vw;
   background-color: #3a8af9;
 }
 
@@ -164,8 +139,14 @@ button {
   justify-content: space-evenly;
 }
 
+.more-detail {
+  margin-top: 10vh;
+  margin-bottom: -15vh;
+}
+
 #more {
-  margin-left: 15vw;
+  margin-left: 3.5vw;
+  margin-right: 3.5vw;
 }
 
 .xp p {
@@ -180,6 +161,29 @@ button {
   transform: translateY(-21px);
 }
 
-.foot-text {
+#deep {
+  margin-bottom: 18vh;
+}
+
+#footer {
+  height: 0;
+  bottom: 0;
+  padding: 0%;
+  margin-top: 10vh;
+}
+
+.social-links {
   display: block;
+  margin-left: 40vw;
+  margin-bottom: 0%;
+}
+
+.icons {
+  width: 50px;
+  margin-bottom: 0vh;
+}
+
+#copywrite {
+  margin-top: -4.5vh;
+  margin-left: 80vw;
 }
