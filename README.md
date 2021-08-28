@@ -1,4 +1,4 @@
-# Ant World V.0.7.2 Beta
+# Ant World V.0.7.5 Beta
 This is a scss made framework for easier and faster styling use. Code and decorate faster with this easy to use style
 sheet. As more progress is made, so will more documentation! This was the first implementation of my usually readme, so it's not the most organized. as well as my first framework!
 
@@ -66,6 +66,13 @@ ___
     - [x] ELSE: redesign portfolio
 
 ### Previous Updates:
+- 0.7.5
+    - Adjusted so available on all devices
+    - created simple hamburger menu for navigation for the page
+    - fixed footer, with added social links, and more section
+    - Used emailjs to enable form sending in contact section
+    - Changed layout based on new wire-frame design, creating a lot cleaner easier to read content by  deleting and reorganizing
+
 - 0.6.2
     - removed radio buttons for better UI/UX for Cube
     - Home page is now accessible via any screen size/device completing the home page (for now)
@@ -75,11 +82,6 @@ ___
     - Generated transparent background videos using ffmpeg.
     - Finished animations for Ants movements
     - Ant Attack is completed (for now)
-
-- 0.4.7
-    - Working Cube is finally added
-    - Fixed maya render of landscape (fixes bug where hills in background had a visible outline through trees).
-    - Ant assets created and ready for animating
 ___
 ## More Info
 

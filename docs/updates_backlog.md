@@ -1,4 +1,9 @@
 # Previous Updates Backlog
+- 0.4.7
+    - Working Cube is finally added
+    - Fixed maya render of landscape (fixes bug where hills in background had a visible outline through trees).
+    - Ant assets created and ready for animating
+
 - 0.4.4
     - Updated resume
     - traded styling to scss

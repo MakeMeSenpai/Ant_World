@@ -6,6 +6,10 @@ body {
   filter: brightness(0.75);
 }
 
+section {
+  margin-top: -7vh;
+}
+
 a :hover {
   background-color: rgba(175, 175, 175, 0.75);
 }
@@ -53,7 +57,7 @@ a :hover {
   position: relative;
   margin: 0px;
   padding: 0px;
-  transform: translate(927px, 550px);
+  transform: translate(927px, 600px);
 }
 
 h6 {

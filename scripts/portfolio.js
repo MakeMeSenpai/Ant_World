@@ -24,7 +24,7 @@ function navMenu() {
     }
     else {
         console.log("=");
-        hamburger.style.backgroundColor = "white";
+        hamburger.style.backgroundColor = "transparent";
         first.style.backgroundColor = "black";
         first.style.transform = "translate(0px, 0px) rotate(0deg)";
         second.style.backgroundColor = "black";
