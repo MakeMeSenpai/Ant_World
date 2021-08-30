@@ -1,13 +1,18 @@
 body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    color: aliceblue;
     background-image: url("../imgs/library.jpg");
-    background-size: cover;
+    background-size: 100vw;
     background-repeat: no-repeat;
     background-color: black;
-    filter: brightness(0.75);
+    filter: brightness(0.69);
 }
 
 section {
-    margin-top: -7vh;
+    margin-top: -21vh;
 }
 
 a :hover {
@@ -20,34 +25,43 @@ a :hover {
 }
 
 .one {
-    margin-top: -200px;
+    margin-top: -20vh;
 }
 
 .two {
-    margin-top: -50px;
+    margin-top: -5vh;
 }
 
 .three {
-    margin-top: 100px;
+    margin-top: 10vh;
 }
 
 .four {
-    margin-top: 250px;
+    margin-top: 25vh;
 }
 
 .left {
-    margin-left: -200px;
+    margin-left: -15vw;
+}
+
+h2 {
+    margin: 15vw;
+    margin-bottom: -10vh;
 }
 
 .right {
-    margin-left: 975px;
+    margin-top: -7vh;
+    margin-left: 70vw;
 }
 
 .book {
-    transform: rotate(25deg) scale(0.85);
     position: absolute;
-    margin-top: 150px;
-    margin-left: 450px;
+    margin: 40vw;
+    margin-top: 12.5vh;
+}
+
+.book img {
+    transform: translate(-100px, -50px) rotate(25deg) scale(0.85);
 }
 
 #exit {
@@ -57,7 +71,7 @@ a :hover {
     position: relative;
     margin: 0px;
     padding: 0px;
-    transform: translate(927px, 600px);
+    transform: translate(935px, 550px);
 }
 
 h6 {
@@ -68,4 +82,297 @@ h6 {
     border-radius: 12%;
     font-size: large;
     text-align: center;
+}
+
+// phone sizes
+@media (max-width: 540px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+        background-size: 2500px;
+    }
+
+    section {
+        margin-top: -5vh;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .left {
+        transform: translate(-125px, 555px) scale(1.5);
+    }
+
+    h2 {
+        transform: translateX(150px);
+        margin-bottom: -12vh;
+    }
+
+    .book {
+        margin: 50vw;
+        transform: scale(1.5);
+    }
+
+    h1 {
+        transform: translateX(-30px);
+    }
+
+    p {
+        transform: translateX(-30px);
+    }
+
+    .book img {
+        margin-top: -7vh;
+        transform: translate(-100px, -50px) rotate(25deg) scale(0.65);
+    }
+
+    #exit {
+        height: unset;
+        transform: translate(275px, 7px);
+    }
+}
+
+// IPhone 5/SE
+@media (orientation: portrait) and (width: 320px) {
+    h2 {
+        font-size: larger;
+        margin-bottom: -20vh;
+    }
+
+    .book {
+        margin-top: 35vh;
+    }
+
+    h1 {
+        transform: translateX(0px);
+    }
+
+    p {
+        transform: translateX(0px);
+    }
+
+    #exit {
+        height: unset;
+        transform: translate(250px, 40px);
+    }
+}
+
+@media (orientation: landscape) and (max-width: 823px) {
+    .section {
+        margin-top: 0vw;
+    }
+
+    .one {
+        margin-top: -45vh;
+    }
+
+    .two {
+        margin-top: -20vh;
+    }
+
+    .three {
+        margin-top: 0vh;
+    }
+
+    .four {
+        margin-top: 25vh;
+    }
+
+    .left {
+        transform: translate(-175px, 0px) scale(0.5);
+    }
+
+    h2 {
+        transform: translateX(100px);
+        margin-bottom: -12vh;
+    }
+
+    .book {
+        transform: translate(-125px, -125px) scale(0.5);
+    }
+
+    .right {
+        transform: translate(-75px, 21px) scale(0.5);
+    }
+
+    #exit {
+        transform: translate(400px, 175px) scale(0.5);
+    }
+}
+
+// fixes pixel 2
+@media (orientation: landscape) and (width: 731px) {
+    #exit {
+        transform: translate(460px, 221px) scale(0.5);
+    }
+}
+
+// fixes pixel 2 XL
+@media (orientation: landscape) and (width: 823px) {
+    #exit {
+        transform: translate(521px, 245px) scale(0.5);
+    }
+}
+
+// fixes IPhone 5/SE
+@media (orientation: landscape) and (width: 568px) {
+    h2 {
+        margin-bottom: -30vh;
+    }
+
+    .book {
+        transform: translate(-150px, -100px) scale(0.5);
+    }
+
+    .right {
+        transform: translate(-75px, 40px) scale(0.5);
+    }
+
+    #exit {
+        transform: translate(350px, 200px) scale(0.5);
+    }
+}
+
+// fixes IPhone6/7/8
+@media (orientation: landscape) and (width: 667px) {
+    #exit {
+        transform: translate(415px, 190px) scale(0.5);
+    }
+}
+
+//fixes IPhone6/7/8 plus
+@media (orientation: landscape) and (width: 736px) {
+    #exit {
+        transform: translate(460px, 221px) scale(0.5);
+    }
+}
+
+// fixes IPhone X
+@media (orientation: landscape) and (width: 812px) {
+    #exit {
+        transform: translate(515px, 225px) scale(0.5);
+    }
+}
+
+// tablet sizes
+@media (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+        background-size: 2500px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .left {
+        transform: translate(225px, 950px) scale(1.5);
+    }
+
+    h2 {
+        transform: translateX(0px);
+        margin-bottom: -2vh;
+    }
+
+    .book {
+        margin: 50vw;
+        margin-top: 35vh;
+        transform: scale(2);
+    }
+
+    h1 {
+        transform: translateX(-30px);
+    }
+
+    p {
+        transform: translateX(-30px);
+    }
+
+    .book img {
+        margin-top: -7vh;
+        transform: translate(-100px, -50px) rotate(25deg) scale(0.65);
+    }
+
+    #exit {
+        height: unset;
+        transform: translate(690px, 50px);
+    }
+}
+
+// fixes IPad pro
+@media (orientation: portrait) and (width: 1024px) {
+    h1 {
+        transform: translate(-30px, -15px);
+    }
+
+    p {
+        transform: translate(-30px, -30px);
+    }
+
+    .left {
+        transform: translate(500px, 950px) scale(1.5);
+    }
+
+    h2 {
+        transform: translateX(-25px);
+        margin-bottom: 5vh;
+    }
+
+    .book {
+        margin-top: 25vh;
+    }
+
+    #exit {
+        height: unset;
+        transform: translate(900px, 50px);
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) and (max-width: 1366px) {
+    html {
+        overflow: hidden;
+    }
+
+    body {
+        background-size: 125vw;
+        overflow: hidden;
+    }
+
+    section {
+        margin-top: -15vh;
+    }
+
+    .left {
+        transform: translate(-50px);
+    }
+
+    h2 {
+        transform: translateX(75px);
+    }
+
+    #exit {
+        transform: translate(832px, 490px);
+    }
+}
+
+@media (orientation: landscape) and (width: 1366px) {
+    section {
+        margin-top: -10vh;
+    }
+
+    h2  {
+        transform: translate(75px, -50px);
+    }
+
+    #exit {
+        transform: translate(1121px, 640px);
+    }
 }
