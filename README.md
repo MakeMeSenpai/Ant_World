@@ -1,4 +1,4 @@
-# Ant World V.0.7.6 Beta
+# Ant World V.0.7.7 Beta
 This is a scss made framework for easier and faster styling use. Code and decorate faster with this easy to use style
 sheet. As more progress is made, so will more documentation! This was the first implementation of my usually readme, so it's not the most organized. as well as my first framework!
 
@@ -55,7 +55,7 @@ ___
     - [] make available for users to get a copy
     - [] automate updating paper to top posted/ most recently posted publications
 - reorganize pages
-    - [] reevaluate the value of certain pages, can they be mixed? should they no longer exist?
+    - [] reevaluate the value of certain pages, can they be mixed? should they no longer exist? (post note: music goes into art, maybe add hobbies page, remove bio and music)
     - [] create todo plan for all pages under "coming soon" in order to finish this website one page at a time.
     - [] protect your work, and optimize the website via lighthouse and research.
 
