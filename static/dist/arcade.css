@@ -1,0 +1,139 @@
+html, body {
+  background-color: violet;
+  background-image: url("../imgs/arcadeFloor.jpeg");
+  overflow-x: hidden;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.machine {
+  position: relative;
+  display: block;
+  height: 432px;
+  width: 332px;
+  margin: auto;
+  margin-top: 50px;
+  margin-right: 25px;
+  background: darkgrey;
+  border-style: solid;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 32px;
+}
+
+.banner {
+  display: block;
+  height: 50px;
+  width: 250px;
+  background-color: darkgrey;
+  border-right-style: solid;
+}
+
+.innerTop {
+  display: block;
+  height: 32px;
+  width: 250px;
+  background-color: grey;
+  transform: translateX(10px) skewX(37deg);
+  border-style: solid;
+  border-bottom-style: none;
+}
+
+.screen {
+  height: 150px;
+  width: 250px;
+  display: block;
+  background: black;
+  transform: translateX(23px);
+  border-style: solid;
+  border-bottom-style: none;
+}
+
+.screen div {
+  height: 150px;
+  width: 250px;
+  display: block;
+  background: linear-gradient(150deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.75) 12%, rgba(148, 148, 148, 0.05) 75%, rgba(255, 255, 255, 0.45) 100%);
+}
+
+.controls {
+  display: block;
+  height: 45px;
+  width: 250px;
+  background-color: grey;
+  transform: translateX(10px) skewX(-30deg);
+  border-style: solid;
+  border-bottom-style: none;
+}
+
+.joystick {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background: black;
+  transform: translate(32px, 5px) skew(30deg);
+}
+
+.joystick :first-child {
+  height: 32px;
+  width: 10px;
+  margin: auto;
+  background: darkgrey;
+  transform: translateY(-15px);
+}
+
+.joystick :last-child {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background: red;
+  transform: translate(4px, -70px);
+}
+
+.buttons {
+  height: 50px;
+  display: flex;
+  transform: translate(125px, -18px);
+}
+
+.button {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border-style: solid;
+  background: limegreen;
+  transform: skew(21deg) scale(0.75);
+}
+
+.button div {
+  height: 15px;
+  width: 15px;
+  margin: auto;
+  border-style: solid;
+  border-radius: 50%;
+  background: inheret;
+  transform: translateY(1px);
+}
+
+.white {
+  background: white;
+  transform: translateY(-15px) skew(21deg) scale(0.75);
+}
+
+.yellow {
+  background: yellow;
+}
+
+.bottom {
+  display: block;
+  height: 143px;
+  width: 249px;
+  background-color: darkgrey;
+  background: darkgrey;
+  border-style: solid;
+  border-bottom-style: none;
+  border-left-style: none;
+}
