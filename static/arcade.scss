@@ -1,7 +1,20 @@
-html, body {
-    background-color: violet;
+html,
+body {
+    font-family: 'VT323', monospace;
+    background-color: rgb(145, 60, 145);
     background-image: url("../imgs/arcadeFloor.jpeg");
     overflow-x: hidden;
+}
+
+h1 {
+    font-size: 100px;
+    width: 550px;
+    color: red;
+    margin: auto;
+    text-shadow: 5px 5px snow;
+    background-color: navy;
+    text-align: center;
+    border: 1px solid snow;
 }
 
 section {
@@ -22,6 +35,14 @@ section {
     border-style: solid;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 32px;
+}
+
+.machine:hover {
+    transform: scale(1.05);
+}
+
+.machine:visited {
+    color: black;
 }
 
 .banner {
@@ -138,4 +159,44 @@ section {
     border-style: solid;
     border-bottom-style: none;
     border-left-style: none;
+}
+
+.coinbox {
+    height: 45px;
+    width: 40px;
+    margin: auto;
+    margin-top: 21px;
+    background: black;
+    border-radius: 12%;
+}
+
+.coinbox :first-child {
+    height: 38px;
+    width: 35px;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(255, 143, 0, 1) 50%, rgba(255, 0, 0, 1) 100%);
+    transform: translate(1.5px, 2.25px);
+}
+
+.coinbox :first-child :first-child {
+    height: 30px;
+    width: 7px;
+    background: black;
+    border: 2px solid grey;
+    transform: translate(2px, 2px);
+}
+
+#one {
+    background-image: url(https://f4.bcbits.com/img/a0746694746_10.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 25px;
+    background-size: contain;
+}
+
+#one .banner {
+    background-image: url(https://img.itch.zone/aW1hZ2UvNzkyNzc4LzQ1MjMzNjEucG5n/original/tGBvLk.png);
+    background-size: 250px;
+}
+
+#one .screen {
+    background-image: url(https://media0.giphy.com/media/5uD9hL1fpyul7TbonB/giphy.gif);
 }

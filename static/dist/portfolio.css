@@ -510,7 +510,7 @@ button {
     transform: translate(175px, 7px);
   }
 }
-@media (min-width: 717px) and (max-width: 1366px) {
+@media (orientation: landscape) and (min-width: 717px) and (max-width: 1366px) {
   .hamburger {
     transform: translateX(-27px);
   }
