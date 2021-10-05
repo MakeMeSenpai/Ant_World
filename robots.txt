@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /*.html$
+Disallow: /*txt$
+Disallow: /*pdf$
+Disallow: /*ttf$
+Disallow: /*md$
