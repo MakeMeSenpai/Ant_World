@@ -1,4 +1,4 @@
-# Ant World V.0.7.7 Beta
+# Ant World V.0.7.9 Beta
 This is a scss made framework for easier and faster styling use. Code and decorate faster with this easy to use style
 sheet. As more progress is made, so will more documentation! This was the first implementation of my usually readme, so it's not the most organized. as well as my first framework!
 
@@ -33,13 +33,13 @@ ___
     - [x] create custom scrollbar
     - [x] style portfolio displaying projects
     - [-] ensure that website is responsive via mobile first creation
-    - [] ensure that website is functional on all browsers
+    - [] ensure that website is functional on all browsers and passes light house with a 90+ rating
 - Ant Attack! *stretch*
     - [x] create animations in maya
     - [x] find a way to create a video with transparent background
     - [x] create basic animation using css
     - [x] create mini-game! 
-    - [-] create secrete
+    - [x] create secrete
 - Portfolio Redesign
     - [x] create new wire-frame for website
     - [x] reorganize content

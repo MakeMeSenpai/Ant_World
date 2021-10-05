@@ -276,6 +276,10 @@ button {
 }
 
 @media (max-width: 540px) {
+  summary {
+    font-size: large;
+  }
+
   .hamburger {
     transform: translateX(-75px) scale(0.75);
   }

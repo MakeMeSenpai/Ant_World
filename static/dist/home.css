@@ -124,8 +124,8 @@ a {
   margin-top: -60px;
 }
 
-a :hover {
-  color: purple;
+a:hover {
+  color: turquoise;
 }
 
 span {
