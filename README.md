@@ -1,4 +1,4 @@
-# Ant World V.0.9.6 Beta
+# Ant World V.0.9.7 Beta
 This is a scss made framework for easier and faster styling use. Code and decorate faster with this easy to use style
 sheet. As more progress is made, so will more documentation! This was the first implementation of my usually readme, so it's not the most organized. as well as my first framework!
 
@@ -33,7 +33,7 @@ ___
     - [x] create custom scrollbar
     - [x] style portfolio displaying projects
     - [-] ensure that website is responsive via mobile first creation
-    - [-] ensure that website is functional on all browsers
+    - [x] ensure that website is functional on all browsers
 - Ant Attack! *stretch*
     - [x] create animations in maya
     - [x] find a way to create a video with transparent background
@@ -65,7 +65,7 @@ ___
 ### Previous Updates:
 - 0.9.6 
     - updated pages to meet lighthouse expectations. Getting a score of 95+
-    - add robots.txt to create page access permissions
+    - add searchable content by creating proper SEO descriptions using key words, and page permissions with robots.txt
     - optimize photos, loading times, and outside likes using: noopener, webp, etc.
 
 - 0.7.5
@@ -87,9 +87,9 @@ I wanted to incorporate all my experience, publications, and projects in one pla
 
 Here are the first wire-frames I made when planning this website. The planning took... more hours than I'd like to admit, but I'm glad to see where things have started and where they are headed for.
 
-![home_wire-frame](./static/imgs/home_wireframe.jpeg)
-![animation_wire-frame](./static/imgs/animation_wireframe.jpeg)
-![portfolio_wire-frame](./static/imgs/portfolio_wireframe.jpeg)
+![home_wire-frame](./static/imgs/home_wireframe.webp)
+![animation_wire-frame](./static/imgs/animation_wireframe.webp)
+![portfolio_wire-frame](./static/imgs/portfolio_wireframe.webp)
 
 ### Inspirations
 * Ant hill, inspired by Ant world https://discordapp.com/invite/C9CvQjt
