@@ -1,4 +1,4 @@
-# Ant World V.0.8.1 Beta
+# Ant World V.0.8.7 Beta
 This is a scss made framework for easier and faster styling use. Code and decorate faster with this easy to use style
 sheet. As more progress is made, so will more documentation! This was the first implementation of my usually readme, so it's not the most organized. as well as my first framework!
 
@@ -77,11 +77,6 @@ ___
     - removed radio buttons for better UI/UX for Cube
     - Home page is now accessible via any screen size/device completing the home page (for now)
     - completed this readme! along with reorganization of files
-
-- 0.5.2
-    - Generated transparent background videos using ffmpeg.
-    - Finished animations for Ants movements
-    - Ant Attack is completed (for now)
 ___
 ## More Info
 

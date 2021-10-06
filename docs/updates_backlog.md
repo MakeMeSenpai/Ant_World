@@ -1,4 +1,9 @@
 # Previous Updates Backlog
+- 0.5.2
+    - Generated transparent background videos using ffmpeg.
+    - Finished animations for Ants movements
+    - Ant Attack is completed (for now)
+
 - 0.4.7
     - Working Cube is finally added
     - Fixed maya render of landscape (fixes bug where hills in background had a visible outline through trees).
