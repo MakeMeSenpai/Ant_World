@@ -2,7 +2,7 @@ html,
 body {
   font-family: "VT323", monospace;
   background-color: #913c91;
-  background-image: url("../imgs/arcadeFloor.jpeg");
+  background-image: url("../imgs/arcadeFloor.webp");
   overflow-x: hidden;
 }
 

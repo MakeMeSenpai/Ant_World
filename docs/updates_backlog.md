@@ -1,4 +1,10 @@
 # Previous Updates Backlog
+Index:
+    - [Beta](#beta)
+    - [Alpha](#alpha)
+
+___
+## Beta
 - 0.5.2
     - Generated transparent background videos using ffmpeg.
     - Finished animations for Ants movements
@@ -27,3 +33,7 @@
 
 - 0.1.3
     - After lots of planning and iterations of different technologies, I decided to stick with javascript, and create the foundations of this website
+
+## ALPHA
+- 1.0.5
+    - [Old Portfolio](https://codepen.io/makemesenpai/pen/vrVxvW)

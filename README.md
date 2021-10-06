@@ -1,4 +1,4 @@
-# Ant World V.0.8.7 Beta
+# Ant World V.0.9.6 Beta
 This is a scss made framework for easier and faster styling use. Code and decorate faster with this easy to use style
 sheet. As more progress is made, so will more documentation! This was the first implementation of my usually readme, so it's not the most organized. as well as my first framework!
 
@@ -33,7 +33,7 @@ ___
     - [x] create custom scrollbar
     - [x] style portfolio displaying projects
     - [-] ensure that website is responsive via mobile first creation
-    - [] ensure that website is functional on all browsers and passes light house with a 90+ rating
+    - [-] ensure that website is functional on all browsers
 - Ant Attack! *stretch*
     - [x] create animations in maya
     - [x] find a way to create a video with transparent background
@@ -57,15 +57,17 @@ ___
 - reorganize pages
     - [] reevaluate the value of certain pages, can they be mixed? should they no longer exist? (post note: music goes into art, maybe add hobbies page, remove bio and music)
     - [] create todo plan for all pages under "coming soon" in order to finish this website one page at a time.
-    - [] protect your work, and optimize the website via lighthouse and research.
+    - [x] protect your work, and optimize the website via lighthouse and research.
 
 ### Potential Features:
-- Whiteboard playground
-    - [x] TRY: play with white board applications to see how they work and how to implement a simple whiteboard
-    - [] ~~IF: you can successfully create items on the whiteboard, and elements. recreate portfolio from scratch using this format~~
-    - [x] ELSE: redesign portfolio
+- nothing here... yet!
 
 ### Previous Updates:
+- 0.9.6 
+    - updated pages to meet lighthouse expectations. Getting a score of 95+
+    - add robots.txt to create page access permissions
+    - optimize photos, loading times, and outside likes using: noopener, webp, etc.
+
 - 0.7.5
     - Adjusted so available on all devices
     - created simple hamburger menu for navigation for the page
