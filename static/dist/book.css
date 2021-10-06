@@ -1,7 +1,13 @@
 body {
   margin: 0;
   padding: 0;
+  -moz-width: 100vw;
+  -webkit-width: 100vw;
+  -khtml-width: 100vw;
   width: 100vw;
+  -moz-height: 100vh;
+  -webkit-height: 100vh;
+  -khtml-height: 100vh;
   height: 100vh;
   color: aliceblue;
   background-image: url("../imgs/library.webp");
@@ -21,6 +27,9 @@ a :hover {
 
 .page {
   position: absolute;
+  -moz-transform: scale(0.25) rotate(25deg);
+  -webkit-transform: scale(0.25) rotate(25deg);
+  -khtml-transform: scale(0.25) rotate(25deg);
   transform: scale(0.25) rotate(25deg);
 }
 
@@ -61,16 +70,28 @@ h2 {
 }
 
 .book img {
+  -moz-transform: translate(-100px, -50px) rotate(25deg) scale(0.85);
+  -webkit-transform: translate(-100px, -50px) rotate(25deg) scale(0.85);
+  -khtml-transform: translate(-100px, -50px) rotate(25deg) scale(0.85);
   transform: translate(-100px, -50px) rotate(25deg) scale(0.85);
 }
 
 #exit {
   display: block;
+  -moz-width: 75px;
+  -webkit-width: 75px;
+  -khtml-width: 75px;
   width: 75px;
+  -moz-height: 150px;
+  -webkit-height: 150px;
+  -khtml-height: 150px;
   height: 150px;
   position: relative;
   margin: 0px;
   padding: 0px;
+  -moz-transform: translate(935px, 550px);
+  -webkit-transform: translate(935px, 550px);
+  -khtml-transform: translate(935px, 550px);
   transform: translate(935px, 550px);
 }
 
@@ -79,6 +100,9 @@ h6 {
   background-color: white;
   border-color: black;
   border-style: solid;
+  -moz-border-radius: 12%;
+  -webkit-border-radius: 12%;
+  -khtml-border-radius: 12%;
   border-radius: 12%;
   font-size: large;
   text-align: center;
@@ -103,33 +127,54 @@ h6 {
   }
 
   .left {
+    -moz-transform: translate(-125px, 555px) scale(1.5);
+    -webkit-transform: translate(-125px, 555px) scale(1.5);
+    -khtml-transform: translate(-125px, 555px) scale(1.5);
     transform: translate(-125px, 555px) scale(1.5);
   }
 
   h2 {
+    -moz-transform: translateX(150px);
+    -webkit-transform: translateX(150px);
+    -khtml-transform: translateX(150px);
     transform: translateX(150px);
     margin-bottom: -12vh;
   }
 
   .book {
     margin: 50vw;
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -khtml-transform: scale(1.5);
     transform: scale(1.5);
   }
 
   h1 {
+    -moz-transform: translateX(-30px);
+    -webkit-transform: translateX(-30px);
+    -khtml-transform: translateX(-30px);
     transform: translateX(-30px);
   }
 
   p {
+    -moz-transform: translateX(-30px);
+    -webkit-transform: translateX(-30px);
+    -khtml-transform: translateX(-30px);
     transform: translateX(-30px);
   }
 
   .book img {
     margin-top: -7vh;
+    -moz-transform: translate(-100px, -50px) rotate(25deg) scale(0.65);
+    -webkit-transform: translate(-100px, -50px) rotate(25deg) scale(0.65);
+    -khtml-transform: translate(-100px, -50px) rotate(25deg) scale(0.65);
     transform: translate(-100px, -50px) rotate(25deg) scale(0.65);
   }
 
   #exit {
+    -moz-height: unset;
+    -webkit-height: unset;
+    -khtml-height: unset;
     height: unset;
     transform: translate(275px, 7px);
   }
@@ -145,15 +190,27 @@ h6 {
   }
 
   h1 {
+    -moz-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -khtml-transform: translateX(0px);
     transform: translateX(0px);
   }
 
   p {
+    -moz-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -khtml-transform: translateX(0px);
     transform: translateX(0px);
   }
 
   #exit {
+    -moz-height: unset;
+    -webkit-height: unset;
+    -khtml-height: unset;
     height: unset;
+    -moz-transform: translate(250px, 40px);
+    -webkit-transform: translate(250px, 40px);
+    -khtml-transform: translate(250px, 40px);
     transform: translate(250px, 40px);
   }
 }
@@ -179,33 +236,54 @@ h6 {
   }
 
   .left {
+    -moz-transform: translate(-175px, 0px) scale(0.5);
+    -webkit-transform: translate(-175px, 0px) scale(0.5);
+    -khtml-transform: translate(-175px, 0px) scale(0.5);
     transform: translate(-175px, 0px) scale(0.5);
   }
 
   h2 {
+    -moz-transform: translateX(100px);
+    -webkit-transform: translateX(100px);
+    -khtml-transform: translateX(100px);
     transform: translateX(100px);
     margin-bottom: -12vh;
   }
 
   .book {
+    -moz-transform: translate(-125px, -125px) scale(0.5);
+    -webkit-transform: translate(-125px, -125px) scale(0.5);
+    -khtml-transform: translate(-125px, -125px) scale(0.5);
     transform: translate(-125px, -125px) scale(0.5);
   }
 
   .right {
+    -moz-transform: translate(-75px, 21px) scale(0.5);
+    -webkit-transform: translate(-75px, 21px) scale(0.5);
+    -khtml-transform: translate(-75px, 21px) scale(0.5);
     transform: translate(-75px, 21px) scale(0.5);
   }
 
   #exit {
+    -moz-transform: translate(400px, 175px) scale(0.5);
+    -webkit-transform: translate(400px, 175px) scale(0.5);
+    -khtml-transform: translate(400px, 175px) scale(0.5);
     transform: translate(400px, 175px) scale(0.5);
   }
 }
 @media (orientation: landscape) and (width: 731px) {
   #exit {
+    -moz-transform: translate(460px, 221px) scale(0.5);
+    -webkit-transform: translate(460px, 221px) scale(0.5);
+    -khtml-transform: translate(460px, 221px) scale(0.5);
     transform: translate(460px, 221px) scale(0.5);
   }
 }
 @media (orientation: landscape) and (width: 823px) {
   #exit {
+    -moz-transform: translate(521px, 245px) scale(0.5);
+    -webkit-transform: translate(521px, 245px) scale(0.5);
+    -khtml-transform: translate(521px, 245px) scale(0.5);
     transform: translate(521px, 245px) scale(0.5);
   }
 }
@@ -215,29 +293,47 @@ h6 {
   }
 
   .book {
+    -moz-transform: translate(-150px, -100px) scale(0.5);
+    -webkit-transform: translate(-150px, -100px) scale(0.5);
+    -khtml-transform: translate(-150px, -100px) scale(0.5);
     transform: translate(-150px, -100px) scale(0.5);
   }
 
   .right {
+    -moz-transform: translate(-75px, 40px) scale(0.5);
+    -webkit-transform: translate(-75px, 40px) scale(0.5);
+    -khtml-transform: translate(-75px, 40px) scale(0.5);
     transform: translate(-75px, 40px) scale(0.5);
   }
 
   #exit {
+    -moz-transform: translate(350px, 200px) scale(0.5);
+    -webkit-transform: translate(350px, 200px) scale(0.5);
+    -khtml-transform: translate(350px, 200px) scale(0.5);
     transform: translate(350px, 200px) scale(0.5);
   }
 }
 @media (orientation: landscape) and (width: 667px) {
   #exit {
+    -moz-transform: translate(415px, 190px) scale(0.5);
+    -webkit-transform: translate(415px, 190px) scale(0.5);
+    -khtml-transform: translate(415px, 190px) scale(0.5);
     transform: translate(415px, 190px) scale(0.5);
   }
 }
 @media (orientation: landscape) and (width: 736px) {
   #exit {
+    -moz-transform: translate(460px, 221px) scale(0.5);
+    -webkit-transform: translate(460px, 221px) scale(0.5);
+    -khtml-transform: translate(460px, 221px) scale(0.5);
     transform: translate(460px, 221px) scale(0.5);
   }
 }
 @media (orientation: landscape) and (width: 812px) {
   #exit {
+    -moz-transform: translate(515px, 225px) scale(0.5);
+    -webkit-transform: translate(515px, 225px) scale(0.5);
+    -khtml-transform: translate(515px, 225px) scale(0.5);
     transform: translate(515px, 225px) scale(0.5);
   }
 }
@@ -256,10 +352,16 @@ h6 {
   }
 
   .left {
+    -moz-transform: translate(225px, 950px) scale(1.5);
+    -webkit-transform: translate(225px, 950px) scale(1.5);
+    -khtml-transform: translate(225px, 950px) scale(1.5);
     transform: translate(225px, 950px) scale(1.5);
   }
 
   h2 {
+    -moz-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -khtml-transform: translateX(0px);
     transform: translateX(0px);
     margin-bottom: -2vh;
   }
@@ -267,41 +369,71 @@ h6 {
   .book {
     margin: 50vw;
     margin-top: 35vh;
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -khtml-transform: scale(2);
     transform: scale(2);
   }
 
   h1 {
+    -moz-transform: translateX(-30px);
+    -webkit-transform: translateX(-30px);
+    -khtml-transform: translateX(-30px);
     transform: translateX(-30px);
   }
 
   p {
+    -moz-transform: translateX(-30px);
+    -webkit-transform: translateX(-30px);
+    -khtml-transform: translateX(-30px);
     transform: translateX(-30px);
   }
 
   .book img {
     margin-top: -7vh;
+    -moz-transform: translate(-100px, -50px) rotate(25deg) scale(0.65);
+    -webkit-transform: translate(-100px, -50px) rotate(25deg) scale(0.65);
+    -khtml-transform: translate(-100px, -50px) rotate(25deg) scale(0.65);
     transform: translate(-100px, -50px) rotate(25deg) scale(0.65);
   }
 
   #exit {
+    -moz-height: unset;
+    -webkit-height: unset;
+    -khtml-height: unset;
     height: unset;
+    -moz-transform: translate(690px, 50px);
+    -webkit-transform: translate(690px, 50px);
+    -khtml-transform: translate(690px, 50px);
     transform: translate(690px, 50px);
   }
 }
 @media (orientation: portrait) and (width: 1024px) {
   h1 {
+    -moz-transform: translate(-30px, -15px);
+    -webkit-transform: translate(-30px, -15px);
+    -khtml-transform: translate(-30px, -15px);
     transform: translate(-30px, -15px);
   }
 
   p {
+    -moz-transform: translate(-30px, -30px);
+    -webkit-transform: translate(-30px, -30px);
+    -khtml-transform: translate(-30px, -30px);
     transform: translate(-30px, -30px);
   }
 
   .left {
+    -moz-transform: translate(500px, 950px) scale(1.5);
+    -webkit-transform: translate(500px, 950px) scale(1.5);
+    -khtml-transform: translate(500px, 950px) scale(1.5);
     transform: translate(500px, 950px) scale(1.5);
   }
 
   h2 {
+    -moz-transform: translateX(-25px);
+    -webkit-transform: translateX(-25px);
+    -khtml-transform: translateX(-25px);
     transform: translateX(-25px);
     margin-bottom: 5vh;
   }
@@ -311,7 +443,13 @@ h6 {
   }
 
   #exit {
+    -moz-height: unset;
+    -webkit-height: unset;
+    -khtml-height: unset;
     height: unset;
+    -moz-transform: translate(900px, 50px);
+    -webkit-transform: translate(900px, 50px);
+    -khtml-transform: translate(900px, 50px);
     transform: translate(900px, 50px);
   }
 }
@@ -330,14 +468,23 @@ h6 {
   }
 
   .left {
+    -moz-transform: translate(-50px);
+    -webkit-transform: translate(-50px);
+    -khtml-transform: translate(-50px);
     transform: translate(-50px);
   }
 
   h2 {
+    -moz-transform: translateX(75px);
+    -webkit-transform: translateX(75px);
+    -khtml-transform: translateX(75px);
     transform: translateX(75px);
   }
 
   #exit {
+    -moz-transform: translate(832px, 490px);
+    -webkit-transform: translate(832px, 490px);
+    -khtml-transform: translate(832px, 490px);
     transform: translate(832px, 490px);
   }
 }
@@ -347,10 +494,16 @@ h6 {
   }
 
   h2 {
+    -moz-transform: translate(75px, -50px);
+    -webkit-transform: translate(75px, -50px);
+    -khtml-transform: translate(75px, -50px);
     transform: translate(75px, -50px);
   }
 
   #exit {
+    -moz-transform: translate(1121px, 640px);
+    -webkit-transform: translate(1121px, 640px);
+    -khtml-transform: translate(1121px, 640px);
     transform: translate(1121px, 640px);
   }
 }

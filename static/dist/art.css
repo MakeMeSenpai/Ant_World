@@ -1,5 +1,8 @@
 .soon {
   position: fixed;
+  -moz-transform: scale(1.5) rotate(-15deg);
+  -webkit-transform: scale(1.5) rotate(-15deg);
+  -khtml-transform: scale(1.5) rotate(-15deg);
   transform: scale(1.5) rotate(-15deg);
   margin-top: 200px;
   margin-left: 450px;
@@ -29,7 +32,13 @@ h1 {
   background-color: khaki;
   border-style: solid;
   border-color: lightcoral;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -khtml-border-radius: 25px;
   border-radius: 25px;
+  -moz-border-width: 15px;
+  -webkit-border-width: 15px;
+  -khtml-border-width: 15px;
   border-width: 15px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -41,28 +50,52 @@ h1 {
 #j {
   display: block;
   grid-area: j;
+  -moz-height: 375px;
+  -webkit-height: 375px;
+  -khtml-height: 375px;
   height: 375px;
+  -moz-width: 327px;
+  -webkit-width: 327px;
+  -khtml-width: 327px;
   width: 375px;
 }
 
 #k {
   display: block;
   grid-area: k;
+  -moz-height: 375px;
+  -webkit-height: 375px;
+  -khtml-height: 375px;
   height: 375px;
+  -moz-width: 187.5px;
+  -webkit-width: 187.5px;
+  -khtml-width: 187.5px;
   width: 187.5px;
 }
 
 #l {
   display: block;
   grid-area: l;
+  -moz-height: 187.5px;
+  -webkit-height: 187.5px;
+  -khtml-height: 187.5px;
   height: 187.5px;
+  -moz-width: 550px;
+  -webkit-width: 550px;
+  -khtml-width: 550px;
   width: 550px;
 }
 
 #m {
   display: block;
   grid-area: m;
+  -moz-height: 187.5px;
+  -webkit-height: 187.5px;
+  -khtml-height: 187.5px;
   height: 187.5px;
+  -moz-width: 187.5px;
+  -webkit-width: 187.5px;
+  -khtml-width: 187.5px;
   width: 187.5px;
 }
 

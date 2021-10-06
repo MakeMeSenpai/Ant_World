@@ -1,7 +1,13 @@
 html, body {
   margin: 0px;
   padding: 0px;
+  -moz-width: 100vw;
+  -webkit-width: 100vw;
+  -khtml-width: 100vw;
   width: 100vw;
+  -moz-height: 100vh;
+  -webkit-height: 100vh;
+  -khtml-height: 100vh;
   height: 100vh;
   -ms-overflow-style: none;
   /* IE and Edge */
@@ -17,9 +23,18 @@ html, body {
 .progress-container {
   top: 100px;
   left: 28px;
+  -moz-height: 85%;
+  -webkit-height: 85%;
+  -khtml-height: 85%;
   height: 85%;
+  -moz-width: 7.5px;
+  -webkit-width: 7.5px;
+  -khtml-width: 7.5px;
   width: 7.5px;
   border-style: solid;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -khtml-border-radius: 50px;
   border-radius: 50px;
   border-width: 2px;
   position: fixed;
@@ -28,8 +43,14 @@ html, body {
 }
 
 .progress-bar {
+  -moz-height: 0%;
+  -webkit-height: 0%;
+  -khtml-height: 0%;
   height: 0%;
-  width: 7.5;
+  -moz-width: 7.5px;
+  -webkit-width: 7.5px;
+  -khtml-width: 7.5px;
+  width: 7.5px;
   background: blue;
   justify-content: center;
 }
@@ -38,9 +59,18 @@ html, body {
   left: -8px;
   top: 4.5px;
   position: relative;
+  -moz-height: 21px;
+  -webkit-height: 21px;
+  -khtml-height: 21px;
   height: 21px;
+  -moz-width: 21px;
+  -webkit-width: 21px;
+  -khtml-width: 21px;
   width: 21px;
   border-style: solid;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -khtml-border-radius: 50px;
   border-radius: 50px;
   border-width: 2px;
   background: #00aeff;

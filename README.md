@@ -32,7 +32,7 @@ ___
     - [x] create a portfolio page with all contents organized
     - [x] create custom scrollbar
     - [x] style portfolio displaying projects
-    - [-] ensure that website is responsive via mobile first creation
+    - [x] ensure that website is responsive via mobile first creation
     - [x] ensure that website is functional on all browsers
 - Ant Attack! *stretch*
     - [x] create animations in maya
@@ -58,6 +58,7 @@ ___
     - [] reevaluate the value of certain pages, can they be mixed? should they no longer exist? (post note: music goes into art, maybe add hobbies page, remove bio and music)
     - [] create todo plan for all pages under "coming soon" in order to finish this website one page at a time.
     - [x] protect your work, and optimize the website via lighthouse and research.
+    -NOTE: in the future we need to test this site on actual browsers and devices. Emulators and the real thing differ!
 
 ### Potential Features:
 - nothing here... yet!
