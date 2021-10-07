@@ -54,20 +54,21 @@ function count() {
 
 function squashed() {
   ant.style.animationPlayState = 'paused';
-  animation.setAttribute('src', "./static/imgs/squash.webm")
+  // let x = ''; if (winter){x = 'winter_'} f"${x}squash.webm"
+  animation.setAttribute('src', "./static/imgs/fall_squash.webm")
   ant.load()
   ant.play()
   ant.loop = false;
   ant.onended = function () {
     console.log("You Squashed Me!")
-    animation.setAttribute('src', "./static/imgs/walk.webm")
+    animation.setAttribute('src', "./static/imgs/fall_walk.webm")
     ant.load()
     ant.play()
   };
   setTimeout(() => {
     ant.loop = true;
     ant.style.animationPlayState = 'running';
-  }, 1000)
+  }, 1320) // default = 1000
   count()
   return
 };

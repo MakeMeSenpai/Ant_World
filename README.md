@@ -1,4 +1,4 @@
-# Ant World V.0.9.7 Beta
+# Ant World V.0.9.9 Beta
 This is a scss made framework for easier and faster styling use. Code and decorate faster with this easy to use style
 sheet. As more progress is made, so will more documentation! This was the first implementation of my usually readme, so it's not the most organized. as well as my first framework!
 
@@ -45,10 +45,10 @@ ___
     - [x] reorganize content
     - [x] delete and add new/old content
     - [x] restyle based on new design
-    - [] *stretch* make more info pretty
+    - [x] *stretch* make more info pretty
 - Seasonal Decorations *stretch*
-    - [] create skins/assets for every special occasion (outside of project)
-    - [] display decorations throughout the website, in none-distracting areas
+    - [-] create skins/assets for every special occasion (outside of project)
+    - [x] display decorations throughout the website, in none-distracting areas
     - [] create an automated function that updates whether or not to show the user decorations or not.
 - The Book
     - [] Complete the Book

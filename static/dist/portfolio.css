@@ -163,6 +163,23 @@ h1 div {
   width: inherit;
 }
 
+#seasonal img {
+  width: 100px;
+  display: block;
+}
+
+#dec01 {
+  width: inherit;
+  position: absolute;
+  transform: translate(1050px, 40px);
+}
+
+#dec02 {
+  width: inherit;
+  position: absolute;
+  transform: translate(120px, 160px);
+}
+
 #projects {
   margin-bottom: -2.5vh;
 }
@@ -313,6 +330,10 @@ button {
     transform: translateX(142.5px) scale(0.75);
   }
 
+  #seasonal img {
+    display: none;
+  }
+
   .projects {
     flex-direction: column;
     transform: translateX(-25px) scale(0.75);
@@ -392,6 +413,10 @@ button {
     transform: translate(-125px, -100px) scale(0.75);
   }
 
+  #seasonal img {
+    display: none;
+  }
+
   .hide {
     display: none;
   }
@@ -436,6 +461,10 @@ button {
 
   h1 {
     transform: translate(-350px, -18px);
+  }
+
+  #seasonal img {
+    display: none;
   }
 
   .projects {
@@ -484,6 +513,10 @@ button {
     transform: translate(-50px, 25px) scale(0.75);
   }
 
+  #seasonal img {
+    display: none;
+  }
+
   .projects {
     font-size: x-large;
     min-width: 200vw;
@@ -527,5 +560,9 @@ button {
   h1 {
     width: 100vw;
     transform: translateX(-200px);
+  }
+
+  #seasonal img {
+    display: none;
   }
 }
