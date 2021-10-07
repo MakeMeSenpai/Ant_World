@@ -1,4 +1,4 @@
-# Ant World V.0.9.9 Beta
+# Ant World V.1.0.0 Beta
 This is a scss made framework for easier and faster styling use. Code and decorate faster with this easy to use style
 sheet. As more progress is made, so will more documentation! This was the first implementation of my usually readme, so it's not the most organized. as well as my first framework!
 
@@ -47,9 +47,9 @@ ___
     - [x] restyle based on new design
     - [x] *stretch* make more info pretty
 - Seasonal Decorations *stretch*
-    - [-] create skins/assets for every special occasion (outside of project)
+    - [x] create skins/assets for every special occasion (outside of project)
     - [x] display decorations throughout the website, in none-distracting areas
-    - [] create an automated function that updates whether or not to show the user decorations or not.
+    - [x] create an automated function that updates whether or not to show the user decorations or not.
 - The Book
     - [] Complete the Book
     - [] make available for users to get a copy
@@ -64,6 +64,11 @@ ___
 - nothing here... yet!
 
 ### Previous Updates:
+- 1.0.0
+    - Created variants of maya animations some of which need editing but honestly will probably not be, because it took hours
+    - Added assets related to seasons. Which aren't mobil compatible.Icons from Flaticon.com
+    - seasonal functionality, so I don't have  to manually update meaning seasonal decorations is complete!
+
 - 0.9.6 
     - updated pages to meet lighthouse expectations. Getting a score of 95+
     - add searchable content by creating proper SEO descriptions using key words, and page permissions with robots.txt
@@ -75,11 +80,6 @@ ___
     - fixed footer, with added social links, and more section
     - Used emailjs to enable form sending in contact section
     - Changed layout based on new wire-frame design, creating a lot cleaner easier to read content by  deleting and reorganizing
-
-- 0.6.2
-    - removed radio buttons for better UI/UX for Cube
-    - Home page is now accessible via any screen size/device completing the home page (for now)
-    - completed this readme! along with reorganization of files
 ___
 ## More Info
 

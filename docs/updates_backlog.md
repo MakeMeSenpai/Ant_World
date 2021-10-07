@@ -5,6 +5,11 @@ Index:
 
 ___
 ## Beta
+- 0.6.2
+    - removed radio buttons for better UI/UX for Cube
+    - Home page is now accessible via any screen size/device completing the home page (for now)
+    - completed this readme! along with reorganization of files
+
 - 0.5.2
     - Generated transparent background videos using ffmpeg.
     - Finished animations for Ants movements
