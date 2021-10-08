@@ -4,7 +4,7 @@ sheet. As more progress is made, so will more documentation! This was the first 
 
 ## A Look into the World of Anthony
 https://makemesenpai.github.io/Ant_World/
-![snapshot](./static/imgs/snapshot.webp)
+![snapshot](https://i.imgur.com/gODAL6l.png)
 
 ## Index:
 1. [Checklist](#checklist)
