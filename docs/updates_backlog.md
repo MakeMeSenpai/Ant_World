@@ -5,6 +5,13 @@ Index:
 
 ___
 ## Beta
+- 0.7.5
+    - Adjusted so available on all devices
+    - created simple hamburger menu for navigation for the page
+    - fixed footer, with added social links, and more section
+    - Used emailjs to enable form sending in contact section
+    - Changed layout based on new wire-frame design, creating a lot cleaner easier to read content by  deleting and reorganizing
+
 - 0.6.2
     - removed radio buttons for better UI/UX for Cube
     - Home page is now accessible via any screen size/device completing the home page (for now)

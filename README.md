@@ -1,4 +1,4 @@
-# Ant World V.1.1.4 Beta
+# Ant World V.1.1.5 Beta
 This is a scss made framework for easier and faster styling use. Code and decorate faster with this easy to use style
 sheet. As more progress is made, so will more documentation! This was the first implementation of my usually readme, so it's not the most organized. as well as my first framework!
 
@@ -64,6 +64,11 @@ ___
 - nothing here... yet!
 
 ### Previous Updates:
+- 1.1.5
+    - Updated cube to 50-50 ratio. Previous when clicking anywhere on cube you would move in the fwd direction. Now clicking the left or right side determines direction
+    - Link preview added on main websites! Still needs to work on WhatsApp, Discord, iMessages, etc. Thanks imgure.com
+    - Many hours of playing with meta data also resulted in improved SEO
+
 - 1.0.0
     - Created variants of maya animations some of which need editing but honestly will probably not be, because it took hours
     - Added assets related to seasons. Which aren't mobil compatible.Icons from Flaticon.com
@@ -73,13 +78,6 @@ ___
     - updated pages to meet lighthouse expectations. Getting a score of 95+
     - add searchable content by creating proper SEO descriptions using key words, and page permissions with robots.txt
     - optimize photos, loading times, and outside likes using: noopener, webp, etc.
-
-- 0.7.5
-    - Adjusted so available on all devices
-    - created simple hamburger menu for navigation for the page
-    - fixed footer, with added social links, and more section
-    - Used emailjs to enable form sending in contact section
-    - Changed layout based on new wire-frame design, creating a lot cleaner easier to read content by  deleting and reorganizing
 ___
 ## More Info
 
