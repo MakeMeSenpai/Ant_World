@@ -351,17 +351,17 @@ span img:last-child {
   }
 
   .scene {
-    -moz-transform: translateY(75px) scale(1.5);
-    -webkit-transform: translateY(75px) scale(1.5);
-    -khtml-transform: translateY(75px) scale(1.5);
-    transform: translateY(75px) scale(1.5);
+    -moz-transform: translateY(75px) scale(1.55);
+    -webkit-transform: translateY(75px) scale(1.55);
+    -khtml-transform: translateY(75px) scale(1.55);
+    transform: translateY(75px) scale(1.55);
   }
 
   .cube {
-    -moz-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    -khtml-transform: scale(1.5);
-    transform: scale(1.5);
+    -moz-transform: scale(1.55);
+    -webkit-transform: scale(1.55);
+    -khtml-transform: scale(1.55);
+    transform: scale(1.55);
   }
 
   span {
@@ -378,17 +378,17 @@ span img:last-child {
   }
 
   .scene {
-    -moz-transform: translateY(75px) scale(1.5);
-    -webkit-transform: translateY(75px) scale(1.5);
-    -khtml-transform: translateY(75px) scale(1.5);
-    transform: translateY(75px) scale(1.5);
+    -moz-transform: translateY(75px) scale(1.35);
+    -webkit-transform: translateY(75px) scale(1.35);
+    -khtml-transform: translateY(75px) scale(1.35);
+    transform: translateY(75px) scale(1.35);
   }
 
   .cube {
-    -moz-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    -khtml-transform: scale(1.5);
-    transform: scale(1.5);
+    -moz-transform: scale(1.35);
+    -webkit-transform: scale(1.35);
+    -khtml-transform: scale(1.35);
+    transform: scale(1.35);
   }
 
   span {
