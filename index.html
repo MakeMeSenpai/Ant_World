@@ -26,7 +26,7 @@
     <meta property='og:url' content='https://makemesenpai.github.io/Ant_World/' />
     <meta name="author" content="MakeMeSenpai">
     <link rel="stylesheet" href="./static/normalizer.css">
-    <link href="./static/dist/home.css" rel="stylesheet" type="text/css">
+    <link href="./static/dist/home.css" rel="stylesheet">
     <script src="./scripts/date.js"></script>
 </head>
 
@@ -36,13 +36,37 @@
     </video>
 
     <div class="scene">
-        <div class="cube" onclick="changeSide()">
-            <div class="cube__face cube__face--front"><a href="./portfolio.html">Portfolio</a></div>
-            <div class="cube__face cube__face--right"><a href="./book.html">The Book</a></div>
-            <div class="cube__face cube__face--back"><a href="./art.html">Art Stuff</a></div>
-            <div class="cube__face cube__face--left"><a href="./music.html">Music</a></div>
-            <div class="cube__face cube__face--top"><a href="./corner.html">The Corner</a></div>
-            <div class="cube__face cube__face--bottom"><a href="./bio.html">Bio</a></div>
+        <div class="cube">
+            <div class="cube__face cube__face--front">
+                <div class="left" onclick="bwdClicked()"></div>
+                <div class="right" onclick="fwdClicked()"></div>
+                <div class="text"><a href="./portfolio.html">Portfolio</a></div>
+            </div>
+            <div class="cube__face cube__face--right">
+                <div class="left" onclick="bwdClicked()"></div>
+                <div class="right" onclick="fwdClicked()"></div>
+                <div class="text"><a href="./book.html">The Book</a></div>
+            </div>
+            <div class="cube__face cube__face--back">
+                <div class="left" onclick="bwdClicked()"></div>
+                <div class="right" onclick="fwdClicked()"></div>
+                <div class="text"><a href="./art.html">Art Stuff</a></div>
+            </div>
+            <div class="cube__face cube__face--left">
+                <div class="left" onclick="bwdClicked()"></div>
+                <div class="right" onclick="fwdClicked()"></div>
+                <div class="text"><a href="./music.html">Music</a></div>
+            </div>
+            <div class="cube__face cube__face--top">
+                <div class="left" onclick="bwdClicked()"></div>
+                <div class="right" onclick="fwdClicked()"></div>
+                <div class="text"><a href="./corner.html">The Corner</a></div>
+            </div>
+            <div class="cube__face cube__face--bottom">
+                <div class="left" onclick="bwdClicked()"></div>
+                <div class="right" onclick="fwdClicked()"></div>
+                <div class="text"><a href="./bio.html">Bio</a></div>
+            </div>
         </div>
     </div>
     <span>
