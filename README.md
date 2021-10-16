@@ -1,4 +1,4 @@
-# Ant World V.1.1.5 Beta
+# Ant World V.1.1.7 Beta
 This is a scss made framework for easier and faster styling use. Code and decorate faster with this easy to use style
 sheet. As more progress is made, so will more documentation! This was the first implementation of my usually readme, so it's not the most organized. as well as my first framework!
 
@@ -64,6 +64,7 @@ ___
 - nothing here... yet!
 
 ### Previous Updates:
+{Last Update: 10/08/21}
 - 1.1.5
     - Updated cube to 50-50 ratio. Previous when clicking anywhere on cube you would move in the fwd direction. Now clicking the left or right side determines direction
     - Link preview added on main websites! Still needs to work on WhatsApp, Discord, iMessages, etc. Thanks imgure.com
