@@ -35,6 +35,12 @@ function navMenu() {
     };
 }
 
+// Submitted Message
+function submitted(){
+    console.log("sent")
+    alert("Your message has been sent! Please expected an email within 1-2 business days. This reply might appear in spam.")
+}
+
 // Seasonal Decorations
 const decorations = document.querySelector("#seasonal");
 const dec01 = document.createElement("img");
