@@ -61,7 +61,7 @@ ___
     -NOTE: in the future we need to test this site on actual browsers and devices. Emulators and the real thing differ!
 
 ### Potential Features:
-- nothing here... yet!
+- Review section, letting anyone who joins the website leave a review. This can be a way to display letters of recommendation. If it requires an email, then we can also send news letters for upcoming events. This will also need a filter of some kind and a way to remove comments that are inappropriate. This should be an admin only ability.
 
 ### Previous Updates:
 {Last Update: 10/08/21}
