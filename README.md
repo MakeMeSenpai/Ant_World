@@ -1,4 +1,4 @@
-# Ant World V.1.1.8 Beta
+# Ant World V.1.2.0 Beta
 This is a scss made framework for easier and faster styling use. Code and decorate faster with this easy to use style
 sheet. As more progress is made, so will more documentation! This was the first implementation of my usually readme, so it's not the most organized. as well as my first framework!
 
