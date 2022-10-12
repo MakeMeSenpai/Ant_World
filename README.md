@@ -1,4 +1,4 @@
-# Ant World V.1.3.9 Beta
+# Ant World V.1.4.2 Beta
 This is a scss made framework for easier and faster styling use. Code and decorate faster with this easy to use style
 sheet. As more progress is made, so will more documentation! This was the first implementation of my usually readme, so it's not the most organized. as well as my first framework!
 
@@ -65,9 +65,9 @@ ___
 
 ### Previous Updates:
 {Last Update: 10/08/21}
-- 1.X.X (in progress)
-    - Adjustments to meta data, fixing website for screen sizes 1920 x 1080 to 2560 x 1440 sized screens, along with basic navigation. It's not perfect, but it's better than it was.
-    - Added Medium API to display most recently published blogs.
+- 1.4.2 (in progress)
+    - Adjustments to meta data, fixing website for screen sizes 1920 x 1080 to 2560 x 1440 sized screens, along with basic navigation. It's not perfect, but it's better than it was. 
+    - Adjusted Cube to have a idling effect! Huge shout-out to @amberzaragoza for staying up til 2am with me to figure this stupid code stuff out!
     - Added basic content to other pages to make the website more lively.
 
 - 1.1.5

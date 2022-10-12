@@ -36,7 +36,7 @@
     </video>
 
     <div class="scene">
-        <div class="cube">
+        <div class="cube" onmouseleave="shimmy('on')" onmouseenter="shimmy('off')">
             <div class="cube__face cube__face--front">
                 <div class="left" onclick="bwdClicked()"></div>
                 <div class="right" onclick="fwdClicked()"></div>
@@ -69,10 +69,8 @@
             </div>
         </div>
     </div>
-    <!-- Maybe replace with simple p tag "click on square!" thats hidden after cube clicked -->
     <span>
-        <img src="./static/imgs/next_arrow.webp" alt="back" width="65px" onclick="bwdClicked()">
-        <img src="./static/imgs/next_arrow.webp" alt="next" width="65px" onclick="fwdClicked()">
+        <p>click on the cube!</p>
     </span>
     <video autoplay muted loop id="ant" onclick="squashed()">
         <source id='animate' src="./static/anime/walk.webm" type="video/mp4">

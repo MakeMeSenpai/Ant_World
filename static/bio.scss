@@ -113,6 +113,63 @@ for me, so good luck future Ant. ~Past Ant*/
     top: 465px;
 }
 
-#welcome-section {
-    min-height: 100vh;
+span {
+    position: fixed;
+    height: 400px;
+    width: 100px;
+    margin-left: 93vw;
+    margin-bottom: -12vh;
+    z-index: 5;
+}
+
+.hamburger {
+    height: 100px;
+    width: inherit;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.line {
+    height: 10px;
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: black;
+    transition: 400ms;
+}
+
+.line:first-child {
+    margin-top: 25%;
+}
+
+.circle {
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    border-radius: 50%;
+    background-color: transparent;
+    transform: translate(0, -70px);
+    transition: 400ms;
+}
+
+nav {
+    width: inherit;
+    display: none;
+    margin: auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 24px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+}
+
+nav a {
+    width: 7vw;
+    color: white;
+}
+
+nav a:hover {
+    color: turquoise;
 }

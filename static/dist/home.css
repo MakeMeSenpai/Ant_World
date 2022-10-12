@@ -226,20 +226,14 @@ span {
   -webkit-transform: translateZ(100px);
   -khtml-transform: translateZ(100px);
   transform: translateZ(100px);
+  text-align: center;
+  background: black;
 }
 
-span img:first-child {
-  -moz-transform: rotate(32deg) scaleX(-1);
-  -webkit-transform: rotate(32deg) scaleX(-1);
-  -khtml-transform: rotate(32deg) scaleX(-1);
-  transform: rotate(32deg) scaleX(-1);
-}
-
-span img:last-child {
-  -moz-transform: translateX(50px) rotate(-32deg);
-  -webkit-transform: translateX(50px) rotate(-32deg);
-  -khtml-transform: translateX(50px) rotate(-32deg);
-  transform: translateX(50px) rotate(-32deg);
+span p {
+  font-size: x-large;
+  color: white;
+  font-style: italic;
 }
 
 #ant {

@@ -2,7 +2,7 @@
 const cube = document.querySelector('.cube');
 let value = ["front", "right", "back", "left", "top", "bottom"];
 let currentClass = '';
-let direction= 'fwd'
+let direction= 'fwd';
 let i = -1;
 
 function changeSide() {
@@ -27,18 +27,41 @@ function changeSide() {
   cube.classList.add(showClass);
   currentClass = showClass;
 }
-// set initial side
-changeSide();
 
 function fwdClicked() {
-  direction = "fwd"
+  direction = "fwd";
   changeSide();
 }
 
 function bwdClicked(){
-  direction = "bwd"
+  direction = "bwd";
   changeSide();
 }
+
+// idle animation
+let idle = 5000; // milliseconds
+let id = null; // interval function id
+function shimmy(power) {
+  if (power === 'on'){
+    // ensures last interval clears
+    clearInterval(id);
+    id = null;
+    // ensures that there are no other intervals in queue
+    if (id === null) {
+      id = setInterval(changeSide, idle);
+    }
+  }
+  // power === 'off'
+  else {
+    // clears interval function
+    clearInterval(id); // cancels interval function by id
+    id = null;
+  }
+}
+
+// set initial side
+changeSide();
+shimmy('on');
 
 // ANT___________
 let counter = 0;
