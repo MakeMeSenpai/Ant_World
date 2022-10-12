@@ -19,7 +19,7 @@ function navMenu() {
         third.style.transformOrigin = "left";
         third.style.transform = "translate(10px, 2.5px) rotate(-45deg)";
         last.style.border = "10px solid white"
-        menu.style.transform = "translateX(-101px)";
+        menu.style.display = "block";
         clicked = true;
     } else {
         console.log("=");
@@ -30,7 +30,7 @@ function navMenu() {
         third.style.backgroundColor = "black";
         third.style.transform = "translate(0px, 0px) rotate(0deg)";
         last.style.border = "10px solid transparent"
-        menu.style.transform = "translateX(0px)";
+        menu.style.display = "none";
         clicked = false;
     };
 }

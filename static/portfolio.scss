@@ -9,36 +9,41 @@ html, body {
     background-color: rgb(77, 175, 215);
     background-image: url('../imgs/pinksky.webp');
     background-repeat: no-repeat;
-    background-size: 1440px;
+    background-size: cover;
 }
 
-.hamburger {
+span {
     position: fixed;
-    height: 100px;
+    height: 400px;
     width: 100px;
-    border-style: solid;
-    border-width: 1px;
     margin-left: 93vw;
     margin-bottom: -12vh;
     z-index: 5;
 }
 
+.hamburger {
+    height: 100px;
+    width: inherit;
+    border-style: solid;
+    border-width: 1px;
+}
+
 .line {
     height: 10px;
-    width: 60px;
+    width: 60%;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 10%;
     background-color: black;
     transition: 400ms;
 }
 
 .line:first-child {
-    margin-top: 25px;
+    margin-top: 25%;
 }
 
 .circle {
-    height: 70px;
-    width: 70px;
+    height: 70%;
+    width: 70%;
     margin: auto;
     border-radius: 50%;
     background-color: transparent;
@@ -47,19 +52,16 @@ html, body {
 }
 
 nav {
-    width: 7vw;
-    display: block;
-    position: fixed;
-    font-size: 24px;
-    margin-top: 12vh;
-    margin-left: 100vw;
+    width: inherit;
+    display: none;
+    margin: auto;
     padding-top: 2vh;
     padding-bottom: 2vh;
+    font-size: 24px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
     background-color: black;
-    z-index: 5;
 }
 
 nav a {
@@ -299,15 +301,8 @@ button {
 
 // phone sizes
 @media (max-width: 540px) {
-    .hamburger {
+    span {
         transform: translateX(-75px) scale(0.75);
-    }
-
-    nav {
-        width: 21vw;
-        font-size: 21px;
-        margin-top: 13.5vh;
-        margin-left: 103.5vw;
     }
 
     #me article  {
@@ -381,15 +376,8 @@ button {
 }
 
 @media (orientation: landscape) and (max-width: 823px) {
-    .hamburger {
+    span {
         transform: translate(-55px, -10px) scale(0.75);
-    }
-
-    nav {
-        width: 12vw;
-        font-size: 21px;
-        margin-top: 21vh;
-        margin-left: 102.25vw;
     }
 
     #me {
@@ -501,13 +489,8 @@ button {
 
 // tablet sizes
 @media (orientation: portrait) and (min-width: 717px) and (max-width: 1024px) {
-    .hamburger {
-        transform: translateX(-50px);
-    }
-
-    nav {
-        width: 13vw;
-        margin-top: 10vh;
+    span {
+        transform: translateX(-50px) scale(0.8);
     }
 
     #me {
@@ -556,13 +539,8 @@ button {
 }
 
 @media (orientation: landscape) and (min-width: 717px) and (max-width: 1366px) {
-    .hamburger {
-        transform: translateX(-27px);
-    }
-
-    nav {
-        width: 10vw;
-        margin-right: 15vw;
+    span {
+        transform: translateX(-27px) scale(0.8);
     }
 
     #me {
@@ -576,5 +554,12 @@ button {
 
     #seasonal img {
         display: none;
+    }
+}
+
+// Large monitors 1920 x 1080 --> 2560 x 1440 width
+@media (orientation: landscape) and (min-width: 1920px) {
+    #dec01 {
+        transform: translate(1530px, 45px);
     }
 }

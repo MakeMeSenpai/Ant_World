@@ -423,3 +423,40 @@ span img:last-child {
         margin-top: 38.5%;
     }
 }
+
+// Large monitors 1920 x 1080 --> 2560 x 1440 width
+@media (orientation: landscape) and (min-width: 1920px) {
+    #landscape {
+        -moz-transform: scale(1.45);
+        -webkit-transform: scale(1.45);
+        -khtml-transform: scale(1.45);
+        transform: scale(1.45) translate(150px, 50px);
+    }
+
+    .scene {
+        -moz-transform: translateY(75px) scale(1.45);
+        -webkit-transform: translateY(75px) scale(1.45);
+        -khtml-transform: translateY(75px) scale(1.45);
+        transform: translateY(75px) scale(1.45);
+    }
+
+    .cube {
+        -moz-transform: scale(1.45);
+        -webkit-transform: scale(1.45);
+        -khtml-transform: scale(1.45);
+        transform: scale(1.45);
+    }
+
+    span {
+        margin: 45.5%; // auto didn't work
+        margin-top: 7.5%;
+        -moz-transform: translateZ(100px) scale(1.25);
+        -webkit-transform: translateZ(100px) scale(1.25);
+        -khtml-transform: translateZ(100px) scale(1.25);
+        transform: translateZ(100px) scale(1.25);
+    }
+
+    #ant {
+        margin-top: -27%;
+    }
+}

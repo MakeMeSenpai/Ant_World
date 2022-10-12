@@ -5,6 +5,11 @@ Index:
 
 ___
 ## Beta
+- 0.9.6 
+    - updated pages to meet lighthouse expectations. Getting a score of 95+
+    - add searchable content by creating proper SEO descriptions using key words, and page permissions with robots.txt
+    - optimize photos, loading times, and outside likes using: noopener, webp, etc.
+
 - 0.7.5
     - Adjusted so available on all devices
     - created simple hamburger menu for navigation for the page
