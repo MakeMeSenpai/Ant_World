@@ -65,7 +65,7 @@ ___
 
 ### Previous Updates:
 {Last Update: 10/08/21}
-- 1.3.9
+- 1.X.X (in progress)
     - Adjustments to meta data, fixing website for screen sizes 1920 x 1080 to 2560 x 1440 sized screens, along with basic navigation. It's not perfect, but it's better than it was.
     - Added Medium API to display most recently published blogs.
     - Added basic content to other pages to make the website more lively.
