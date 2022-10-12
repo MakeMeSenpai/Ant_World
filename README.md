@@ -45,7 +45,7 @@ ___
     - [x] reorganize content
     - [x] delete and add new/old content
     - [x] restyle based on new design
-    - [x] *stretch* make more info pretty
+    - [] Make more info pretty, maybe add clearer sections, or turn the badges into yarn
 - Seasonal Decorations *stretch*
     - [x] create skins/assets for every special occasion (outside of project)
     - [x] display decorations throughout the website, in none-distracting areas
