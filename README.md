@@ -53,7 +53,7 @@ ___
 - The Book
     - [] Complete the Book
     - [] make available for users to get a copy
-    - [] automate updating paper to top posted/ most recently posted publications
+    - [x] automate updating paper to top posted/ most recently posted publications
 - reorganize pages
     - [] reevaluate the value of certain pages, can they be mixed? should they no longer exist? (post note: music goes into art, maybe add hobbies page, remove bio and music)
     - [] create todo plan for all pages under "coming soon" in order to finish this website one page at a time.

@@ -23,7 +23,7 @@ function navMenu() {
         clicked = true;
     } else {
         console.log("=");
-        hamburger.style.backgroundColor = "transparent";
+        hamburger.style.backgroundColor = "rgba(255, 255, 255, 0.25)";
         first.style.backgroundColor = "black";
         first.style.transform = "translate(0px, 0px) rotate(0deg)";
         second.style.backgroundColor = "black";
